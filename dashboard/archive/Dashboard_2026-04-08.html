@@ -1,0 +1,1078 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Savar's Health Dashboard — April 8, 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=DM+Sans:ital,wght@0,400;0,500;0,600;1,400&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<style>
+  :root {
+    --bg-primary: #FAFAF8;
+    --bg-card: #FFFFFF;
+    --bg-hover: #F7F6F3;
+    --bg-subtle: #F1F0EC;
+    --text-primary: #37352F;
+    --text-secondary: #787774;
+    --text-tertiary: #B4B1AB;
+    --border: #E8E5E0;
+    --border-strong: #D3D1CB;
+    --strength: #E8590C;
+    --strength-light: #FFF4E6;
+    --strength-dark: #D9480F;
+    --running: #2B8A3E;
+    --running-light: #EBFBEE;
+    --running-dark: #1B7A2E;
+    --recovery: #1971C2;
+    --recovery-light: #E7F5FF;
+    --recovery-dark: #1864AB;
+    --success: #2B8A3E;
+    --warning: #E8590C;
+    --danger: #C92A2A;
+    --radius: 10px;
+    --shadow: 0 1px 3px rgba(0,0,0,0.04);
+    --shadow-hover: 0 4px 12px rgba(0,0,0,0.08);
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'DM Sans', -apple-system, sans-serif;
+    background: var(--bg-primary);
+    color: var(--text-primary);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .container {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 32px 24px 64px;
+  }
+
+  /* --- Animations --- */
+  .fade-section {
+    opacity: 0;
+    transform: translateY(12px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+  }
+  .fade-section.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  @keyframes pulse-border {
+    0%, 100% { border-color: var(--border); opacity: 0.6; }
+    50% { border-color: var(--border-strong); opacity: 1; }
+  }
+
+  @keyframes score-glow {
+    0%, 100% { text-shadow: 0 0 0 transparent; }
+    50% { text-shadow: 0 0 24px rgba(232, 89, 12, 0.15); }
+  }
+
+  /* --- Header --- */
+  .header {
+    text-align: center;
+    padding: 40px 0 32px;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 32px;
+  }
+  .header-label {
+    font-family: 'Outfit', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--text-tertiary);
+    margin-bottom: 4px;
+  }
+  .header-title {
+    font-family: 'Outfit', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--text-primary);
+    margin-bottom: 6px;
+  }
+  .header-date {
+    font-size: 14px;
+    color: var(--text-secondary);
+    margin-bottom: 28px;
+  }
+
+  .score-container {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 24px;
+  }
+  .score-ring {
+    position: relative;
+    width: 120px;
+    height: 120px;
+  }
+  .score-ring svg {
+    transform: rotate(-90deg);
+    width: 120px;
+    height: 120px;
+  }
+  .score-ring .bg-circle {
+    fill: none;
+    stroke: var(--bg-subtle);
+    stroke-width: 8;
+  }
+  .score-ring .fg-circle {
+    fill: none;
+    stroke: var(--strength);
+    stroke-width: 8;
+    stroke-linecap: round;
+    stroke-dasharray: 339.3;
+    stroke-dashoffset: 339.3;
+    transition: stroke-dashoffset 1.2s ease-out;
+  }
+  .score-number {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Outfit', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--text-primary);
+    animation: score-glow 3s ease-in-out infinite;
+  }
+  .score-number span {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--text-secondary);
+  }
+  .score-label {
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--text-secondary);
+    letter-spacing: 0.03em;
+  }
+
+  .domain-pills {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  .pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 500;
+    border: 1px solid;
+    transition: transform 0.2s ease;
+  }
+  .pill:hover { transform: scale(1.03); }
+  .pill-strength {
+    background: var(--strength-light);
+    border-color: #FFDDC1;
+    color: var(--strength-dark);
+  }
+  .pill-running {
+    background: var(--running-light);
+    border-color: #C3F9C8;
+    color: var(--running-dark);
+  }
+  .pill-recovery {
+    background: var(--recovery-light);
+    border-color: #BAD7F2;
+    color: var(--recovery-dark);
+  }
+  .pill-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  .dot-active { background: var(--success); }
+  .dot-warning { background: var(--warning); }
+  .dot-inactive { background: var(--text-tertiary); }
+
+  /* --- Quick Stats --- */
+  .stats-bar {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+    margin-bottom: 32px;
+  }
+  .stat-cell {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 20px;
+    text-align: center;
+    transition: all 0.2s ease;
+    box-shadow: var(--shadow);
+  }
+  .stat-cell:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-hover);
+  }
+  .stat-value {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 28px;
+    font-weight: 600;
+    color: var(--text-primary);
+    line-height: 1.2;
+  }
+  .stat-value.muted { color: var(--text-tertiary); }
+  .stat-label {
+    font-size: 13px;
+    color: var(--text-secondary);
+    margin-top: 4px;
+  }
+
+  /* --- Cards --- */
+  .card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 24px;
+    margin-bottom: 16px;
+    box-shadow: var(--shadow);
+    transition: all 0.2s ease;
+  }
+  .card:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-hover);
+  }
+  .card-accent-green { border-left: 4px solid var(--success); }
+  .card-accent-amber { border-left: 4px solid var(--warning); }
+  .card-accent-red { border-left: 4px solid var(--danger); }
+
+  .card-title {
+    font-family: 'Outfit', sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .card ul {
+    list-style: none;
+    padding: 0;
+  }
+  .card li {
+    padding: 8px 0;
+    border-bottom: 1px solid var(--bg-subtle);
+    font-size: 14px;
+    line-height: 1.5;
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  .card li:last-child { border-bottom: none; }
+  .card li .bullet {
+    flex-shrink: 0;
+    margin-top: 2px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--text-tertiary);
+  }
+  .card li .bullet.green { background: var(--success); }
+  .card li .bullet.amber { background: var(--warning); }
+  .card li .bullet.red { background: var(--danger); }
+
+  .card li strong {
+    font-weight: 600;
+    color: var(--text-primary);
+  }
+
+  /* --- Section Titles --- */
+  .section-title {
+    font-family: 'Outfit', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  /* --- Priority Focus --- */
+  .priority-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    margin-bottom: 32px;
+  }
+  .priority-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 24px;
+    box-shadow: var(--shadow);
+    transition: all 0.2s ease;
+    position: relative;
+  }
+  .priority-card:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-hover);
+  }
+  .priority-number {
+    font-family: 'Outfit', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--bg-subtle);
+    line-height: 1;
+    margin-bottom: 8px;
+  }
+  .priority-text {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-bottom: 12px;
+  }
+  .tag {
+    display: inline-block;
+    padding: 3px 10px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+  }
+  .tag-strength { background: var(--strength-light); color: var(--strength-dark); }
+  .tag-running { background: var(--running-light); color: var(--running-dark); }
+  .tag-recovery { background: var(--recovery-light); color: var(--recovery-dark); }
+
+  /* --- Domain Grid --- */
+  .domain-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    margin-bottom: 32px;
+  }
+  .domain-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 24px;
+    box-shadow: var(--shadow);
+    transition: all 0.2s ease;
+    min-height: 480px;
+    display: flex;
+    flex-direction: column;
+  }
+  .domain-card:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-hover);
+  }
+  .domain-card-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid var(--bg-subtle);
+  }
+  .domain-card-title {
+    font-family: 'Outfit', sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .domain-status {
+    font-size: 12px;
+    font-weight: 600;
+    padding: 3px 10px;
+    border-radius: 4px;
+  }
+  .status-active { background: var(--strength-light); color: var(--strength-dark); }
+  .status-upcoming { background: var(--running-light); color: var(--running-dark); }
+  .status-no-data { background: var(--bg-subtle); color: var(--text-tertiary); }
+
+  /* Strength table */
+  .lift-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+    margin-bottom: 16px;
+  }
+  .lift-table th {
+    text-align: left;
+    font-weight: 600;
+    color: var(--text-secondary);
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    padding: 6px 0;
+    border-bottom: 1px solid var(--border);
+  }
+  .lift-table td {
+    padding: 7px 0;
+    border-bottom: 1px solid var(--bg-subtle);
+    vertical-align: middle;
+  }
+  .lift-table td:first-child { font-weight: 500; }
+  .lift-table .weight {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 13px;
+    font-weight: 500;
+  }
+  .trend-up { color: var(--success); }
+  .trend-flat { color: var(--text-tertiary); }
+  .trend-down { color: var(--danger); }
+
+  .chart-container {
+    position: relative;
+    width: 100%;
+    margin-bottom: 16px;
+    flex-grow: 1;
+  }
+  .chart-container canvas {
+    width: 100% !important;
+  }
+  .chart-label {
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--text-secondary);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 8px;
+  }
+
+  .coach-note {
+    background: var(--bg-subtle);
+    border-radius: 8px;
+    padding: 12px 16px;
+    font-size: 13px;
+    color: var(--text-secondary);
+    line-height: 1.5;
+    margin-top: auto;
+  }
+  .coach-note strong {
+    color: var(--text-primary);
+  }
+
+  /* Empty state */
+  .empty-state {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    border: 2px dashed var(--border);
+    border-radius: 8px;
+    padding: 32px 24px;
+    text-align: center;
+    animation: pulse-border 2.5s ease-in-out infinite;
+  }
+  .empty-state-icon {
+    font-size: 32px;
+    margin-bottom: 12px;
+    opacity: 0.5;
+  }
+  .empty-state-text {
+    font-size: 14px;
+    color: var(--text-tertiary);
+    font-weight: 500;
+  }
+  .empty-state-sub {
+    font-size: 12px;
+    color: var(--text-tertiary);
+    margin-top: 6px;
+    opacity: 0.7;
+  }
+
+  /* --- Cross-Domain --- */
+  .insights-card {
+    background: linear-gradient(135deg, #FAFAF8 0%, #F1F0EC 100%);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 28px;
+    margin-bottom: 32px;
+  }
+  .insight-placeholder {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 0;
+    border-bottom: 1px dashed var(--border);
+    font-size: 14px;
+    color: var(--text-secondary);
+  }
+  .insight-placeholder:last-child { border-bottom: none; }
+  .insight-placeholder .insight-icon {
+    width: 32px;
+    height: 32px;
+    border-radius: 8px;
+    background: var(--bg-card);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    flex-shrink: 0;
+    border: 1px solid var(--border);
+  }
+
+  /* --- Game Plan --- */
+  .plan-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+  }
+  .plan-table th {
+    text-align: left;
+    font-weight: 600;
+    color: var(--text-secondary);
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    padding: 10px 12px;
+    border-bottom: 2px solid var(--border);
+    background: var(--bg-subtle);
+  }
+  .plan-table th:first-child { border-radius: 8px 0 0 0; }
+  .plan-table th:last-child { border-radius: 0 8px 0 0; }
+  .plan-table td {
+    padding: 12px;
+    border-bottom: 1px solid var(--bg-subtle);
+    vertical-align: middle;
+  }
+  .plan-table tr:hover td { background: var(--bg-hover); }
+  .plan-table .day-name {
+    font-weight: 600;
+    white-space: nowrap;
+  }
+  .plan-table .today { background: var(--strength-light); }
+  .intensity-badge {
+    display: inline-block;
+    padding: 2px 10px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 600;
+  }
+  .intensity-off { background: var(--bg-subtle); color: var(--text-tertiary); }
+  .intensity-easy { background: var(--running-light); color: var(--running-dark); }
+  .intensity-moderate { background: var(--strength-light); color: var(--strength-dark); }
+  .intensity-hard { background: #FDE8E8; color: var(--danger); }
+
+  /* --- Collapsible --- */
+  .collapsible-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    padding: 16px 24px;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    transition: all 0.2s ease;
+    user-select: none;
+  }
+  .collapsible-header:hover { background: var(--bg-hover); }
+  .collapsible-chevron {
+    transition: transform 0.3s ease;
+    color: var(--text-tertiary);
+    font-size: 18px;
+  }
+  .collapsible-header.open .collapsible-chevron { transform: rotate(180deg); }
+  .collapsible-body {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease, padding 0.3s ease;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-top: none;
+    border-radius: 0 0 var(--radius) var(--radius);
+  }
+  .collapsible-body.open {
+    max-height: 300px;
+    padding: 16px 24px;
+  }
+  .collapsible-body p {
+    font-size: 14px;
+    color: var(--text-secondary);
+    padding: 6px 0;
+  }
+
+  /* --- Flags in strength card --- */
+  .flag-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    padding: 6px 0;
+    font-size: 12px;
+    color: var(--text-secondary);
+    line-height: 1.4;
+  }
+  .flag-icon { flex-shrink: 0; font-size: 12px; margin-top: 1px; }
+
+  /* --- Responsive --- */
+  @media (max-width: 1024px) {
+    .domain-grid { grid-template-columns: 1fr 1fr; }
+    .domain-grid .domain-card:last-child { grid-column: span 2; }
+    .priority-grid { grid-template-columns: 1fr 1fr; }
+    .priority-grid .priority-card:last-child { grid-column: span 2; }
+  }
+  @media (max-width: 768px) {
+    .stats-bar { grid-template-columns: repeat(2, 1fr); }
+    .domain-grid { grid-template-columns: 1fr; }
+    .domain-grid .domain-card:last-child { grid-column: span 1; }
+    .priority-grid { grid-template-columns: 1fr; }
+    .priority-grid .priority-card:last-child { grid-column: span 1; }
+    .header-title { font-size: 26px; }
+    .section-title { font-size: 19px; }
+    .container { padding: 20px 16px 48px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+
+  <!-- ===== 1. HEADER ===== -->
+  <header class="header fade-section">
+    <div class="header-label">Savar Gupta</div>
+    <h1 class="header-title">Health Dashboard</h1>
+    <div class="header-date">Updated April 8, 2026</div>
+
+    <div class="score-container">
+      <div class="score-ring">
+        <svg viewBox="0 0 120 120">
+          <circle class="bg-circle" cx="60" cy="60" r="54"/>
+          <circle class="fg-circle" id="scoreCircle" cx="60" cy="60" r="54"/>
+        </svg>
+        <div class="score-number"><span id="scoreNum">0</span><span>/10</span></div>
+      </div>
+      <div class="score-label">Overall Health Score</div>
+    </div>
+
+    <div class="domain-pills">
+      <div class="pill pill-strength">
+        <span class="pill-dot dot-warning"></span> Strength — Gap
+      </div>
+      <div class="pill pill-running">
+        <span class="pill-dot dot-active"></span> Running — Starts Apr 12
+      </div>
+      <div class="pill pill-recovery">
+        <span class="pill-dot dot-inactive"></span> Recovery — No Data
+      </div>
+    </div>
+  </header>
+
+  <!-- ===== 2. QUICK STATS ===== -->
+  <div class="stats-bar fade-section">
+    <div class="stat-cell">
+      <div class="stat-value muted" data-count="0">0</div>
+      <div class="stat-label">Runs This Month</div>
+    </div>
+    <div class="stat-cell">
+      <div class="stat-value muted" data-count="0">0</div>
+      <div class="stat-label">Strength Sessions (Apr)</div>
+    </div>
+    <div class="stat-cell">
+      <div class="stat-value muted">—</div>
+      <div class="stat-label">Avg HRV (7-day)</div>
+    </div>
+    <div class="stat-cell">
+      <div class="stat-value muted" data-count="0">0</div>
+      <div class="stat-label">Active Days This Week</div>
+    </div>
+  </div>
+
+  <!-- ===== 3. DOING WELL ===== -->
+  <div class="fade-section" style="margin-bottom: 16px;">
+    <div class="card card-accent-green">
+      <div class="card-title">✅ What You're Doing Well</div>
+      <ul>
+        <li>
+          <span class="bullet green"></span>
+          <span><strong>991 lifetime sessions</strong> — 5.5 years of consistent training. The muscle memory and movement patterns are deeply ingrained, even after a break.</span>
+        </li>
+        <li>
+          <span class="bullet green"></span>
+          <span><strong>5 PRs on your last session (Mar 16)</strong> — Leg Extension 195×8, Low Row 110×6, Calf Press 220×8, DB Bench 60×10, Tricep Press 50×8. You left the gym on a high note.</span>
+        </li>
+        <li>
+          <span class="bullet green"></span>
+          <span><strong>Progressive overload trending UP</strong> on key lifts — Leg Extension (180→195), Lat Pulldown (140→150), Seated Row (115→135), Hack Squat (75→82.5) over the last training block.</span>
+        </li>
+        <li>
+          <span class="bullet green"></span>
+          <span><strong>Half marathon plan locked and loaded</strong> — 27-week periodized plan with run/walk progression, HR zones calibrated, calendar synced. First run Sunday Apr 12.</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- ===== 4. NEEDS ATTENTION ===== -->
+  <div class="fade-section" style="margin-bottom: 32px;">
+    <div class="card card-accent-amber">
+      <div class="card-title">⚠️ What Needs Attention</div>
+      <ul>
+        <li>
+          <span class="bullet red"></span>
+          <span><strong>23-day training gap</strong> — Last workout was March 16. Measurable strength loss begins at ~2 weeks of detraining. Your 11-week streak is broken.</span>
+        </li>
+        <li>
+          <span class="bullet red"></span>
+          <span><strong>No Oura data being logged</strong> — Without HRV, sleep, and readiness data, you're training without knowing your body's recovery state. Critical as you add running volume.</span>
+        </li>
+        <li>
+          <span class="bullet amber"></span>
+          <span><strong>Hamstring volume critically low</strong> — Only 6 sets vs 28 quad sets (5:1 ratio, should be ~2:1). Knee injury risk, especially heading into running.</span>
+        </li>
+        <li>
+          <span class="bullet amber"></span>
+          <span><strong>RDL regression</strong> — Dropped from 90 lbs to 70 lbs. Posterior chain weakening right when you need it most.</span>
+        </li>
+        <li>
+          <span class="bullet amber"></span>
+          <span><strong>Incline DB Bench stalled</strong> — 65×7 for 3 straight sessions. Needs deload or rep scheme change.</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- ===== 5. PRIORITY FOCUS ===== -->
+  <div class="fade-section" style="margin-bottom: 32px;">
+    <div class="section-title">🎯 Priority Focus This Week</div>
+    <div class="priority-grid">
+      <div class="priority-card">
+        <div class="priority-number">01</div>
+        <div class="priority-text">Get back in the gym today. Start at ~85% of last working weights. Don't ego lift after 23 days off.</div>
+        <span class="tag tag-strength">Strength</span>
+      </div>
+      <div class="priority-card">
+        <div class="priority-number">02</div>
+        <div class="priority-text">Start logging Oura data — even just readiness + HRV + sleep score. The dashboard needs this before running starts Sunday.</div>
+        <span class="tag tag-recovery">Recovery</span>
+      </div>
+      <div class="priority-card">
+        <div class="priority-number">03</div>
+        <div class="priority-text">Add RDLs and lying leg curls to every session this week. Fix the 5:1 quad/ham ratio before your first run.</div>
+        <span class="tag tag-strength">Strength</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== 6. DOMAIN CARDS ===== -->
+  <div class="fade-section" style="margin-bottom: 32px;">
+    <div class="section-title">📊 Domain Breakdown</div>
+    <div class="domain-grid">
+
+      <!-- STRENGTH CARD -->
+      <div class="domain-card">
+        <div class="domain-card-header">
+          <div class="domain-card-title">💪 Strength</div>
+          <span class="domain-status status-active">23-Day Gap</span>
+        </div>
+
+        <div class="chart-label">Key Lifts — Current Working Weight</div>
+        <table class="lift-table">
+          <thead>
+            <tr><th>Exercise</th><th>Weight</th><th>Trend</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Leg Extension</td><td class="weight">195 lbs</td><td class="trend-up">↑</td></tr>
+            <tr><td>Lat Pulldown</td><td class="weight">150 lbs</td><td class="trend-up">↑</td></tr>
+            <tr><td>Seated Row</td><td class="weight">135 lbs</td><td class="trend-up">↑</td></tr>
+            <tr><td>Calf Press</td><td class="weight">220 lbs</td><td class="trend-up">↑</td></tr>
+            <tr><td>Shoulder Press</td><td class="weight">82.5 lbs</td><td class="trend-flat">→</td></tr>
+            <tr><td>Hack Squat</td><td class="weight">82.5 lbs</td><td class="trend-up">↑</td></tr>
+            <tr><td>Incline DB Bench</td><td class="weight">65 lbs</td><td class="trend-flat">→</td></tr>
+            <tr><td>Chest Press</td><td class="weight">125 lbs</td><td class="trend-down">↓</td></tr>
+            <tr><td>Romanian DL</td><td class="weight">70 lbs</td><td class="trend-down">↓</td></tr>
+          </tbody>
+        </table>
+
+        <div class="chart-label">Volume by Muscle Group (Last 30 Days)</div>
+        <div class="chart-container" style="height: 180px;">
+          <canvas id="volumeChart"></canvas>
+        </div>
+
+        <div style="margin-bottom: 12px;">
+          <div class="flag-item"><span class="flag-icon">🔴</span> Hamstrings: 6 sets (critically low vs 28 quad sets)</div>
+          <div class="flag-item"><span class="flag-icon">⚠️</span> Incline DB Bench stalled at 65×7 for 3 sessions</div>
+          <div class="flag-item"><span class="flag-icon">⚠️</span> RDL regressed: 90→70 lbs after break</div>
+        </div>
+
+        <div class="coach-note">
+          <strong>Coach:</strong> You were on a roll — 11 weeks of consistency with PRs. The 23-day gap is the most urgent issue. Get back in today at 85% intensity. Prioritize hamstrings.
+        </div>
+      </div>
+
+      <!-- RUNNING CARD -->
+      <div class="domain-card">
+        <div class="domain-card-header">
+          <div class="domain-card-title">🏃 Running</div>
+          <span class="domain-status status-upcoming">Starts Apr 12</span>
+        </div>
+
+        <div style="margin-bottom: 16px;">
+          <div class="chart-label">Training Phase</div>
+          <div style="display:flex;align-items:center;gap:8px;margin-bottom:12px;">
+            <div style="flex:1;height:6px;border-radius:3px;background:var(--running);opacity:0.3;"></div>
+            <div style="flex:1;height:6px;border-radius:3px;background:var(--bg-subtle);"></div>
+            <div style="flex:1;height:6px;border-radius:3px;background:var(--bg-subtle);"></div>
+            <div style="flex:1;height:6px;border-radius:3px;background:var(--bg-subtle);"></div>
+          </div>
+          <div style="font-size:13px;color:var(--text-secondary);">
+            <strong style="color:var(--running);">Phase 1</strong>: Return to Running — Weeks 1-8 (Run/Walk)
+          </div>
+        </div>
+
+        <div style="margin-bottom:16px;padding:12px 16px;background:var(--running-light);border-radius:8px;font-size:13px;color:var(--running-dark);">
+          <strong>First run:</strong> Sunday Apr 12, 2:00 PM<br>
+          25 min — Run 2 / Walk 1 — Zone 1-2<br>
+          Target: ~1.5 miles, pain-free movement
+        </div>
+
+        <div class="empty-state" style="flex-grow:1;">
+          <div class="empty-state-icon">🏃</div>
+          <div class="empty-state-text">Your first run logs will appear here</div>
+          <div class="empty-state-sub">Weekly mileage, pace trends, and HR zone data will populate after your first session</div>
+        </div>
+      </div>
+
+      <!-- RECOVERY CARD -->
+      <div class="domain-card">
+        <div class="domain-card-header">
+          <div class="domain-card-title">🔵 Recovery</div>
+          <span class="domain-status status-no-data">No Data</span>
+        </div>
+
+        <div class="empty-state" style="flex-grow:1;">
+          <div class="empty-state-icon">💤</div>
+          <div class="empty-state-text">Oura data will appear here once connected</div>
+          <div class="empty-state-sub">
+            HRV trends, readiness scores, sleep quality, and resting HR will populate here.
+            <br><br>
+            Start by sharing your daily Oura readiness, HRV, and sleep score.
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ===== 7. CROSS-DOMAIN INSIGHTS ===== -->
+  <div class="fade-section" style="margin-bottom: 32px;">
+    <div class="section-title">🔗 Cross-Domain Insights</div>
+    <div class="insights-card">
+      <div style="font-size:14px;color:var(--text-secondary);margin-bottom:16px;">
+        Insights unlock when 2+ domains have active data. Here's what will surface:
+      </div>
+      <div class="insight-placeholder">
+        <div class="insight-icon">💓</div>
+        <span><strong>HRV vs Training Load</strong> — Is low HRV showing up as higher RPE on runs or weaker gym sessions?</span>
+      </div>
+      <div class="insight-placeholder">
+        <div class="insight-icon">🦵</div>
+        <span><strong>Running Impact on Strength</strong> — Is running volume affecting leg day performance?</span>
+      </div>
+      <div class="insight-placeholder">
+        <div class="insight-icon">😴</div>
+        <span><strong>Sleep Debt Accumulation</strong> — Is poor sleep correlating with missed sessions or declining effort?</span>
+      </div>
+      <div class="insight-placeholder">
+        <div class="insight-icon">⚖️</div>
+        <span><strong>Recovery Balance</strong> — Is strength training on non-run days helping or hurting running recovery?</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== 8. GAME PLAN ===== -->
+  <div class="fade-section" style="margin-bottom: 32px;">
+    <div class="section-title">📅 This Week's Game Plan</div>
+    <div class="card" style="padding: 0; overflow: hidden;">
+      <table class="plan-table">
+        <thead>
+          <tr>
+            <th>Day</th>
+            <th>Activity</th>
+            <th>Focus</th>
+            <th>Intensity</th>
+            <th>Duration</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="today">
+            <td class="day-name">Wed Apr 8</td>
+            <td>💪 Strength — Full Body A</td>
+            <td>Ease back at 85%. Add RDLs + Leg Curls.</td>
+            <td><span class="intensity-badge intensity-moderate">Moderate</span></td>
+            <td>~50 min</td>
+          </tr>
+          <tr>
+            <td class="day-name">Thu Apr 9</td>
+            <td>Rest / Recovery</td>
+            <td>Log Oura data. Foam roll hamstrings.</td>
+            <td><span class="intensity-badge intensity-off">Off</span></td>
+            <td>—</td>
+          </tr>
+          <tr>
+            <td class="day-name">Fri Apr 10</td>
+            <td>💪 Strength — Full Body B</td>
+            <td>Include hamstring work. Moderate volume.</td>
+            <td><span class="intensity-badge intensity-moderate">Moderate</span></td>
+            <td>~55 min</td>
+          </tr>
+          <tr>
+            <td class="day-name">Sat Apr 11</td>
+            <td>Rest / Mobility</td>
+            <td>Pre-run prep. Dynamic stretching. Log Oura.</td>
+            <td><span class="intensity-badge intensity-off">Off</span></td>
+            <td>—</td>
+          </tr>
+          <tr>
+            <td class="day-name">Sun Apr 12</td>
+            <td>🏃 First Run — Run/Walk Long</td>
+            <td>25 min, Run 2 / Walk 1, Zone 1-2</td>
+            <td><span class="intensity-badge intensity-easy">Easy</span></td>
+            <td>25 min</td>
+          </tr>
+          <tr>
+            <td class="day-name">Mon Apr 13</td>
+            <td>💪 Strength — Full Body C</td>
+            <td>Posterior chain + upper body focus.</td>
+            <td><span class="intensity-badge intensity-moderate">Moderate</span></td>
+            <td>~55 min</td>
+          </tr>
+          <tr>
+            <td class="day-name">Tue Apr 14</td>
+            <td>🏃 Run/Walk Easy</td>
+            <td>20 min, Run 2 / Walk 1, Zone 1-2</td>
+            <td><span class="intensity-badge intensity-easy">Easy</span></td>
+            <td>20 min</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- ===== 9. HISTORICAL ===== -->
+  <div class="fade-section">
+    <div class="collapsible-header" onclick="toggleCollapsible(this)">
+      <div class="section-title" style="margin-bottom:0;">📁 Historical Dashboards</div>
+      <span class="collapsible-chevron">▼</span>
+    </div>
+    <div class="collapsible-body">
+      <p style="color:var(--text-tertiary);font-style:italic;">This is the first dashboard. Future dashboards will be listed here by date.</p>
+      <p>• <strong>2026-04-08</strong> — Dashboard_2026-04-08.html (current)</p>
+    </div>
+  </div>
+
+</div>
+
+<script>
+  // --- Staggered fade-in ---
+  document.addEventListener('DOMContentLoaded', () => {
+    const sections = document.querySelectorAll('.fade-section');
+    sections.forEach((el, i) => {
+      setTimeout(() => el.classList.add('visible'), 80 + i * 70);
+    });
+
+    // --- Animated health score ---
+    const targetScore = 5;
+    const scoreEl = document.getElementById('scoreNum');
+    const circle = document.getElementById('scoreCircle');
+    const circumference = 2 * Math.PI * 54; // ~339.3
+
+    // Animate ring
+    setTimeout(() => {
+      const offset = circumference - (targetScore / 10) * circumference;
+      circle.style.strokeDashoffset = offset;
+    }, 300);
+
+    // Animate number
+    let current = 0;
+    const duration = 800;
+    const start = performance.now();
+    function animateScore(now) {
+      const elapsed = now - start;
+      const progress = Math.min(elapsed / duration, 1);
+      const eased = 1 - Math.pow(1 - progress, 3);
+      current = eased * targetScore;
+      scoreEl.textContent = current.toFixed(1);
+      if (progress < 1) requestAnimationFrame(animateScore);
+      else scoreEl.textContent = targetScore.toFixed(1);
+    }
+    setTimeout(() => requestAnimationFrame(animateScore), 400);
+
+    // --- Volume Chart (Strength) ---
+    const volumeCtx = document.getElementById('volumeChart');
+    if (volumeCtx) {
+      new Chart(volumeCtx, {
+        type: 'bar',
+        data: {
+          labels: ['Quads', 'Back', 'Chest', 'Triceps', 'Biceps', 'Shoulders', 'Hams', 'Calves'],
+          datasets: [{
+            label: 'Sets (30 days)',
+            data: [28, 44, 25, 22, 21, 28, 6, 4],
+            backgroundColor: [
+              '#E8590C', '#E8590C', '#E8590C', '#E8590C',
+              '#E8590C', '#E8590C', '#C92A2A', '#E8590C'
+            ],
+            borderRadius: 4,
+            borderSkipped: false,
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: {
+            legend: { display: false },
+            tooltip: {
+              backgroundColor: '#FFFFFF',
+              titleColor: '#37352F',
+              bodyColor: '#787774',
+              borderColor: '#E8E5E0',
+              borderWidth: 1,
+              cornerRadius: 8,
+              padding: 10,
+              titleFont: { family: 'DM Sans', size: 13, weight: '600' },
+              bodyFont: { family: 'JetBrains Mono', size: 12 },
+              callbacks: {
+                label: (ctx) => `${ctx.raw} sets`
+              }
+            }
+          },
+          scales: {
+            y: {
+              beginAtZero: true,
+              grid: { color: 'rgba(232,229,224,0.5)', drawBorder: false },
+              ticks: {
+                font: { family: 'DM Sans', size: 11 },
+                color: '#787774'
+              }
+            },
+            x: {
+              grid: { display: false },
+              ticks: {
+                font: { family: 'DM Sans', size: 11 },
+                color: '#787774'
+              }
+            }
+          }
+        }
+      });
+    }
+  });
+
+  // --- Collapsible ---
+  function toggleCollapsible(header) {
+    header.classList.toggle('open');
+    const body = header.nextElementSibling;
+    body.classList.toggle('open');
+  }
+</script>
+</body>
+</html>

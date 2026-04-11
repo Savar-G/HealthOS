@@ -1,0 +1,137 @@
+@import "tailwindcss";
+
+/* ===== DESIGN TOKENS FROM DESIGN.md (Notion-inspired) ===== */
+:root {
+  /* Base palette — warm neutrals */
+  --bg-primary: #ffffff;
+  --bg-warm: #f6f5f4;
+  --bg-hover: #f1f0ec;
+  --text-primary: rgba(0, 0, 0, 0.95);
+  --text-secondary: #615d59;
+  --text-tertiary: #a39e98;
+  --border-whisper: rgba(0, 0, 0, 0.1);
+  --border-strong: rgba(0, 0, 0, 0.15);
+
+  /* Accent */
+  --notion-blue: #0075de;
+  --notion-blue-active: #005bab;
+  --badge-blue-bg: #f2f9ff;
+  --badge-blue-text: #097fe8;
+
+  /* Domain colors */
+  --strength: #E8590C;
+  --strength-light: #FFF4E6;
+  --strength-dark: #D9480F;
+  --running: #2B8A3E;
+  --running-light: #EBFBEE;
+  --running-dark: #1B7A2E;
+  --recovery: #1971C2;
+  --recovery-light: #E7F5FF;
+  --recovery-dark: #1864AB;
+
+  /* Status */
+  --success: #2B8A3E;
+  --warning: #E8590C;
+  --danger: #C92A2A;
+
+  /* Shadows — Notion multi-layer stacks */
+  --shadow-card: rgba(0,0,0,0.04) 0px 4px 18px, rgba(0,0,0,0.027) 0px 2.025px 7.85px, rgba(0,0,0,0.02) 0px 0.8px 2.93px, rgba(0,0,0,0.01) 0px 0.175px 1.04px;
+  --shadow-deep: rgba(0,0,0,0.01) 0px 1px 3px, rgba(0,0,0,0.02) 0px 3px 7px, rgba(0,0,0,0.02) 0px 7px 15px, rgba(0,0,0,0.04) 0px 14px 28px, rgba(0,0,0,0.05) 0px 23px 52px;
+
+  /* shadcn/ui compatibility vars */
+  --background: 0 0% 100%;
+  --foreground: 20 8% 15%;
+  --card: 0 0% 100%;
+  --card-foreground: 20 8% 15%;
+  --popover: 0 0% 100%;
+  --popover-foreground: 20 8% 15%;
+  --primary: 210 100% 44%;
+  --primary-foreground: 0 0% 100%;
+  --secondary: 30 4% 96%;
+  --secondary-foreground: 20 8% 15%;
+  --muted: 30 4% 96%;
+  --muted-foreground: 20 5% 40%;
+  --accent: 30 4% 96%;
+  --accent-foreground: 20 8% 15%;
+  --destructive: 0 72% 51%;
+  --destructive-foreground: 0 0% 100%;
+  --border: 30 5% 90%;
+  --input: 30 5% 90%;
+  --ring: 210 100% 44%;
+  --radius: 0.5rem;
+}
+
+@theme inline {
+  --color-background: var(--bg-primary);
+  --color-foreground: var(--text-primary);
+  --font-sans: "Inter", -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif;
+}
+
+/* ===== BASE STYLES ===== */
+body {
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: "Inter", -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Notion-style typography: negative letter-spacing at display sizes */
+.text-display {
+  letter-spacing: -0.03em;
+  font-feature-settings: "lnum", "locl";
+}
+
+.text-heading {
+  letter-spacing: -0.02em;
+  font-feature-settings: "lnum", "locl";
+}
+
+/* Whisper border utility */
+.border-whisper {
+  border: 1px solid var(--border-whisper);
+}
+
+/* ===== ANIMATIONS ===== */
+@keyframes fade-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pulse-border {
+  0%, 100% {
+    border-color: rgba(0, 0, 0, 0.1);
+    opacity: 0.6;
+  }
+  50% {
+    border-color: rgba(0, 0, 0, 0.15);
+    opacity: 1;
+  }
+}
+
+.animate-fade-in-up {
+  animation: fade-in-up 0.5s ease forwards;
+  opacity: 0;
+}
+
+.animate-pulse-border {
+  animation: pulse-border 2.5s ease-in-out infinite;
+}
+
+/* Staggered section animations */
+.section-animate:nth-child(1) { animation-delay: 0ms; }
+.section-animate:nth-child(2) { animation-delay: 70ms; }
+.section-animate:nth-child(3) { animation-delay: 140ms; }
+.section-animate:nth-child(4) { animation-delay: 210ms; }
+.section-animate:nth-child(5) { animation-delay: 280ms; }
+.section-animate:nth-child(6) { animation-delay: 350ms; }
+.section-animate:nth-child(7) { animation-delay: 420ms; }
+.section-animate:nth-child(8) { animation-delay: 490ms; }
+.section-animate:nth-child(9) { animation-delay: 560ms; }
+.section-animate:nth-child(10) { animation-delay: 630ms; }
