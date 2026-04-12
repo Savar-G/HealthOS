@@ -22,8 +22,8 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${inter.className} antialiased`}>
         <Sidebar />
-        <main className="ml-[240px] min-h-screen">
-          <div className="max-w-[1040px] mx-auto px-8 py-8">
+        <main className="md:ml-[240px] min-h-screen pt-14 md:pt-0">
+          <div className="max-w-[1040px] mx-auto px-4 py-6 md:px-8 md:py-8">
             {children}
           </div>
         </main>

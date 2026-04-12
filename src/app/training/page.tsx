@@ -48,7 +48,7 @@ export default function TrainingPage() {
         <TabsContent value="strength">
           <div className="space-y-6">
             {/* Stats row */}
-            <div className="grid grid-cols-4 gap-4">
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-4">
               {[
                 { label: "Total Sessions", value: String(strength.totalSessions) },
                 { label: "Sessions/Week (12wk)", value: String(strength.sessionsPerWeek) },
@@ -243,7 +243,7 @@ export default function TrainingPage() {
             {recovery.entries.length > 0 ? (
               <>
                 {/* Recovery stats */}
-                <div className="grid grid-cols-4 gap-4">
+                <div className="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-4">
                   {[
                     {
                       label: "Readiness (7d)",

@@ -1,5 +1,6 @@
 "use client"
 
+import { useState } from "react"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
 import {
@@ -9,6 +10,8 @@ import {
   Scale,
   Sparkles,
   Activity,
+  Menu,
+  X,
 } from "lucide-react"
 import { cn } from "@/lib/utils"
 
@@ -28,17 +31,24 @@ const domainStatus = [
 
 export function Sidebar() {
   const pathname = usePathname()
+  const [mobileOpen, setMobileOpen] = useState(false)
 
-  return (
-    <aside className="fixed left-0 top-0 z-40 h-screen w-[240px] border-r border-[rgba(0,0,0,0.1)] bg-white flex flex-col">
+  const navContent = (
+    <>
       {/* Logo */}
-      <div className="px-5 py-5 border-b border-[rgba(0,0,0,0.06)]">
+      <div className="px-5 py-5 border-b border-[rgba(0,0,0,0.06)] flex items-center justify-between">
         <div className="flex items-center gap-2.5">
           <div className="w-7 h-7 rounded-md bg-[rgba(0,0,0,0.95)] flex items-center justify-center">
             <Activity className="w-4 h-4 text-white" />
           </div>
           <span className="text-[15px] font-bold tracking-[-0.01em]">HealthOS</span>
         </div>
+        <button
+          onClick={() => setMobileOpen(false)}
+          className="md:hidden p-1 rounded-md hover:bg-[var(--bg-warm)]"
+        >
+          <X className="w-5 h-5 text-[var(--text-secondary)]" />
+        </button>
       </div>
 
       {/* Navigation */}
@@ -50,6 +60,7 @@ export function Sidebar() {
               <Link
                 key={item.href}
                 href={item.href}
+                onClick={() => setMobileOpen(false)}
                 className={cn(
                   "flex items-center gap-2.5 px-3 py-2 rounded-md text-[14px] font-medium transition-colors",
                   isActive
@@ -95,6 +106,45 @@ export function Sidebar() {
           Updated Apr 8, 2026
         </p>
       </div>
-    </aside>
+    </>
+  )
+
+  return (
+    <>
+      {/* Mobile top bar */}
+      <div className="fixed top-0 left-0 right-0 z-50 md:hidden bg-white border-b border-[rgba(0,0,0,0.1)] px-4 py-3 flex items-center justify-between">
+        <div className="flex items-center gap-2.5">
+          <div className="w-7 h-7 rounded-md bg-[rgba(0,0,0,0.95)] flex items-center justify-center">
+            <Activity className="w-4 h-4 text-white" />
+          </div>
+          <span className="text-[15px] font-bold tracking-[-0.01em]">HealthOS</span>
+        </div>
+        <button
+          onClick={() => setMobileOpen(true)}
+          className="p-1.5 rounded-md hover:bg-[var(--bg-warm)]"
+        >
+          <Menu className="w-5 h-5" />
+        </button>
+      </div>
+
+      {/* Mobile overlay */}
+      {mobileOpen && (
+        <div
+          className="fixed inset-0 z-50 bg-black/20 md:hidden"
+          onClick={() => setMobileOpen(false)}
+        />
+      )}
+
+      {/* Sidebar — desktop: always visible, mobile: slide-in drawer */}
+      <aside
+        className={cn(
+          "fixed left-0 top-0 z-50 h-screen w-[240px] border-r border-[rgba(0,0,0,0.1)] bg-white flex flex-col transition-transform duration-200 ease-out",
+          "md:translate-x-0",
+          mobileOpen ? "translate-x-0" : "-translate-x-full md:translate-x-0"
+        )}
+      >
+        {navContent}
+      </aside>
+    </>
   )
 }
