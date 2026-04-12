@@ -1,15 +1,15 @@
 # Oura Profile
 
 ## State of My Recovery
-- **Last entry:** 2026-04-08
-- **7-day avg HRV:** 68 ms →
-- **7-day avg resting HR:** 62.0 bpm →
-- **7-day avg readiness:** 65
-- **Sleep quality trend:** stable
-- **Current recovery status:** 🟡 Yellow
-- **Analyst note:** Recovery is low — consider lighter sessions.
+- **Last entry:** 2026-04-11
+- **7-day avg HRV:** 59 ms ↓
+- **7-day avg resting HR:** 64.6 bpm ↑
+- **7-day avg readiness:** 60
+- **Sleep quality trend:** declining
+- **Current recovery status:** 🔴 Red
+- **Analyst note:** HRV in freefall (41 ms today vs 88 ms all-time avg). Resting HR spiking to 71 bpm. Body temp elevated +0.64°C. System is under significant stress — possible illness or accumulated overload. Back off all training immediately.
 
-## All-Time Baselines (834 days: 2023-12-26 → 2026-04-08)
+## All-Time Baselines (837 days: 2023-12-26 → 2026-04-11)
 
 | Metric | Average | Min | Max |
 |--------|---------|-----|-----|
@@ -24,10 +24,10 @@
 
 | Metric | 30-day Avg | 7-day Avg | Direction |
 |--------|-----------|-----------|-----------|
-| Readiness | 68 | 65 | ↓ |
-| HRV | 67 ms | 68 ms | → |
-| Resting HR | 60.6 bpm | 62.0 bpm | → |
-| Sleep Score | 77 | 75 | ↓ |
+| Readiness | 68 | 60 | ↓ |
+| HRV | 67 ms | 59 ms | ↓ |
+| Resting HR | 60.6 bpm | 64.6 bpm | ↑ |
+| Sleep Score | 77 | 74 | ↓ |
 
 ## Patterns & Notes
 <!-- Updated as trends emerge -->
