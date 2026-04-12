@@ -3,6 +3,10 @@
 A personal health dashboard that synthesizes data across strength training, running, sleep, recovery, and body composition into an interactive Next.js web app. Built for a single user — no auth, no hosting, just `npm run dev`.
 
 ## Screenshot
+<img width="1275" height="1049" alt="image" src="https://github.com/user-attachments/assets/e4d105df-c0db-4b2f-a7c2-a87f157dae4d" />
+<img width="1140" height="903" alt="image" src="https://github.com/user-attachments/assets/10337d88-0298-44e4-be03-6467a445da93" />
+<img width="1140" height="945" alt="image" src="https://github.com/user-attachments/assets/538a8fd5-6ba5-4551-a942-78593c376c76" />
+<img width="1140" height="855" alt="image" src="https://github.com/user-attachments/assets/0483d230-38dd-4715-a806-cadfd25a193a" />
 
 The dashboard pulls real data from CSV exports and markdown logs, computes health scores, detects trends, flags imbalances, and generates cross-domain insights.
 
