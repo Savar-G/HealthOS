@@ -112,11 +112,11 @@ _Updated each time you report a run. Used to calibrate the plan._
 
 | Metric | Value | Date Set |
 |--------|-------|----------|
-| **Easy Pace (Zone 2)** | TBD | -- |
+| **Easy Pace (Zone 2)** | 12:35/mi @ 138 bpm | Apr 14, 2026 |
 | **Tempo Pace (Zone 3)** | TBD | -- |
-| **Longest Run** | TBD | -- |
-| **Longest Continuous Run Segment** | TBD | -- |
-| **Weekly Mileage (current)** | 0 miles | Apr 8, 2026 |
+| **Longest Run** | 2.06 mi | Apr 14, 2026 |
+| **Longest Continuous Run Segment** | 2 min (R2/W1) | Apr 14, 2026 |
+| **Weekly Mileage (current)** | 2.06 miles | Apr 14, 2026 |
 
 ---
 
@@ -134,7 +134,7 @@ _Updated each time you report a run. Used to calibrate the plan._
 
 ## Milestones
 
-- [ ] Complete first run/walk session pain-free
+- [~] Complete first run/walk session pain-free _(Apr 14: completed session, but left foot pain noted — monitoring)_
 - [ ] Run 10 minutes continuously without walk breaks
 - [ ] Run 20 minutes continuously
 - [ ] Complete first 3-mile run (no walk breaks)

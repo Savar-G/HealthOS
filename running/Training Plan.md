@@ -67,7 +67,7 @@ With only 2 sessions, pure 80/20 polarized training is mathematically impossible
 ---
 
 #### Tuesday, April 14 -- ZONE 2 RUN/WALK (Post-Legs)
-> **Status:** Upcoming
+> **Status:** DONE — 2.06 mi, 25 min, 138 bpm, 12:35/mi, effort 5/10. Heavy legs, left foot pain.
 
 | Detail | Target |
 |--------|--------|
