@@ -42,10 +42,17 @@ export default function OverviewPage() {
     doingWell.push(`${recovery.entries.length} days of Oura data tracked`)
   }
 
+  // Doing well — running
+  if (running.totalRuns > 0) {
+    doingWell.push(
+      `Running program underway — ${running.totalRuns} run${running.totalRuns > 1 ? "s" : ""} logged, Week ${running.currentPhase.currentWeek} of 32 (${running.currentPhase.name})`
+    )
+  }
+
   // Needs attention
   needsAttention.push(...strength.flags)
-  if (running.totalRuns === 0) {
-    needsAttention.push("No runs logged yet — first session starts Apr 12")
+  if (running.totalRuns === 0 && running.currentPhase.currentWeek === null) {
+    needsAttention.push("No runs logged yet — first session starts Apr 14")
   }
 
   return (

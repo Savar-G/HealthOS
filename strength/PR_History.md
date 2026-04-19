@@ -25,6 +25,7 @@ _Best estimated 1RM (Weight x (1 + Reps/30)) per exercise. Only exercises used i
 | Preacher Curl (Machine) | 70.0 x 7 | 86.3 | 2023-09-15 |
 | Incline Bench Press (Dumbbell) | 65.0 x 7 | 80.2 | 2026-02-14 |
 | Triceps Pushdown (Cable - Straight Bar) | 60.5 x 10 | 80.7 | 2026-02-25 |
+| JM Press / Tricep Press | 55.0 x 6 | 66.0 | 2026-04-12 |
 | Tricep Press | 50.0 x 8 | 63.3 | 2026-03-16 |
 | Hammer Curl (Dumbbell) | 50.0 x 8 | 63.3 | 2026-02-18 |
 | Lateral Raise (Dumbbell) | 30.0 x 8 | 38.0 | 2025-11-03 |

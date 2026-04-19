@@ -1409,3 +1409,123 @@
 | Body Temp Dev | +0.64°C | |
 | Activity Score | — | |
 | Steps | — | |
+
+### 2026-04-12
+
+| Metric | Value | Trend |
+|--------|-------|-------|
+| Readiness Score | 71 | ↑ |
+| Sleep Score | 85 | ↑ |
+| HRV | 66 ms | ↑ |
+| Resting HR | 63 bpm | → |
+| Lowest HR | 59 bpm | |
+| Deep Sleep | 1h 54m | ↑ |
+| Total Sleep | 7h 54m | |
+| Body Temp Dev | +0.18°C | |
+| Activity Score | 93 | ↑ |
+| Steps | 6,414 | |
+
+### 2026-04-13
+
+| Metric | Value | Trend |
+|--------|-------|-------|
+| Readiness Score | 79 | ↑ |
+| Sleep Score | 86 | ↑ |
+| HRV | 83 ms | ↑ |
+| Resting HR | 56 bpm | ↓ |
+| Lowest HR | 51 bpm | |
+| Deep Sleep | 2h 0m | ↑ |
+| Total Sleep | 7h 54m | |
+| Body Temp Dev | -0.28°C | |
+| Activity Score | 89 | → |
+| Steps | 5,765 | |
+
+### 2026-04-14
+
+| Metric | Value | Trend |
+|--------|-------|-------|
+| Readiness Score | 72 | ↑ |
+| Sleep Score | 73 | → |
+| HRV | 77 ms | ↑ |
+| Resting HR | 57 bpm | ↓ |
+| Lowest HR | 53 bpm | |
+| Deep Sleep | 1h 24m | ↓ |
+| Total Sleep | 6h 34m | |
+| Body Temp Dev | -0.27°C | |
+| Activity Score | 88 | → |
+| Steps | 8,512 | |
+
+### 2026-04-15
+
+| Metric | Value | Trend |
+|--------|-------|-------|
+| Readiness Score | 76 | ↑ |
+| Sleep Score | 81 | → |
+| HRV | 79 ms | ↑ |
+| Resting HR | 57 bpm | ↓ |
+| Lowest HR | 50 bpm | |
+| Deep Sleep | 1h 42m | ↓ |
+| Total Sleep | 7h 36m | |
+| Body Temp Dev | -0.48°C | |
+| Activity Score | 86 | → |
+| Steps | 9,276 | |
+
+### 2026-04-16
+
+| Metric | Value | Trend |
+|--------|-------|-------|
+| Readiness Score | 80 | ↑ |
+| Sleep Score | 86 | ↑ |
+| HRV | 74 ms | ↑ |
+| Resting HR | 57 bpm | ↓ |
+| Lowest HR | 52 bpm | |
+| Deep Sleep | 2h 0m | ↑ |
+| Total Sleep | 7h 23m | |
+| Body Temp Dev | -0.22°C | |
+| Activity Score | 71 | ↓ |
+| Steps | 5,439 | |
+
+### 2026-04-17
+
+| Metric | Value | Trend |
+|--------|-------|-------|
+| Readiness Score | 79 | ↑ |
+| Sleep Score | 80 | → |
+| HRV | 63 ms | ↓ |
+| Resting HR | 58 bpm | → |
+| Lowest HR | 52 bpm | |
+| Deep Sleep | 1h 54m | → |
+| Total Sleep | 6h 46m | |
+| Body Temp Dev | -0.46°C | |
+| Activity Score | 80 | ↓ |
+| Steps | 10,382 | |
+
+### 2026-04-18
+
+| Metric | Value | Trend |
+|--------|-------|-------|
+| Readiness Score | 78 | ↑ |
+| Sleep Score | 85 | ↑ |
+| HRV | 61 ms | ↓ |
+| Resting HR | 61 bpm | → |
+| Lowest HR | 55 bpm | |
+| Deep Sleep | 1h 48m | → |
+| Total Sleep | 8h 12m | |
+| Body Temp Dev | -0.19°C | |
+| Activity Score | 64 | ↓ |
+| Steps | 6,386 | |
+
+### 2026-04-19
+
+| Metric | Value | Trend |
+|--------|-------|-------|
+| Readiness Score | 78 | → |
+| Sleep Score | 86 | → |
+| HRV | 72 ms | → |
+| Resting HR | 62 bpm | ↑ |
+| Lowest HR | 55 bpm | |
+| Deep Sleep | 2h 9m | ↑ |
+| Total Sleep | 7h 50m | |
+| Body Temp Dev | -0.22°C | |
+| Activity Score | — | |
+| Steps | — | |

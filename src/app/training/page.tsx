@@ -157,15 +157,22 @@ export default function TrainingPage() {
           <div className="space-y-6">
             {/* Phase indicator */}
             <div className="border border-[rgba(0,0,0,0.1)] rounded-lg p-6 shadow-[var(--shadow-card)]">
-              <h3 className="text-[15px] font-bold mb-3">Training Plan</h3>
+              <div className="flex items-start justify-between mb-3">
+                <h3 className="text-[15px] font-bold">Training Plan</h3>
+                {running.currentPhase.currentWeek !== null && (
+                  <span className="text-[11px] text-[var(--running-dark)] bg-[var(--running-light)] px-2 py-0.5 rounded-full font-semibold">
+                    Week {running.currentPhase.currentWeek} of 32
+                  </span>
+                )}
+              </div>
               <div className="flex items-center gap-2 mb-3">
                 {[1, 2, 3, 4].map((phase) => (
                   <div
                     key={phase}
                     className="flex-1 h-2 rounded-full"
                     style={{
-                      backgroundColor: phase === 1 ? "var(--running)" : "var(--bg-warm)",
-                      opacity: phase === 1 ? 0.4 : 1,
+                      backgroundColor: phase === running.currentPhase.phase ? "var(--running)" : "var(--bg-warm)",
+                      opacity: phase === running.currentPhase.phase ? 1 : 0.5,
                     }}
                   />
                 ))}
@@ -175,21 +182,125 @@ export default function TrainingPage() {
               </p>
               {running.nextSession && (
                 <div className="mt-3 p-3 bg-[var(--running-light)] rounded-lg text-[13px] text-[var(--running-dark)]">
-                  <strong>Next session:</strong> {running.nextSession.date} — {running.nextSession.type} ({running.nextSession.duration})
+                  <strong>Next session:</strong> {running.nextSession.date} — {running.nextSession.type}
+                  {running.nextSession.duration && ` (${running.nextSession.duration})`}
                 </div>
               )}
             </div>
 
-            {/* Empty state for run data */}
-            <div className="border-2 border-dashed border-[rgba(0,0,0,0.12)] rounded-lg p-12 text-center animate-pulse-border">
-              <div className="text-2xl mb-2 opacity-50">🏃</div>
-              <p className="text-[14px] text-[var(--text-tertiary)] font-medium mb-1">
-                Your first run logs will appear here
-              </p>
-              <p className="text-[12px] text-[var(--text-tertiary)]">
-                Weekly mileage, pace trends, and HR zone data will populate after your first session
-              </p>
-            </div>
+            {running.totalRuns > 0 ? (
+              <>
+                {/* Stats row */}
+                <div className="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-4">
+                  {(() => {
+                    const loggedRuns = running.runs.filter((r) => r.actualDist !== null)
+                    const lastRun = loggedRuns[loggedRuns.length - 1]
+                    return [
+                      { label: "Total Runs", value: String(running.totalRuns) },
+                      { label: "Total Miles", value: running.totalMiles.toFixed(2) },
+                      { label: "This Week", value: `${running.thisWeekMiles.toFixed(2)} mi` },
+                      { label: "Last Pace", value: lastRun?.avgPace ?? "—" },
+                    ]
+                  })().map((stat) => (
+                    <div key={stat.label} className="border border-[rgba(0,0,0,0.1)] rounded-lg p-4 text-center shadow-[var(--shadow-card)]">
+                      <div className="text-[22px] font-bold tracking-[-0.02em]">{stat.value}</div>
+                      <div className="text-[11px] text-[var(--text-secondary)] mt-0.5">{stat.label}</div>
+                    </div>
+                  ))}
+                </div>
+
+                {/* Run Log */}
+                <div className="border border-[rgba(0,0,0,0.1)] rounded-lg p-6 shadow-[var(--shadow-card)]">
+                  <h3 className="text-[15px] font-bold mb-4">Run Log</h3>
+                  <div className="overflow-x-auto -mx-6 px-6">
+                    <table className="w-full text-[13px]">
+                      <thead>
+                        <tr className="border-b border-[rgba(0,0,0,0.1)]">
+                          <th className="text-left py-2 font-semibold text-[var(--text-secondary)] text-[11px] uppercase tracking-wider">Date</th>
+                          <th className="text-left py-2 font-semibold text-[var(--text-secondary)] text-[11px] uppercase tracking-wider">Type</th>
+                          <th className="text-right py-2 font-semibold text-[var(--text-secondary)] text-[11px] uppercase tracking-wider">Distance</th>
+                          <th className="text-right py-2 font-semibold text-[var(--text-secondary)] text-[11px] uppercase tracking-wider hidden md:table-cell">Time</th>
+                          <th className="text-right py-2 font-semibold text-[var(--text-secondary)] text-[11px] uppercase tracking-wider hidden md:table-cell">HR</th>
+                          <th className="text-right py-2 font-semibold text-[var(--text-secondary)] text-[11px] uppercase tracking-wider">Pace</th>
+                          <th className="text-center py-2 font-semibold text-[var(--text-secondary)] text-[11px] uppercase tracking-wider hidden md:table-cell">Effort</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        {running.runs.slice().reverse().map((run, i) => {
+                          const isSkipped = run.actualDist === null
+                          return (
+                            <tr key={`${run.date}-${i}`} className="border-b border-[rgba(0,0,0,0.05)]">
+                              <td className="py-2.5 font-medium whitespace-nowrap">{run.date}</td>
+                              <td className="py-2.5 text-[var(--text-secondary)]">{run.runType}</td>
+                              <td className="py-2.5 text-right font-mono">
+                                {isSkipped ? (
+                                  <span className="text-[var(--text-tertiary)] italic">skipped</span>
+                                ) : (
+                                  `${run.actualDist?.toFixed(2)} mi`
+                                )}
+                              </td>
+                              <td className="py-2.5 text-right font-mono hidden md:table-cell">
+                                {run.time ? `${run.time} min` : "—"}
+                              </td>
+                              <td className="py-2.5 text-right font-mono hidden md:table-cell">
+                                {run.avgHR ? `${run.avgHR}` : "—"}
+                              </td>
+                              <td className="py-2.5 text-right font-mono">{run.avgPace ?? "—"}</td>
+                              <td className="py-2.5 text-center hidden md:table-cell">
+                                {run.effort !== null ? `${run.effort}/10` : "—"}
+                              </td>
+                            </tr>
+                          )
+                        })}
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+
+                {/* Weekly Mileage Summary */}
+                {running.weekSummaries.length > 0 && (
+                  <div className="border border-[rgba(0,0,0,0.1)] rounded-lg p-6 shadow-[var(--shadow-card)]">
+                    <h3 className="text-[15px] font-bold mb-4">Weekly Mileage — Plan vs Actual</h3>
+                    <div className="space-y-2.5">
+                      {running.weekSummaries.slice(0, 6).map((week) => {
+                        const pct = week.actualMiles !== null
+                          ? Math.min((week.actualMiles / week.targetMiles) * 100, 100)
+                          : 0
+                        return (
+                          <div key={week.week}>
+                            <div className="flex items-center justify-between text-[12px] mb-1">
+                              <span className="font-medium">Week {week.week} <span className="text-[var(--text-tertiary)] font-normal">— {week.dates}</span></span>
+                              <span className="font-mono text-[var(--text-secondary)]">
+                                {week.actualMiles !== null ? `${week.actualMiles.toFixed(2)}` : "—"} / {week.targetMiles.toFixed(2)} mi
+                              </span>
+                            </div>
+                            <div className="h-1.5 bg-[var(--bg-warm)] rounded-full overflow-hidden">
+                              <div
+                                className="h-full rounded-full transition-all duration-500"
+                                style={{
+                                  width: `${pct}%`,
+                                  backgroundColor: "var(--running)",
+                                }}
+                              />
+                            </div>
+                          </div>
+                        )
+                      })}
+                    </div>
+                  </div>
+                )}
+              </>
+            ) : (
+              <div className="border-2 border-dashed border-[rgba(0,0,0,0.12)] rounded-lg p-12 text-center animate-pulse-border">
+                <div className="text-2xl mb-2 opacity-50">🏃</div>
+                <p className="text-[14px] text-[var(--text-tertiary)] font-medium mb-1">
+                  Your first run logs will appear here
+                </p>
+                <p className="text-[12px] text-[var(--text-tertiary)]">
+                  Weekly mileage, pace trends, and HR zone data will populate after your first session
+                </p>
+              </div>
+            )}
           </div>
         </TabsContent>
 

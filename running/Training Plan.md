@@ -85,7 +85,7 @@ This is your very first session back. You did Legs + Core yesterday, so your leg
 ---
 
 #### Friday, April 17 -- EASY RUN/WALK (Quality Day — easy in Phase 1)
-> **Status:** Upcoming
+> **Status:** SKIPPED — played basketball instead. No run logged.
 
 | Detail | Target |
 |--------|--------|
