@@ -22,6 +22,10 @@ Thumbs.db
 # Claude
 .claude/
 
+# Claude Code skills (installed from skills-lock.json)
+.agents/
+skills/
+
 # Oura raw data (large personal CSVs — 80MB+ total)
 oura/raw/
 
