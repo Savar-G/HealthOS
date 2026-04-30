@@ -165,7 +165,7 @@ Longest session yet. You're now running 75% of each interval block. Stay convers
 ---
 
 #### Wednesday, April 29 -- STRIDES SESSION (One-Off, Phase 1.5 Bridge)
-> **Status:** Upcoming — Replaces Friday May 1. Note: back-to-back running day after Tue 30-min Zone 2.
+> **Status:** DONE — 1.55 mi, 18:43, 146 bpm avg (164 max), 12:05/mi (PR), cadence 150 spm avg. First strides session complete.
 
 | Detail | Target |
 |--------|--------|
