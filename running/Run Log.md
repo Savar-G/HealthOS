@@ -60,7 +60,7 @@ Claude will update this log and adjust the upcoming training plan based on your 
 | Week 1 | Apr 14-18 | ~2.75 mi | 2.06 mi | 2.06 mi | SKIPPED (basketball) | 50% of planned volume |
 | Week 2 | Apr 21-25 | ~3.25 mi | 1.80 mi | 1.80 mi | SKIPPED | 55% of planned volume |
 | Week 3 | Apr 28-29 | ~3.75 mi | 4.02 mi ✅ | 2.47 mi | 1.55 mi (strides, Wed) | Tue Z2 + Wed Strides (Fri swapped) |
-| Week 4 | May 5-8 | ~4 mi | -- | 2.25 mi | 1.75 mi | **Build Week (Recovery deferred)** R4/W1 |
+| Week 4 | May 5-8 | ~4 mi | -- | 2.25 mi (Z2) | ~1.75 mi (Tempo) | **Build Wk** Tue Z2 R4/W1 + Fri Tempo Fartlek (Phase 2 bridge) |
 | Week 5 | May 12-15 | ~2.75 mi | -- | 1.5 mi | 1.25 mi | Recovery Week (deferred from Wk4) R2/W1 |
 
 ---

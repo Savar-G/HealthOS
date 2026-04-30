@@ -207,18 +207,20 @@ Now running 80% of each interval block. Conversational pace only. If HR drifts a
 
 ---
 
-#### Friday, May 8 -- ZONE 2 EASY RUN
+#### Friday, May 8 -- QUALITY: TEMPO FARTLEK (Phase 2 Bridge)
 
 | Detail | Target |
 |--------|--------|
-| **Total Time** | 25 minutes |
-| **Run/Walk Ratio** | Run 4 min / Walk 1 min |
-| **Estimated Distance** | ~1.75 miles |
-| **Zone** | Zone 1-2 (122-150 bpm) |
+| **Total Time** | ~26 minutes |
+| **Structure** | 8 min WU + 5 x (1 min Z3 / 90 sec walk) + 5 min CD |
+| **Interval Effort** | Zone 3 (150-164 bpm) — "comfortably hard," short sentences |
+| **Total Z3 time** | 5 minutes |
 | **Calendar** | 7:30 AM PDT |
 
 **Instructions:**
-This Friday is the test of your adherence pattern. Three skipped Fridays in a row would mean we move to a sustainable 1x/week plan. This run needs to happen.
+First true tempo session. Different stimulus from Wed Apr 29 strides — slower but more sustained. Walk recovery between intervals lets HR drop fully so each rep is fresh. Last interval can push slightly if feeling strong, but stay in Zone 3 (don't drift into Zone 4).
+
+⚠️ Adherence check: Three skipped Fridays in a row would mean we move to a sustainable 1x/week plan. This run needs to happen.
 
 ---
 
