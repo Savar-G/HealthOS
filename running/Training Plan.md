@@ -106,6 +106,7 @@ Legs should feel significantly fresher today (4 days post-lifting). Same run/wal
 ---
 
 #### Tuesday, April 21 -- ZONE 2 RUN/WALK (Post-Legs)
+> **Status:** DONE — 1.80 mi, 23:45, 141 bpm avg (157 max), 13:11/mi, effort 4/10. Felt easy, no foot pain. Ended at distance target (ran full time next session).
 
 | Detail | Target |
 |--------|--------|
@@ -120,6 +121,7 @@ Slight increase in both duration (+2 min) and run segment (+30 sec). The half-mi
 ---
 
 #### Friday, April 24 -- EASY RUN/WALK
+> **Status:** SKIPPED — no reason logged.
 
 | Detail | Target |
 |--------|--------|
@@ -130,12 +132,13 @@ Slight increase in both duration (+2 min) and run segment (+30 sec). The half-mi
 
 ---
 
-### WEEK 3 -- Extending the Run (April 29 - May 1, 2026)
+### WEEK 3 -- Extending the Run (April 28 - May 1, 2026)
 **Target Total: ~3.75 miles | Run/Walk Ratio: Run 3 min / Walk 1 min | Intensity: 100% Zone 1-2**
 
 ---
 
-#### Tuesday, April 29 -- ZONE 2 RUN/WALK (Post-Legs)
+#### Tuesday, April 28 -- ZONE 2 RUN/WALK (Post-Legs)
+> **Status:** DONE — 2.47 mi, 30:07, 144 bpm avg (154 max), 12:11/mi (PR), cadence 150 spm. Full time hit, exceeded distance target by 24%.
 
 | Detail | Target |
 |--------|--------|
@@ -150,13 +153,30 @@ Longest session yet. You're now running 75% of each interval block. Stay convers
 ---
 
 #### Friday, May 1 -- EASY RUN/WALK
+> **Status:** SWAPPED to Wednesday, April 29 — Strides Session (Savar requested faster work, can't run May 1).
 
-| Detail | Target |
+| Detail | Original Target |
 |--------|--------|
 | **Total Time** | 25 minutes |
 | **Run/Walk Ratio** | Run 3 min / Walk 1 min |
 | **Estimated Distance** | ~1.75 miles |
 | **Zone** | Zone 1-2 (122-150 bpm) |
+
+---
+
+#### Wednesday, April 29 -- STRIDES SESSION (One-Off, Phase 1.5 Bridge)
+> **Status:** Upcoming — Replaces Friday May 1. Note: back-to-back running day after Tue 30-min Zone 2.
+
+| Detail | Target |
+|--------|--------|
+| **Total Time** | ~22 minutes |
+| **Structure** | 8 min WU + 4x(20 sec stride / 90 sec walk) + 5 min CD |
+| **Stride Effort** | 85-90% (briefly Zone 4-5) |
+| **Recovery** | 90 sec walking between strides |
+| **Total fast time** | 80 seconds |
+| **Goal** | Neuromuscular activation, cadence development, Phase 2 bridge |
+
+**Rationale:** Strides chosen over sustained Zone 3 because back-to-back running days require short bursts, not extended threshold work. Strides also directly address Savar's low cadence (150 spm) and don't violate Phase 1 protocol (which excludes sustained intensity, not neuromuscular work).
 
 ---
 
