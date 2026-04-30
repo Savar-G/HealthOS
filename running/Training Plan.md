@@ -180,28 +180,67 @@ Longest session yet. You're now running 75% of each interval block. Stay convers
 
 ---
 
-### WEEK 4 -- Recovery Week (May 5-8, 2026)
-**Target Total: ~2.5 miles | Run/Walk Ratio: Run 2 min / Walk 1 min (step back) | Intensity: 100% Zone 1**
+### WEEK 4 -- Continued Build (May 5-8, 2026)
+**Target Total: ~4 miles | Run/Walk Ratio: Run 4 min / Walk 1 min | Intensity: Zone 1-2**
 
-> Recovery weeks are when your body absorbs the training from weeks 1-3. Mileage drops ~30%. Ratio steps back. This is when adaptation happens — for both running AND the concurrent strength training. Do NOT be tempted to push through.
+> ⚠️ Recovery week pushed to Week 5 at Savar's request (felt strong end of Wk3, wanted to keep pushing). Conditions for this override:
+> 1. RPE ≥ 7/10 on either run = recovery starts immediately
+> 2. HR drift >5 bpm at same pace vs Wk1 baseline = back off
+> 3. Any pain anywhere = back off
+> 4. Oura readiness <70 on run day = convert to walk
+> 5. Friday MUST happen (no more skips during extended build)
 
 ---
 
-#### Tuesday, May 5 -- RECOVERY RUN/WALK
+#### Tuesday, May 5 -- ZONE 2 LONG RUN (Post-Legs)
 
 | Detail | Target |
 |--------|--------|
-| **Total Time** | 20 minutes |
-| **Run/Walk Ratio** | Run 2 min / Walk 1 min |
-| **Estimated Distance** | ~1.25 miles |
-| **Zone** | Zone 1 (122-136 bpm) -- aim for lower end |
+| **Total Time** | 32 minutes |
+| **Run/Walk Ratio** | Run 4 min / Walk 1 min |
+| **Estimated Distance** | ~2.25 miles |
+| **Zone** | Zone 2 (136-150 bpm) |
+| **Calendar** | 7:30 AM PDT |
 
 **Instructions:**
-Deliberately easy. Target Zone 1, not Zone 2. This is especially important on Tuesday post-legs: your body is absorbing both strength and running adaptations simultaneously. Run slower than you think you need to.
+Now running 80% of each interval block. Conversational pace only. If HR drifts above 150 consistently, slow your jog. Run the FULL 32 minutes (don't stop at distance target — Phase 1 is time-based).
 
 ---
 
-#### Friday, May 8 -- RECOVERY RUN/WALK
+#### Friday, May 8 -- ZONE 2 EASY RUN
+
+| Detail | Target |
+|--------|--------|
+| **Total Time** | 25 minutes |
+| **Run/Walk Ratio** | Run 4 min / Walk 1 min |
+| **Estimated Distance** | ~1.75 miles |
+| **Zone** | Zone 1-2 (122-150 bpm) |
+| **Calendar** | 7:30 AM PDT |
+
+**Instructions:**
+This Friday is the test of your adherence pattern. Three skipped Fridays in a row would mean we move to a sustainable 1x/week plan. This run needs to happen.
+
+---
+
+### WEEK 5 -- Recovery Week (May 12-15, 2026)
+**Target Total: ~2.5 miles | Run/Walk Ratio: Run 2 min / Walk 1 min (step back) | Intensity: 100% Zone 1**
+
+> Recovery deferred from Week 4. Non-negotiable — your body needs this after a 4-week build. Mileage drops ~37%. Ratio steps back to R2/W1. Target Zone 1, not Zone 2.
+
+---
+
+#### Tuesday, May 12 -- RECOVERY RUN/WALK
+
+| Detail | Target |
+|--------|--------|
+| **Total Time** | 22 minutes |
+| **Run/Walk Ratio** | Run 2 min / Walk 1 min |
+| **Estimated Distance** | ~1.5 miles |
+| **Zone** | Zone 1 (122-136 bpm) -- aim for lower end |
+
+---
+
+#### Friday, May 15 -- RECOVERY RUN/WALK
 
 | Detail | Target |
 |--------|--------|
@@ -212,20 +251,22 @@ Deliberately easy. Target Zone 1, not Zone 2. This is especially important on Tu
 
 ---
 
-## Phase 1 Weeks 5-10 Preview
+## Phase 1 Weeks 6-11 Preview
 
-_Detailed sessions will be written as you complete weeks 1-4. This is the roadmap:_
+_Detailed sessions will be written as you complete weeks 1-5. This is the roadmap (shifted +1 week due to deferred Wk4 recovery):_
 
 | Week | Run/Walk Ratio | Tue (Longer) | Fri (Shorter) | Total Volume | Notes |
 |------|---------------|-------------|-------------|-------------|-------|
-| **Week 5** | Run 4 min / Walk 1 min | 32 min (~2.25 mi) | 25 min (~1.75 mi) | ~4 mi | Second build cycle begins |
-| **Week 6** | Run 5 min / Walk 1 min | 35 min (~2.5 mi) | 27 min (~2 mi) | ~4.5 mi | |
+| **Week 6** | Run 5 min / Walk 1 min | 35 min (~2.5 mi) | 27 min (~2 mi) | ~4.5 mi | Post-recovery rebuild |
 | **Week 7** | Run 7 min / Walk 1 min | 38 min (~2.75 mi) | 30 min (~2.25 mi) | ~5 mi | Approaching continuous running |
-| **Week 8** | Recovery | 22 min (~1.5 mi) | 20 min (~1.25 mi) | ~2.75 mi | Recovery week |
-| **Week 9** | Run 10 min / Walk 1 min | 40 min (~3 mi) | 32 min (~2.5 mi) | ~5.5 mi | Testing continuous running readiness |
-| **Week 10** | Run 15-20 min continuous | 42 min (~3.25 mi) | 30 min (~2.5 mi) | ~5.75 mi | Phase 1 exit test |
+| **Week 8** | Run 10 min / Walk 1 min | 40 min (~3 mi) | 32 min (~2.5 mi) | ~5.5 mi | |
+| **Week 9** | Recovery | 22 min (~1.5 mi) | 20 min (~1.25 mi) | ~2.75 mi | Recovery week |
+| **Week 10** | Run 15-20 min continuous | 42 min (~3.25 mi) | 30 min (~2.5 mi) | ~5.75 mi | Testing continuous running |
+| **Week 11** | Run 20+ min continuous | 45 min (~3.5 mi) | 30 min (~2.5 mi) | ~6 mi | Phase 1 exit test |
 
-**Phase 1 Exit Criteria:** Can run 20+ minutes continuously at Zone 2 without HR spiking above 155 bpm. If not achieved by Week 10, extend Phase 1 by 2-week increments. No shame, no rush.
+**Phase 1 Exit Criteria:** Can run 20+ minutes continuously at Zone 2 without HR spiking above 155 bpm. If not achieved by Week 11, extend Phase 1 by 2-week increments. No shame, no rush.
+
+> Note: Phase 1 is now 11 weeks instead of 10 due to the deferred recovery. Total plan timeline shifts to ~33 weeks.
 
 ---
 

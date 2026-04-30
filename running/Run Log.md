@@ -20,7 +20,7 @@ _Exportable snapshot — updated after every run._
 | **Easy pace trend** | Wk1: 12:35/mi @ 138 → Wk2: 13:11/mi @ 141 → Wk3 Tue: 12:11/mi @ 144 → Wk3 Wed strides: 12:05/mi @ 146 (✅ another pace PR) |
 | **Tue post-legs pattern** | Adapting well |
 | **Injury flags** | None |
-| **Coach assessment** | First strides session done. Pace PR (12:05/mi). Max HR 164 = top of Zone 3 / bottom of Zone 4 — strides were "controlled hard," not full neuromuscular sprint (full effort would peak 175-185). Avg HR 146 (upper Zone 2) appropriate for the session. Cadence stayed at 150 — likely averaged across full session (would need per-segment data to see stride bursts). Time was 18:43 vs planned 22 (cut 3 min — pattern). Week 3 closed at 4.02 mi vs 3.75 target ✅. Recovery week starts Tue May 5 — non-negotiable now after back-to-back. |
+| **Coach assessment** | Wk3 closed at 4.02 mi (over 3.75 target). 4 PRs in 4 runs. ⚠️ Recovery week DEFERRED to Wk5 at Savar's request — coach pushed back on the principle (3:1 build cycle exists for adaptation reasons), but at 4 mi/week volume one extension is tolerable WITH conditions: RPE ≥7 / HR drift +5 bpm / any pain / Oura <70 = recovery starts immediately. Week 4 (R4/W1, 32min Tue + 25min Fri) is now a build week. Friday MUST happen — 3 skipped Fridays in a row triggers conversation about moving to 1x/week plan. |
 
 ---
 
@@ -60,7 +60,8 @@ Claude will update this log and adjust the upcoming training plan based on your 
 | Week 1 | Apr 14-18 | ~2.75 mi | 2.06 mi | 2.06 mi | SKIPPED (basketball) | 50% of planned volume |
 | Week 2 | Apr 21-25 | ~3.25 mi | 1.80 mi | 1.80 mi | SKIPPED | 55% of planned volume |
 | Week 3 | Apr 28-29 | ~3.75 mi | 4.02 mi ✅ | 2.47 mi | 1.55 mi (strides, Wed) | Tue Z2 + Wed Strides (Fri swapped) |
-| Week 4 | May 5-8 | ~2.5 mi | -- | 1.25 mi | 1.25 mi | Recovery Week |
+| Week 4 | May 5-8 | ~4 mi | -- | 2.25 mi | 1.75 mi | **Build Week (Recovery deferred)** R4/W1 |
+| Week 5 | May 12-15 | ~2.75 mi | -- | 1.5 mi | 1.25 mi | Recovery Week (deferred from Wk4) R2/W1 |
 
 ---
 
