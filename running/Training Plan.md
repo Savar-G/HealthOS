@@ -193,6 +193,7 @@ Longest session yet. You're now running 75% of each interval block. Stay convers
 ---
 
 #### Tuesday, May 5 -- ZONE 2 LONG RUN (Post-Legs)
+> **Status:** DONE — 2.71 mi (PR), 32:02, 141 bpm avg (155 max), 11:49/mi (PR), cadence 150 spm. Long Run PR + Pace PR. 46 sec/mi faster than Wk1 baseline at +3 bpm. Override decision validated.
 
 | Detail | Target |
 |--------|--------|
