@@ -20,7 +20,7 @@ _Exportable snapshot — updated after every run._
 | **Easy pace trend** | Wk1: 12:35/mi @ 138 → Wk2: 13:11/mi @ 141 → Wk3 Tue: 12:11/mi @ 144 → Wk3 Wed strides: 12:05/mi @ 146 → **Wk4 Tue: 11:49/mi @ 141** (5 PRs in 5 runs) |
 | **Tue post-legs pattern** | Adapting excellently |
 | **Injury flags** | None |
-| **Coach assessment** | Best aerobic signal yet. New pace PR (11:49/mi) AND running 46 sec/mi faster than Wk1 baseline at only +3 bpm avg HR — that's a textbook positive aerobic adaptation, validates the override decision. Long Run PR (2.71 mi). Hit full 32-min time target ✅. Cadence 150 spm now confirmed as natural cadence, not avg artifact — needs active intervention (metronome, awareness, music). Friday tempo fartlek looks well-positioned given current fitness. ⚠️ Need RPE from Savar — not reported this time. |
+| **Coach assessment** | Best aerobic signal yet. New pace PR (11:49/mi) AND running 46 sec/mi faster than Wk1 baseline at only +3 bpm avg HR — textbook positive aerobic adaptation. Long Run PR (2.71 mi). Hit full 32-min time target ✅. RPE 6 (up from 4 last week) = appropriate given higher volume + ratio + pace; just below my off-ramp threshold of 7. Cadence 150 spm needs intervention. Friday tempo fartlek will likely land at RPE 7-8 (normal for quality work). Wk5 recovery now genuinely earned — not just protocol. |
 
 ---
 
@@ -50,7 +50,7 @@ Claude will update this log and adjust the upcoming training plan based on your 
 | -- | 2026-04-24 | Fri | Easy R/W | 1.5 mi / 22 min | SKIPPED | -- | -- | -- | -- | -- | -- | No reason logged. |
 | 3 | 2026-04-28 | Tue | Zone 2 R/W | 2 mi / 30 min | 2.47 mi | 30:07 | 144 bpm (154 max) | **12:11/mi (PR)** | Z2 | R3/W1 | -- | 337 cal. Cadence 150 spm. Pace PR, full time hit. |
 | 4 | 2026-04-29 | Wed | Strides Session | 22 min / 4 strides | 1.55 mi | 18:43 | 146 bpm (164 max) | **12:05/mi (PR)** | Z2-Z3 | 4x20s strides | -- | 205 cal. Cadence 150 spm avg (would need per-segment view). Replaced Fri May 1. |
-| 5 | 2026-05-05 | Tue | Zone 2 R/W | 2.25 mi / 32 min | **2.71 mi (PR)** | 32:02 | 141 bpm (155 max) | **11:49/mi (PR)** | Z2 | R4/W1 | -- | 330 cal. Long Run PR + Pace PR. 46 sec/mi faster than Wk1 baseline at only +3 bpm. Cadence 150 spm. RPE not reported. |
+| 5 | 2026-05-05 | Tue | Zone 2 R/W | 2.25 mi / 32 min | **2.71 mi (PR)** | 32:02 | 141 bpm (155 max) | **11:49/mi (PR)** | Z2 | R4/W1 | 6 | 330 cal. Long Run PR + Pace PR. 46 sec/mi faster than Wk1 baseline at only +3 bpm. Cadence 150 spm. RPE 6 (up from 4 last week — expected given higher volume + intensity). |
 
 ---
 
