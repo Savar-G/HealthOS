@@ -209,6 +209,7 @@ Now running 80% of each interval block. Conversational pace only. If HR drifts a
 ---
 
 #### Friday, May 8 -- QUALITY: TEMPO FARTLEK (Phase 2 Bridge)
+> **Status:** DONE — 2.01 mi, 26:03 (perfect time hit), 140 bpm avg (163 max — top of Zone 3 ✅), run/walk split 16:17/9:46, cadence 136 avg (walk dilution). First quality session complete. Friday adherence reset.
 
 | Detail | Target |
 |--------|--------|

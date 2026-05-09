@@ -96,7 +96,7 @@ Notion-inspired editorial minimalism:
 
 ## Current State (as of 2026-04-12)
 - **Strength:** Active — 994 sessions logged, 27-day gap since last workout (Mar 16)
-- **Running:** Ready — 27-week half marathon plan, first run Apr 12 (today)
+- **Running:** Active — 33-week plan (2x/week, extended +1 wk via deferred recovery), 6 runs logged through Wk4, easy pace PR 11:49/mi @ 141 bpm, quality sessions started (strides + tempo fartlek). Wk5 May 12-15 = Recovery Week.
 - **Oura:** Active — 94 daily entries, recovery status RED (HRV declining, possible illness)
 - **Weight:** Active — 1,602 daily entries, current 155.8 lbs, trending up
 - **Dashboard:** Next.js app with 5 interactive pages, all data-driven
