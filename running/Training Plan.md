@@ -226,32 +226,40 @@ First true tempo session. Different stimulus from Wed Apr 29 strides — slower 
 
 ---
 
-### WEEK 5 -- Recovery Week (May 12-15, 2026)
-**Target Total: ~2.5 miles | Run/Walk Ratio: Run 2 min / Walk 1 min (step back) | Intensity: 100% Zone 1**
+### WEEK 5 -- Continued Build (May 12-15, 2026)
+**Target Total: ~5 miles | Run/Walk Ratio: Run 5 min / Walk 1 min (Tue) | Intensity: Zone 2 + Zone 3 quality**
 
-> Recovery deferred from Week 4. Non-negotiable — your body needs this after a 4-week build. Mileage drops ~37%. Ratio steps back to R2/W1. Target Zone 1, not Zone 2.
-
----
-
-#### Tuesday, May 12 -- RECOVERY RUN/WALK
-
-| Detail | Target |
-|--------|--------|
-| **Total Time** | 22 minutes |
-| **Run/Walk Ratio** | Run 2 min / Walk 1 min |
-| **Estimated Distance** | ~1.5 miles |
-| **Zone** | Zone 1 (122-136 bpm) -- aim for lower end |
+> ⚠️ Recovery DEFERRED AGAIN at Savar's request. This will be Week 5 of consecutive building (167% of standard mesocycle). New working agreement: coach flags recovery triggers, athlete decides. Triggers (any one fires = flag): 3+ consecutive build weeks (currently true), RPE 7+ on Tue x2, HR drift +5 bpm at same pace, any pain >3 days, Oura readiness <70 x3 days, pace regression x2.
 
 ---
 
-#### Friday, May 15 -- RECOVERY RUN/WALK
+#### Tuesday, May 12 -- ZONE 2 LONG RUN (Post-Legs)
 
 | Detail | Target |
 |--------|--------|
-| **Total Time** | 20 minutes |
-| **Run/Walk Ratio** | Run 2 min / Walk 1 min |
-| **Estimated Distance** | ~1.25 miles |
-| **Zone** | Zone 1 (122-136 bpm) |
+| **Total Time** | 35 minutes |
+| **Run/Walk Ratio** | Run 5 min / Walk 1 min |
+| **Estimated Distance** | ~2.5 miles |
+| **Zone** | Zone 2 (136-150 bpm) |
+| **Calendar** | 7:30 AM PDT |
+
+**Instructions:**
+Now running 83% of each interval block. Conversational pace. Run the FULL 35 minutes. If RPE hits 7+ during this run, that's a recovery trigger — tell me after.
+
+---
+
+#### Friday, May 15 -- QUALITY: TEMPO FARTLEK (Progression)
+
+| Detail | Target |
+|--------|--------|
+| **Total Time** | ~28 minutes |
+| **Structure** | 8 min WU + 6 x (1 min Z3 / 90 sec walk) + 5 min CD |
+| **Interval Effort** | Zone 3 (150-164 bpm) |
+| **Total Z3 time** | 6 minutes (vs 5 min last week, +20%) |
+| **Calendar** | 7:30 AM PDT |
+
+**Instructions:**
+Same protocol as Wk4 Friday, +1 interval. The 6th interval will tell you something — if it feels harder than #5, that's accumulated fatigue from no recovery talking. Try a cadence intervention during warm-up: high-BPM music or watch metronome at 165 spm.
 
 ---
 

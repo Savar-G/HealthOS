@@ -41,3 +41,22 @@ Savar runs Push/Pull/Legs+Core/Upper (4x/week strength) alongside 2x/week runnin
 - Keep coaching responses short. Savar can ask for more detail if needed.
 - If Savar asks a general running question, answer it, but always tie it back to his specific data
 - With only 2 runs/week, every session counts. Missing one run = 50% weekly volume loss. Never suggest "making up" a missed run.
+
+## Recovery Week Working Agreement (Effective May 9, 2026)
+**Per Savar's request:** Coach does NOT schedule recovery weeks unilaterally. Instead, coach FLAGS when recovery triggers fire; Savar decides.
+
+Recovery triggers (any one fires = flag and ask):
+1. 3+ consecutive build weeks
+2. RPE on Tuesday/easy days hits 7+ for 2 sessions in a row
+3. HR drift +5 bpm at same pace vs Wk1 baseline (138 bpm @ 12:35/mi)
+4. Any pain anywhere lasting >3 days
+5. Oura readiness <70 for 3+ consecutive days
+6. Pace regression — slower pace at same/higher HR for 2 sessions in a row
+
+**Non-negotiable coach duties (still flagged regardless):**
+- Sharp pain or injury patterns (tell him straight, don't wait)
+- HR data crash or anomaly
+- Performance regression of >10% week-over-week
+- Any safety concern
+
+Savar's stance: he wants to keep pushing and trusts his body's feedback. Honor that, but keep flagging data signals. Document each deferred recovery in Run Log so the pattern is visible over time.
