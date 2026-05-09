@@ -21,7 +21,7 @@ _Exportable snapshot — updated after every run._
 | **Tempo data (n=1)** | Max HR 163 bpm hit Zone 3 ceiling during Wk4 Fri fartlek intervals |
 | **Friday adherence** | ✅ FRIDAY MAY 8 COMPLETED — first non-skipped Friday in 4 weeks. Pattern reset. |
 | **Injury flags** | None |
-| **Coach assessment** | First quality session DONE. Hit time target perfectly (26:03 vs 26). Max HR 163 = exactly the top of Zone 3 — intervals landed in the right intensity window. Avg HR 140 = entire session in Zone 2 range across work + recovery (tempo signature). Cadence 136 avg looks low but is artifact of 9:46 walking diluting the average — actual running cadence was likely 145-155 (still needs intervention but not regressing). Running time 16:17 / walk time 9:46 = 62/38 split (matches planned 8min WU + 5x1min Z3 + 5x90s walk + 5min CD structure). Wk4 closed at 4.72 mi vs 4 target ✅. **Wk5 recovery is non-negotiable now — body has earned it.** Next: Tue May 12 recovery R2/W1, 22 min, Zone 1. |
+| **Coach assessment** | First quality session DONE. Hit time target perfectly (26:03 vs 26). Max HR 163 = exactly the top of Zone 3 — intervals landed in the right intensity window. Avg HR 140 = entire session in Zone 2 range across work + recovery (tempo signature). RPE 7 = right where tempo work should land. Wk4 closed at 4.72 mi vs 4 target ✅. **Wk5 recovery is non-negotiable now.** Cadence intervention going forward: no per-segment data on watch — will use audio-based methods (high-BPM music or metronome) to drive cadence up during run intervals. Next: Tue May 12 recovery R2/W1, 22 min, Zone 1. |
 
 ---
 
@@ -52,7 +52,7 @@ Claude will update this log and adjust the upcoming training plan based on your 
 | 3 | 2026-04-28 | Tue | Zone 2 R/W | 2 mi / 30 min | 2.47 mi | 30:07 | 144 bpm (154 max) | **12:11/mi (PR)** | Z2 | R3/W1 | -- | 337 cal. Cadence 150 spm. Pace PR, full time hit. |
 | 4 | 2026-04-29 | Wed | Strides Session | 22 min / 4 strides | 1.55 mi | 18:43 | 146 bpm (164 max) | **12:05/mi (PR)** | Z2-Z3 | 4x20s strides | -- | 205 cal. Cadence 150 spm avg (would need per-segment view). Replaced Fri May 1. |
 | 5 | 2026-05-05 | Tue | Zone 2 R/W | 2.25 mi / 32 min | **2.71 mi (PR)** | 32:02 | 141 bpm (155 max) | **11:49/mi (PR)** | Z2 | R4/W1 | 6 | 330 cal. Long Run PR + Pace PR. 46 sec/mi faster than Wk1 baseline at only +3 bpm. Cadence 150 spm. RPE 6 (up from 4 last week — expected given higher volume + intensity). |
-| 6 | 2026-05-08 | Fri | Tempo Fartlek | 1.75 mi / 26 min | 2.01 mi | 26:03 | 140 bpm (163 max) | 12:57/mi overall | Z2-Z3 | 5x(1m Z3 / 90s walk) | -- | 265 cal. ✅ Friday adherence reset! First quality session done. Max HR 163 = top of Zone 3. Run/walk split 16:17 / 9:46 (62/38). Cadence 136 avg = walk dilution artifact. RPE not reported. |
+| 6 | 2026-05-08 | Fri | Tempo Fartlek | 1.75 mi / 26 min | 2.01 mi | 26:03 | 140 bpm (163 max) | 12:57/mi overall | Z2-Z3 | 5x(1m Z3 / 90s walk) | 7 | 265 cal. ✅ Friday adherence reset! First quality session done. RPE 7 (within expected 7-8 for tempo). Max HR 163 = top of Zone 3. Cadence 136 avg = walk dilution artifact (no per-segment data available). |
 
 ---
 
