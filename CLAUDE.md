@@ -95,8 +95,22 @@ Notion-inspired editorial minimalism:
 - Dates use YYYY-MM-DD format
 
 ## Current State (as of 2026-05-10)
-- **Strength:** Active — 996 sessions logged, last session Apr 18 (Push). Coming back from 24-day gap; weights regressed 10–20% as expected during rebuild.
-- **Running:** Active — 32-week half marathon plan (2x/week), Week 1 done. 1 run logged (Apr 14: 2.06 mi @ 12:35/mi, 138 bpm). Apr 17 Friday session skipped for basketball.
-- **Oura:** Active — 102 daily entries through Apr 19, recovery status 🟢 GREEN (HRV recovered from 41ms → 73ms; cleared to train)
-- **Weight:** Active — 1,625 daily entries, current 159.6 lbs (May 10), trending up (+3.8 lbs since Apr 12)
-- **Dashboard:** Next.js app with 5 interactive pages, all data-driven
+- **Strength:** Active — 1,006 unique sessions, last session May 10 (Pull). 4 sessions this week, 9 PRs in last 22 days. Fully recovered from Mar-Apr gap and pushing past pre-break weights. Split stabilized at Push/Pull/Legs+Core/Upper.
+- **Running:** Active — 33-week half marathon plan (2x/week), 6 runs logged through May 8. Wk4 closed with PRs: easy pace 11:49/mi @ 141 bpm (Tue) + first quality session done (Fri tempo fartlek). Wk5 = Recovery Week.
+- **Oura:** Active — 123 daily entries through May 10. Status 🟢 GREEN. 7-day HRV 66ms, readiness 80, sleep 83. Sleep + Activity raw CSVs are 32 days stale (last export Apr 8) — re-run `python3 oura/import_oura.py` after re-export.
+- **Weight:** Active — 1,625 daily entries, current 159.6 lbs (May 10), +3.8 lbs since Apr 12 (productive refueling during training rebuild).
+- **Dashboard:** Next.js app with 5 interactive pages, all data-driven. Insights page renders `coach_notes.md` at top.
+
+## Workflow: `/sync-health`
+
+Whenever you've updated multiple data sources (running log, strength workouts, Oura recovery, weight) and want the dashboard refreshed + a fresh coach deep dive, run **`/sync-health`** in Claude Code. The skill lives at `.claude/commands/sync-health.md`.
+
+It does three things in order:
+
+1. **Sweep** — surveys the latest entry date in every data source (strength CSV, Oura recovery log + raw CSVs, weight CSV, run log) and flags any that are stale.
+2. **Sync dashboard** — bumps the "Current State" snapshot in this CLAUDE.md, fixes any stale labels in dashboard pages, and runs `npm run build` to verify.
+3. **Coach deep dive** — rewrites `coach_notes.md` with cross-domain insights for the period since last sync. This file is rendered as the top section of the Insights page (`/insights`). The coach voice is opinionated, evidence-backed, and prescriptive — connecting domains in ways no single agent can.
+
+The slash command commits and pushes everything in one logical commit.
+
+**Don't** confuse `/sync-health` with the four domain agents. The agents (`strength/`, `running/`, `oura/`) update _their own_ data on every interaction. `/sync-health` is the periodic cross-cutting layer that turns that data into dashboard updates + coach insights.

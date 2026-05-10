@@ -2,13 +2,170 @@ import { PageHeader } from "@/components/layout/page-header"
 import { getStrengthData } from "@/lib/data/strength"
 import { getRecoveryData } from "@/lib/data/oura"
 import { getRunningData } from "@/lib/data/running"
+import { readMarkdownFile } from "@/lib/parsers/markdown-tables"
 
 export const dynamic = "force-dynamic"
+
+/**
+ * Read the Coach's Deep Dive notes (curated cross-domain insights).
+ * File is rewritten on each /sync-health run.
+ */
+function getCoachNotes(): {
+  lastSync: string | null
+  period: string | null
+  bodyMarkdown: string
+} {
+  const raw = readMarkdownFile("coach_notes.md")
+  if (!raw) return { lastSync: null, period: null, bodyMarkdown: "" }
+
+  const lastSyncMatch = raw.match(/_Last sync:\s*(.+?)_/i)
+  const periodMatch = raw.match(/_Period covered:\s*(.+?)_/i)
+
+  // Strip the H1 + the two italics lines so the rendered card doesn't double-title
+  const body = raw
+    .replace(/^#\s+.+\n/, "")
+    .replace(/^_Last sync:.+?_\n/im, "")
+    .replace(/^_Period covered:.+?_\n/im, "")
+    .trim()
+
+  return {
+    lastSync: lastSyncMatch?.[1] ?? null,
+    period: periodMatch?.[1] ?? null,
+    bodyMarkdown: body,
+  }
+}
+
+/**
+ * Minimal markdown renderer — handles H2, H3, lists, tables, bold, and paragraphs.
+ * Avoids pulling in a full markdown library for this single use case.
+ */
+function renderMarkdown(md: string): React.ReactElement[] {
+  const lines = md.split("\n")
+  const out: React.ReactElement[] = []
+  let i = 0
+  let key = 0
+
+  const inline = (text: string): React.ReactNode => {
+    // Bold via **text**
+    const parts = text.split(/(\*\*[^*]+\*\*)/g)
+    return parts.map((p, idx) => {
+      if (p.startsWith("**") && p.endsWith("**")) {
+        return <strong key={idx}>{p.slice(2, -2)}</strong>
+      }
+      return <span key={idx}>{p}</span>
+    })
+  }
+
+  while (i < lines.length) {
+    const line = lines[i]
+
+    // Heading 2
+    if (line.startsWith("## ")) {
+      out.push(
+        <h4 key={key++} className="text-[15px] font-bold mt-5 mb-2 tracking-[-0.01em]">
+          {line.slice(3)}
+        </h4>
+      )
+      i++
+      continue
+    }
+    // Heading 3
+    if (line.startsWith("### ")) {
+      out.push(
+        <h5 key={key++} className="text-[13px] font-semibold mt-4 mb-1.5 text-[var(--text-primary)]">
+          {line.slice(4)}
+        </h5>
+      )
+      i++
+      continue
+    }
+    // Table — pipe-delimited block
+    if (line.trim().startsWith("|") && i + 1 < lines.length && lines[i + 1].includes("---")) {
+      const tableLines: string[] = []
+      while (i < lines.length && lines[i].trim().startsWith("|")) {
+        tableLines.push(lines[i])
+        i++
+      }
+      const header = tableLines[0].split("|").slice(1, -1).map((c) => c.trim())
+      const body = tableLines.slice(2).map((row) =>
+        row.split("|").slice(1, -1).map((c) => c.trim())
+      )
+      out.push(
+        <div key={key++} className="my-3 overflow-x-auto">
+          <table className="w-full text-[12px]">
+            <thead>
+              <tr className="border-b border-[rgba(0,0,0,0.1)]">
+                {header.map((h, hi) => (
+                  <th key={hi} className="text-left py-2 font-semibold text-[var(--text-secondary)] text-[10px] uppercase tracking-wider">
+                    {h}
+                  </th>
+                ))}
+              </tr>
+            </thead>
+            <tbody>
+              {body.map((row, ri) => (
+                <tr key={ri} className="border-b border-[rgba(0,0,0,0.05)]">
+                  {row.map((cell, ci) => (
+                    <td key={ci} className="py-1.5 pr-3">{inline(cell)}</td>
+                  ))}
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      )
+      continue
+    }
+    // Ordered list
+    if (/^\d+\.\s/.test(line)) {
+      const items: string[] = []
+      while (i < lines.length && /^\d+\.\s/.test(lines[i])) {
+        items.push(lines[i].replace(/^\d+\.\s/, ""))
+        i++
+      }
+      out.push(
+        <ol key={key++} className="list-decimal pl-5 space-y-1.5 my-2 text-[13px] text-[var(--text-secondary)] leading-relaxed">
+          {items.map((it, ii) => <li key={ii}>{inline(it)}</li>)}
+        </ol>
+      )
+      continue
+    }
+    // Unordered list
+    if (line.startsWith("- ")) {
+      const items: string[] = []
+      while (i < lines.length && lines[i].startsWith("- ")) {
+        items.push(lines[i].slice(2))
+        i++
+      }
+      out.push(
+        <ul key={key++} className="list-disc pl-5 space-y-1.5 my-2 text-[13px] text-[var(--text-secondary)] leading-relaxed">
+          {items.map((it, ii) => <li key={ii}>{inline(it)}</li>)}
+        </ul>
+      )
+      continue
+    }
+    // Blank line
+    if (line.trim() === "") {
+      i++
+      continue
+    }
+    // Paragraph
+    out.push(
+      <p key={key++} className="text-[13px] text-[var(--text-secondary)] leading-relaxed my-2">
+        {inline(line)}
+      </p>
+    )
+    i++
+  }
+
+  return out
+}
 
 export default function InsightsPage() {
   const strength = getStrengthData()
   const recovery = getRecoveryData()
   const running = getRunningData()
+  const coach = getCoachNotes()
 
   const hasMultipleDomains =
     (strength.totalSessions > 0 ? 1 : 0) +
@@ -84,9 +241,31 @@ export default function InsightsPage() {
       <PageHeader title="Insights" subtitle="Cross-domain correlations and AI narrative" />
 
       <div className="space-y-6">
-        {/* What Your Body Is Saying */}
+        {/* Coach's Deep Dive — curated cross-domain insights, refreshed by /sync-health */}
+        {coach.bodyMarkdown && (
+          <div className="border border-[rgba(0,0,0,0.1)] rounded-lg p-6 shadow-[var(--shadow-card)] bg-white">
+            <div className="flex items-baseline justify-between mb-2">
+              <h3 className="text-[17px] font-bold tracking-[-0.01em]">Coach&apos;s Deep Dive</h3>
+              {coach.lastSync && (
+                <span className="text-[11px] text-[var(--text-tertiary)] font-mono">
+                  synced {coach.lastSync}
+                </span>
+              )}
+            </div>
+            {coach.period && (
+              <p className="text-[11px] text-[var(--text-tertiary)] mb-3 italic">
+                Period: {coach.period}
+              </p>
+            )}
+            <div className="prose-coach">
+              {renderMarkdown(coach.bodyMarkdown)}
+            </div>
+          </div>
+        )}
+
+        {/* What Your Body Is Saying — auto-generated from current data */}
         <div className="border border-[rgba(0,0,0,0.1)] rounded-lg p-6 shadow-[var(--shadow-card)] bg-gradient-to-br from-white to-[var(--bg-warm)]">
-          <h3 className="text-[17px] font-bold mb-4 tracking-[-0.01em]">What Your Body Is Saying</h3>
+          <h3 className="text-[17px] font-bold mb-4 tracking-[-0.01em]">Live Snapshot</h3>
           {narrativeParagraphs.length > 0 ? (
             <div className="space-y-3">
               {narrativeParagraphs.map((p, i) => (

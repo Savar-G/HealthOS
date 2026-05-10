@@ -19,8 +19,9 @@ Thumbs.db
 .vscode/
 .idea/
 
-# Claude
-.claude/
+# Claude — ignore all .claude/ except shared commands
+.claude/*
+!.claude/commands/
 
 # Claude Code skills (installed from skills-lock.json)
 .agents/
