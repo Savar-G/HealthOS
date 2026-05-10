@@ -1,43 +1,50 @@
 # Strength Profile
 
 ## State of My Strength
-_Last updated: 2026-04-19_
+_Last updated: 2026-05-10_
 
-- **Last session:** 2026-04-18 — Push (35min); Incline DB 65x3, Pec Deck 130x8, JM Press 50x7
-- **This week (Mon Apr 13–Sun Apr 19):** 3 sessions (Mon Legs+Core, Thu Upper, Sat Push), 23,895 lbs total volume
+- **Last session:** 2026-05-10 — Pull (49min); Lat Pulldown 150x7, Iso Low Row 95x7, Cable Pullover 24x7
+- **This week (Mon May 4–Sun May 10):** 4 sessions (Legs+Core, Upper, Push, Pull), 29,507 lbs total volume
 - **Current focus lifts:**
-  - Hack Squat: 70 lbs working (building back up from 82.5)
-  - Incline DB Bench: 60–65 lbs working (regressed from 65x7)
-  - Shoulder Press (Plate Loaded): 70–75 lbs working (regressed from 82.5)
-  - RDL: 70 lbs working (building back from 90)
-- **Progressive overload trend:** Rebuilding — coming off a 24-day gap (last pre-break session Mar 16). Weights expectedly regressed 10–20% across the board. Expect full rebuild over 2–4 weeks.
-- **Volume balance:** This week — quads (6 sets) > back (8) ≈ chest (8) > triceps (10) > shoulders (6) > hamstrings (2) > biceps (4). Push-heavy week; hamstrings still undertrained.
-- **Coach assessment:** Good comeback — 3 sessions in your first full week back. One PR (JM Press 55x6). Volume/intensity is deload-appropriate. Next priority: lock in a consistent split again.
+  - Hack Squat: 77.5 lbs working (rebuilding toward 82.5 PR)
+  - Incline DB Bench: 70 lbs working (back above pre-break level)
+  - Shoulder Press (Plate Loaded): 70 lbs / DB Seated Shoulder Press: 55-60 lbs
+  - RDL: 80 lbs working (rebuilt to 89% of 90 lb pre-break PR)
+- **Progressive overload trend:** Strong upward — 9 new PRs in last 22 days. Fully recovered from gap and now pushing past pre-break weights.
+- **Volume balance (30d):** Back (48 sets) leads, then Chest (38) ≈ Triceps (36) > Shoulders (30) > Quads (20) ≈ Biceps (20) > Core (10) > Hamstrings (8). Hamstrings still the weak link but improving.
+- **Coach assessment:** Excellent comeback. Split has stabilized into Push/Pull/Legs+Core/Upper, 3-4x/week. PRs on Calf Press, Tricep Dips, Iso Chest Press, Lateral Raise, and more. Keep the momentum.
 
-### Session Frequency (Last 3 weeks)
-| Week | Sessions | Notes |
-|---|---|---|
-| Apr 13–19 | 3 | Legs+Core, Upper, Push |
-| Apr 6–12 | 2 | Full Body C (return), Push |
-| Mar 30–Apr 5 | 0 | Gap continued |
-
-### Recent PRs
-| Exercise | Weight x Reps | Est. 1RM | Date |
+### Session Frequency (Last 4 weeks)
+| Week | Sessions | Volume (lbs) | Notes |
 |---|---|---|---|
-| JM Press / Tricep Press | 55 x 6 | 66.0 | 2026-04-12 ⬆ |
-| Calf Press on Seated Leg Press | 220 x 8 | 278.7 | 2026-03-16 |
-| Leg Extension (Machine) | 205 x 9 | 266.5 | 2025-11-24 |
-| Iso Lateral Low Row | 110 x 6 | 132.0 | 2026-03-16 |
-| Lat Pulldown (Cable) | 150 x 8 | 190.0 | 2026-03-11 |
+| May 4–10 | 4 | 29,507 | Legs+Core, Upper, Push, Pull |
+| Apr 27–May 3 | 2 | 14,459 | Legs+Core, Upper |
+| Apr 20–26 | 3 | 26,116 | Legs+Core, Upper, Morning |
+| Apr 13–19 | 4 | 28,738 | Legs+Core, Upper, Push, Pull |
 
-### Stall Flags (lift hasn't progressed in 3+ sessions)
-- **Incline DB Bench** — 65x7 for 3 pre-break sessions, then dropped to 65x3 on Apr 18. Keep at 60 until you can hit 60x8 cleanly.
-- **Lying Leg Curl** — Multiple failed sets (0 reps) in last month of pre-break. Form/weight issue. Drop 10% and grease the movement.
+### Recent PRs (Last 30 Days)
+| Exercise | Weight x Reps | Est. 1RM | Date | Notes |
+|---|---|---|---|---|
+| Calf Press on Seated Leg Press | 235 x 8 | 297.7 | 2026-05-04 | ⬆ from 215x10 |
+| Tricep Dips Machine | 180 x 9 | 234.0 | 2026-05-06 | ⬆ from 160x12 |
+| Lateral Raise (Machine) | 85 x 6 | 102.0 | 2026-05-09 | ⬆ from 80x8 |
+| Cable Crunch | 77.5 x 8 | 98.2 | 2026-05-04 | ⬆ from 72.5x10 |
+| Incline Press on Shoulder Press Machine | 80 x 6 | 96.0 | 2026-05-06 | First time |
+| Iso-Lateral Chest Press (Machine) | 60 x 8 | 76.0 | 2026-05-06 | ⬆ massive jump from 45x7 (2021) |
+| DB Seated Shoulder Press | 60 x 4 | 68.0 | 2026-05-06 | ⬆ from 50x6 |
+| JM Press / Tricep Press | 55 x 7 | 67.8 | 2026-04-30 | ⬆ from 55x6 |
+| Cable Lat Pullover | 24 x 7 | 29.6 | 2026-05-10 | First time |
+
+### Stall Flags
+- **Lying Leg Curl** — stuck at 110x7 for 3 sessions (Apr 20, 27, May 4). Time to try 115 or push reps to 9.
+- **Lat Focus Wide Grip Lat Pulldown** — 150x5 then 150x4 then 150x7 — strength is back but inconsistent. Push for 150x8 next.
+- **Preacher Curl (Machine)** — Hovering 65x7. Try 70x6.
 
 ### Flags
-1. **Split has shifted** — You logged Full Body C, then Push, Legs+Core, Upper, Push. That's no longer Full Body A/B/C (Sat/Mon/Wed). Looks like you're running a PPL/Upper-Lower hybrid. **Worth confirming: is this intentional?** If so, I'll update the profile split.
-2. **Hamstrings still undertrained** — only 2 sets this week (RDL 70x5 and 70x7). Needs direct work in your leg-focused days.
-3. **Two Push days this week** (Apr 12, Apr 18) with only 6 days between and no Pull session in between — chest/triceps getting hit twice, back once. Add a Pull day or rebalance.
+1. **Split has settled** — Push / Pull / Legs+Core / Upper hybrid, ~3-4x/week. Original "Full Body A/B/C Sat/Mon/Wed" is no longer accurate. Profile updated to reflect new structure.
+2. **Hamstrings improving but still lowest** — 8 sets in 30d vs 20 quad sets. Add a 3rd hamstring set per Legs day (seated leg curl or DB RDL drop set).
+3. **Last week (Apr 27–May 3) was light** — only 2 sessions. This week (May 4–10) you're back to 4. Watch for the 2-session weeks — they're correlated with lower total volume.
+4. **Running integration starting** — Per memory, you've begun a half marathon plan (Apr 14, 33 wks). 2 runs/week (Tue Z2 + Fri Quality) integrating with 4x strength. Friday quality + Saturday Push is the riskiest combo — monitor leg fatigue.
 
 ---
 
@@ -45,7 +52,7 @@ _Last updated: 2026-04-19_
 - **App**: Strong (iOS)
 - **Data Format**: Strong export CSV
 - **Goals**: Hypertrophy + Strength (building muscle)
-- **Split (stated)**: Full Body A/B/C, 3x/week (Sat/Mon/Wed)
-- **Split (observed Apr 9–18)**: Push/Legs+Core/Upper/Push hybrid — needs clarification
-- **Training History**: 996 sessions since September 2020 (~5.5 years). Previously ran PPL, Upper/Lower, and various splits before current full body rotation.
+- **Current Split**: Push / Pull / Legs+Core / Upper hybrid, 3-4x/week
+- **Training History**: 1,006 sessions since September 2020 (~5.6 years). Previously ran PPL, Upper/Lower, Full Body A/B/C before current hybrid.
 - **Injuries/Limitations**: None reported
+- **Concurrent Training**: Half marathon plan in progress (33 wks from Apr 14 2026), 2 runs/week (Tue easy + Fri quality)

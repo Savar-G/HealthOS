@@ -1,8 +1,227 @@
 # Workout Log
 
-_Full history: 996 sessions from 2020-09-08 to 2026-04-18._
+_Full history: 1,006 sessions from 2020-09-08 to 2026-05-10._
 _Raw data: `strong_workouts_raw.csv`_
 _Below: last sessions in detail._
+
+---
+
+## 2026-05-10 — Pull (49min)
+| Exercise | Set | Weight (lbs) | Reps |
+|---|---|---|---|
+| Lat Focus Wide Grip Lat Pulldown | 1 | 150 | 7 |
+| Lat Focus Wide Grip Lat Pulldown | 2 | 150 | 4 |
+| Iso Lateral Low Row (Upper Back) | 1 | 95 | 7 |
+| Iso Lateral Low Row (Upper Back) | 2 | 95 | 6 |
+| Cable Lat Pullover | 1 | 24 | 7 |
+| Cable Lat Pullover | 2 | 24 | 7 |
+| Cable Lat Pullover | 3 | 24 | 6 |
+| Cable Lat Pullover | 4 | 24 | 6 |
+| Rear Delt Cable Fly | 1 | 14 | 8 |
+| Rear Delt Cable Fly | 2 | 14 | 8 |
+| Rear Delt Cable Fly | 3 | 14 | 9 |
+| Rear Delt Cable Fly | 4 | 14 | 9 |
+| Preacher Curl (Machine) | 1 | 65 | 7 |
+| Preacher Curl (Machine) | 2 | 65 | 5 |
+| Reverse Curl (Cable) | 1 | 39 | 8 |
+| Reverse Curl (Cable) | 2 | 39 | 7 |
+
+**PRs this session**: Cable Lat Pullover 24x7 (new exercise PR)
+
+---
+
+## 2026-05-09 — Push (47min)
+| Exercise | Set | Weight (lbs) | Reps |
+|---|---|---|---|
+| Incline Bench Press (Dumbbell) | 1 | 70 | 4 |
+| Incline Bench Press (Dumbbell) | 2 | 70 | 4 |
+| Pec Deck (Machine) | 1 | 140 | 8 |
+| Pec Deck (Machine) | 2 | 140 | 6 |
+| Shoulder Press (Plate Loaded) | 1 | 70 | 7 |
+| Shoulder Press (Plate Loaded) | 2 | 70 | 6 |
+| Lateral Raise (Machine) | 1 | 85 | 6 |
+| Lateral Raise (Machine) | 2 | 85 | 5 |
+| JM Press / Tricep Press | 1 | 57.5 | 4 |
+| JM Press / Tricep Press | 2 | 57.5 | 4 |
+| Single Arm Tricep Extension | 1 | 24 | 8 |
+| Single Arm Tricep Extension | 2 | 24 | 8 |
+| Single Arm Tricep Extension | 3 | 24 | 6 |
+| Single Arm Tricep Extension | 4 | 24 | 6 |
+
+**PRs this session**: Lateral Raise (Machine) 85x6 (e1RM 102.0)
+
+---
+
+## 2026-05-06 — Upper (56min)
+| Exercise | Set | Weight (lbs) | Reps |
+|---|---|---|---|
+| Incline Press on Shoulder Press Machine | 1 | 75 | 8 |
+| Incline Press on Shoulder Press Machine | 2 | 80 | 6 |
+| Iso-Lateral Chest Press (Machine) | 1 | 60 | 8 |
+| Iso-Lateral Chest Press (Machine) | 2 | 60 | 7 |
+| Dumbbell Seated Shoulder Press | 1 | 60 | 4 |
+| Dumbbell Seated Shoulder Press | 2 | 55 | 5 |
+| Seated Row (Cable) | 1 | 140 | 7 |
+| Seated Row (Cable) | 2 | 140 | 6 |
+| Single Arm Cable Lateral Raise (Hand Height) | 1 | 17.5 | 6 |
+| Single Arm Cable Lateral Raise (Hand Height) | 2 | 17.5 | 6 |
+| Single Arm Cable Lateral Raise (Hand Height) | 3 | 17.5 | 4 |
+| Single Arm Cable Lateral Raise (Hand Height) | 4 | 17.5 | 4 |
+| Tricep Dips Machine | 1 | 180 | 9 |
+| Tricep Dips Machine | 2 | 180 | 6 |
+| Tricep Pushdown | 1 | 64 | 8 |
+| Tricep Pushdown | 2 | 64 | 7 |
+
+**PRs this session**: Incline Press on Shoulder Press Machine 80x6 (e1RM 96.0, first time), Iso-Lateral Chest Press 60x8 (e1RM 76.0), Tricep Dips Machine 180x9 (e1RM 234.0), DB Seated Shoulder Press 60x4 (e1RM 68.0)
+
+---
+
+## 2026-05-04 — Legs + Core (52min)
+| Exercise | Set | Weight (lbs) | Reps |
+|---|---|---|---|
+| Hack Squat | 1 | 77.5 | 6 |
+| Hack Squat | 2 | 77.5 | 4 |
+| Romanian Deadlift (Barbell) | 1 | 80 | 6 |
+| Romanian Deadlift (Barbell) | 2 | 80 | 6 |
+| Leg Extension (Machine) | 1 | 160 | 8 |
+| Leg Extension (Machine) | 2 | 160 | 8 |
+| Lying Leg Curl (Machine) | 1 | 110 | 7 |
+| Lying Leg Curl (Machine) | 2 | 110 | 6 |
+| Calf Press on Seated Leg Press | 1 | 235 | 8 |
+| Calf Press on Seated Leg Press | 2 | 235 | 7 |
+| Cable Crunch | 1 | 77.5 | 8 |
+| Cable Crunch | 2 | 77.5 | 6 |
+
+**PRs this session**: Calf Press on Seated Leg Press 235x8 (e1RM 297.7), Cable Crunch 77.5x8 (e1RM 98.2)
+
+---
+
+## 2026-04-30 — Upper (1h 17min)
+| Exercise | Set | Weight (lbs) | Reps |
+|---|---|---|---|
+| Iso-Lateral Incline Press | 1 | 75 | 8 |
+| Iso-Lateral Incline Press | 2 | 75 | 6 |
+| Iso-Lateral Chest Press (Machine) | 1 | 55 | 8 |
+| Iso-Lateral Chest Press (Machine) | 2 | 55 | 6 |
+| Dumbbell Seated Shoulder Press | 1 | 55 | 7 |
+| Dumbbell Seated Shoulder Press | 2 | 55 | 5 |
+| Seated Row (Cable) | 1 | 130 | 8 |
+| Seated Row (Cable) | 2 | 130 | 7 |
+| Lateral Raise (Cable) | 1 | 15.5 | 7 |
+| Lateral Raise (Cable) | 2 | 15.5 | 5 |
+| Chest Supported Lat Pulldown | 1 | 85 | 8 |
+| Chest Supported Lat Pulldown | 2 | 85 | 8 |
+| Chest Supported Lat Pulldown | 3 | 85 | 7 |
+| Chest Supported Lat Pulldown | 4 | 85 | 7 |
+| JM Press / Tricep Press | 1 | 55 | 7 |
+| JM Press / Tricep Press | 2 | 55 | 5 |
+| Preacher Curl (Machine) | 1 | 65 | 7 |
+| Preacher Curl (Machine) | 2 | 65 | 4 |
+| Tricep Pushdown | 1 | 62.5 | 9 |
+| Tricep Pushdown | 2 | 62.5 | 7 |
+| Hammer Curl (Dumbbell) | 1 | 35 | 11 |
+| Hammer Curl (Dumbbell) | 2 | 35 | 8 |
+
+**PRs this session**: JM Press 55x7 (e1RM 67.8)
+
+---
+
+## 2026-04-27 — Legs + Core (43min)
+| Exercise | Set | Weight (lbs) | Reps |
+|---|---|---|---|
+| Hack Squat | 1 | 75 | 6 |
+| Hack Squat | 2 | 75 | 5 |
+| Romanian Deadlift (Barbell) | 1 | 75 | 7 |
+| Romanian Deadlift (Barbell) | 2 | 75 | 5 |
+| Lying Leg Curl (Machine) | 1 | 110 | 7 |
+| Lying Leg Curl (Machine) | 2 | 110 | 5 |
+| Cable Crunch | 1 | 75.5 | 9 |
+| Cable Crunch | 2 | 75.5 | 7 |
+
+---
+
+## 2026-04-26 — Morning Workout (55min)
+| Exercise | Set | Weight (lbs) | Reps |
+|---|---|---|---|
+| Incline Bench Press (Dumbbell) | 1 | 65 | 7 |
+| Incline Bench Press (Dumbbell) | 2 | 65 | 6 |
+| Pec Deck (Machine) | 1 | 135 | 8 |
+| Pec Deck (Machine) | 2 | 135 | 6 |
+| Lateral Raise (Machine) | 1 | 80 | 8 |
+| Lateral Raise (Machine) | 2 | 80 | 6 |
+| Lat Focus Wide Grip Lat Pulldown | 1 | 150 | 5 |
+| Lat Focus Wide Grip Lat Pulldown | 2 | 150 | 4 |
+| Iso Lateral Low Row (Upper Back) | 1 | 92.5 | 8 |
+| Iso Lateral Low Row (Upper Back) | 2 | 92.5 | 6 |
+| Bicep Curl (Dumbbell) | 1 | 35 | 6 |
+| Bicep Curl (Dumbbell) | 2 | 35 | 4 |
+| Tricep Pushdown | 1 | 60.5 | 8 |
+| Tricep Pushdown | 2 | 60.5 | 7 |
+
+---
+
+## 2026-04-23 — Upper (1h 18min)
+| Exercise | Set | Weight (lbs) | Reps |
+|---|---|---|---|
+| Iso-Lateral Chest Press (Machine) | 1 | 50 | 8 |
+| Iso-Lateral Chest Press (Machine) | 2 | 50 | 6 |
+| Dumbbell Seated Shoulder Press | 1 | 50 | 8 |
+| Dumbbell Seated Shoulder Press | 2 | 50 | 7 |
+| Lateral Raise (Cable) | 1 | 14 | 8 |
+| Lateral Raise (Cable) | 2 | 14 | 7 |
+| Seated Row (Cable) | 1 | 120 | 8 |
+| Seated Row (Cable) | 2 | 120 | 8 |
+| Chest Supported Lat Pulldown | 1 | 82.5 | 7 |
+| Chest Supported Lat Pulldown | 2 | 82.5 | 7 |
+| Chest Supported Lat Pulldown | 3 | 82.5 | 5 |
+| Chest Supported Lat Pulldown | 4 | 82.5 | 5 |
+| JM Press / Tricep Press | 1 | 55 | 6 |
+| JM Press / Tricep Press | 2 | 55 | 5 |
+| Tricep Pushdown | 1 | 59 | 8 |
+| Tricep Pushdown | 2 | 59 | 8 |
+| Preacher Curl (Machine) | 1 | 60 | 8 |
+| Preacher Curl (Machine) | 2 | 60 | 6 |
+
+---
+
+## 2026-04-20 — Legs + Core (46min)
+| Exercise | Set | Weight (lbs) | Reps |
+|---|---|---|---|
+| Hack Squat | 1 | 72.5 | 5 |
+| Hack Squat | 2 | 72.5 | 4 |
+| Romanian Deadlift (Barbell) | 1 | 72.5 | 6 |
+| Romanian Deadlift (Barbell) | 2 | 72.5 | 5 |
+| Leg Extension (Machine) | 1 | 155 | 9 |
+| Leg Extension (Machine) | 2 | 155 | 8 |
+| Lying Leg Curl (Machine) | 1 | 110 | 7 |
+| Lying Leg Curl (Machine) | 2 | 110 | 5 |
+| Calf Press on Seated Leg Press | 1 | 230 | 8 |
+| Calf Press on Seated Leg Press | 2 | 230 | 7 |
+| Cable Crunch | 1 | 74 | 8 |
+| Cable Crunch | 2 | 74 | 7 |
+| Cable Crunch | 3 | 74 | 6 |
+
+---
+
+## 2026-04-19 — Pull (43min)
+| Exercise | Set | Weight (lbs) | Reps |
+|---|---|---|---|
+| Lat Focus Wide Grip Lat Pulldown | 1 | 145 | 7 |
+| Lat Focus Wide Grip Lat Pulldown | 2 | 145 | 6 |
+| Iso Lateral Low Row (Upper Back) | 1 | 90 | 7 |
+| Iso Lateral Low Row (Upper Back) | 2 | 90 | 5 |
+| Cable Lat Pullover | 1 | 22.5 | 7 |
+| Cable Lat Pullover | 2 | 22.5 | 7 |
+| Cable Lat Pullover | 3 | 22.5 | 6 |
+| Cable Lat Pullover | 4 | 22.5 | 6 |
+| Rear Delt Cable Fly | 1 | 12.5 | 7 |
+| Rear Delt Cable Fly | 2 | 12.5 | 7 |
+| Rear Delt Cable Fly | 3 | 12.5 | 6 |
+| Rear Delt Cable Fly | 4 | 12.5 | 6 |
+| Bicep Curl (Dumbbell) | 1 | 30 | 8 |
+| Bicep Curl (Dumbbell) | 2 | 30 | 7 |
+| Reverse Curl (Cable) | 1 | 42.5 | 6 |
+| Reverse Curl (Cable) | 2 | 37.5 | 7 |
 
 ---
 
