@@ -60,12 +60,14 @@ An interactive Next.js web app that reads data from all agent directories and re
 
 | Domain | File | Records | Format |
 |--------|------|---------|--------|
-| Strength | `strength/strong_workouts_raw.csv` | 18,213 rows | CSV (comma) |
-| Recovery | `oura/Recovery_Log.md` | 94 daily entries | Markdown tables |
-| Sleep | `oura/raw/sleepmodel.csv` | 1,103 nights | CSV (semicolon) |
-| Steps | `oura/raw/dailyactivity.csv` | 834 days | CSV (semicolon) |
-| Weight | `data/weight.csv` | 1,602 entries | CSV (comma) |
-| Running | `running/Run Log.md` | 0 | Markdown tables |
+| Strength | `strength/strong_workouts_raw.csv` | 18,213+ rows | CSV (comma) |
+| Recovery | `oura/Recovery_Log.md` | 123+ daily entries | Markdown tables |
+| Sleep | `oura/Recovery_Log.md` (Sleep Score, Deep, Total, HRV, HR fields) | 123+ entries | Markdown tables |
+| Steps | `oura/Recovery_Log.md` (Steps field) | 123+ entries | Markdown tables |
+| Weight | `data/weight.csv` | 1,625+ entries | CSV (comma) |
+| Running | `running/Run Log.md` | 6+ runs | Markdown tables |
+
+> **Note on Oura data:** All Oura metrics now flow through `oura/Recovery_Log.md`. The Oura API skill writes directly to that markdown file. The `oura/raw/` CSVs are historical-only — kept as a backup but no longer read by the dashboard. REM sleep, light sleep, and efficiency are NOT in the markdown source, so the Sleep page falls back to a "Deep + Other" 2-stack composition view.
 
 ## Health Score
 
@@ -97,7 +99,7 @@ Notion-inspired editorial minimalism:
 ## Current State (as of 2026-05-10)
 - **Strength:** Active — 1,006 unique sessions, last session May 10 (Pull). 4 sessions this week, 9 PRs in last 22 days. Fully recovered from Mar-Apr gap and pushing past pre-break weights. Split stabilized at Push/Pull/Legs+Core/Upper.
 - **Running:** Active — 33-week half marathon plan (2x/week), 6 runs logged through May 8. Wk4 closed with PRs: easy pace 11:49/mi @ 141 bpm (Tue) + first quality session done (Fri tempo fartlek). Wk5 = Recovery Week.
-- **Oura:** Active — 123 daily entries through May 10. Status 🟢 GREEN. 7-day HRV 66ms, readiness 80, sleep 83. Sleep + Activity raw CSVs are 32 days stale (last export Apr 8) — re-run `python3 oura/import_oura.py` after re-export.
+- **Oura:** Active — 123 daily entries through May 10. Status 🟢 GREEN. 7-day HRV 66ms, readiness 80, sleep 83. Dashboard now reads Sleep + Steps directly from `Recovery_Log.md` (the API skill writes there) — no CSV re-export needed.
 - **Weight:** Active — 1,625 daily entries, current 159.6 lbs (May 10), +3.8 lbs since Apr 12 (productive refueling during training rebuild).
 - **Dashboard:** Next.js app with 5 interactive pages, all data-driven. Insights page renders `coach_notes.md` at top.
 

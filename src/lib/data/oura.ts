@@ -1,13 +1,10 @@
 import { readMarkdownFile, parseDatedTables } from "@/lib/parsers/markdown-tables"
-import { parseCSV } from "@/lib/parsers/csv"
-import { movingAverage, trendDirection, round, parseDurationToMinutes } from "@/lib/utils/stats"
+import { parseDurationToMinutes } from "@/lib/utils/stats"
 import type { RecoveryEntry, SleepEntry, RecoverySummary } from "@/lib/types/oura"
 import type { TrendDirection } from "@/lib/types/shared"
 
 const RECOVERY_LOG_PATH = "oura/Recovery_Log.md"
 const OURA_PROFILE_PATH = "oura/Oura_Profile.md"
-const SLEEP_CSV_PATH = "oura/raw/sleepmodel.csv"
-const ACTIVITY_CSV_PATH = "oura/raw/dailyactivity.csv"
 
 function parseTrendArrow(arrow: string): TrendDirection {
   if (arrow.includes("↑")) return "up"
@@ -117,42 +114,48 @@ export function getRecoveryData(): RecoverySummary {
   }
 }
 
+/**
+ * Sleep entries derived from the Oura Recovery_Log.md markdown.
+ *
+ * The markdown log is the source of truth — populated by the Oura API skill,
+ * which writes directly to markdown (not raw CSVs). The log contains:
+ * Sleep Score, HRV, Resting HR, Lowest HR, Deep Sleep ("Xh Ym"), Total Sleep ("Xh Ym").
+ * REM and Light durations + efficiency are NOT in the markdown — set to 0/null,
+ * and the StagesChart falls back to a "Deep + Other" 2-stack view.
+ */
 export function getSleepData(): SleepEntry[] {
-  const raw = parseCSV<Record<string, string>>(SLEEP_CSV_PATH, ";")
-  if (raw.length === 0) return []
-
-  return raw
-    .filter((r) => r["type"] === "long_sleep" && r["day"])
-    .map((r) => ({
-      date: r["day"] || "",
-      deepSleepDuration: parseInt(r["deep_sleep_duration"] || "0"),
-      remSleepDuration: parseInt(r["rem_sleep_duration"] || "0"),
-      lightSleepDuration: parseInt(r["light_sleep_duration"] || "0"),
-      totalSleepDuration: parseInt(r["total_sleep_duration"] || "0"),
-      efficiency: r["efficiency"] ? parseInt(r["efficiency"]) : null,
-      averageHRV: r["average_hrv"] ? parseFloat(r["average_hrv"]) : null,
-      averageHeartRate: r["average_heart_rate"]
-        ? parseFloat(r["average_heart_rate"])
-        : null,
-      lowestHeartRate: r["lowest_heart_rate"]
-        ? parseInt(r["lowest_heart_rate"])
-        : null,
-      bedtimeStart: r["bedtime_start"] || null,
-      bedtimeEnd: r["bedtime_end"] || null,
-    }))
-    .sort((a, b) => a.date.localeCompare(b.date))
+  const entries = parseRecoveryLog()
+  return entries
+    .filter((e) => e.deepSleep !== null || e.totalSleep !== null)
+    .map((e) => {
+      const deepMinutes = e.deepSleep ? parseDurationToMinutes(e.deepSleep) : 0
+      const totalMinutes = e.totalSleep ? parseDurationToMinutes(e.totalSleep) : 0
+      return {
+        date: e.date,
+        deepSleepDuration: deepMinutes * 60,
+        remSleepDuration: 0, // not available in markdown log
+        lightSleepDuration: 0, // not available in markdown log
+        totalSleepDuration: totalMinutes * 60,
+        efficiency: null, // not available in markdown log
+        averageHRV: e.hrv,
+        averageHeartRate: e.restingHR,
+        lowestHeartRate: e.lowestHR,
+        bedtimeStart: null,
+        bedtimeEnd: null,
+      }
+    })
 }
 
+/**
+ * Steps derived from the Oura Recovery_Log.md markdown.
+ * Filters out entries without a steps value.
+ */
 export function getStepsData(): { date: string; steps: number }[] {
-  const raw = parseCSV<Record<string, string>>(ACTIVITY_CSV_PATH, ";")
-  if (raw.length === 0) return []
-
-  return raw
-    .filter((r) => r["day"] && r["steps"])
-    .map((r) => ({
-      date: r["day"],
-      steps: parseInt(r["steps"]),
+  const entries = parseRecoveryLog()
+  return entries
+    .filter((e) => e.steps !== null && e.steps > 0)
+    .map((e) => ({
+      date: e.date,
+      steps: e.steps as number,
     }))
-    .filter((r) => !isNaN(r.steps))
-    .sort((a, b) => a.date.localeCompare(b.date))
 }

@@ -21,12 +21,15 @@ Run a single bash command that reports the latest date in each:
 
 ```bash
 echo "=== STRENGTH ===" && tail -3 strength/strong_workouts_raw.csv | cut -d',' -f1
-echo "=== OURA RECOVERY ===" && grep -E "^### " oura/Recovery_Log.md | tail -3
-echo "=== OURA SLEEP CSV ===" && awk -F';' 'NR>1 && /long_sleep/ {print}' oura/raw/sleepmodel.csv | grep -oE '[0-9]{4}-[0-9]{2}-[0-9]{2}' | sort -u | tail -3
-echo "=== OURA STEPS CSV ===" && awk -F';' 'NR>1 {for(i=1;i<=NF;i++) if($i ~ /^[0-9]{4}-[0-9]{2}-[0-9]{2}$/) print $i}' oura/raw/dailyactivity.csv | sort -u | tail -3
+echo "=== OURA (Recovery + Sleep + Steps all live here) ===" && grep -E "^### " oura/Recovery_Log.md | tail -3
 echo "=== WEIGHT ===" && tail -3 data/weight.csv
 echo "=== RUNNING ===" && grep -E "^\| [0-9]+ \|" "running/Run Log.md" | tail -3
 ```
+
+Oura data: **only check the markdown log.** All four Oura-derived dashboard
+views (Recovery, Sleep, Steps, HRV trends) read from `oura/Recovery_Log.md`.
+The raw CSVs in `oura/raw/` are historical backup only — do not check them
+for sync status.
 
 ### Step 2: Read each agent's "State of..." snapshot
 
@@ -42,7 +45,6 @@ The dashboard reads data files dynamically — most things update automatically.
 
 - **Stale "as of <date>" labels** in `CLAUDE.md` Current State section → bump
 - **Stale hardcoded text** in pages (e.g., "starts Apr 14" if running has started)
-- **Stale Oura raw CSVs** — the markdown agent might be current, but `oura/raw/sleepmodel.csv` and `oura/raw/dailyactivity.csv` only update when CSVs are re-exported. Flag this in the coach notes if they're >14 days behind.
 - Run `npm run build` at the end to catch type errors.
 
 ### Step 4: Write `coach_notes.md`

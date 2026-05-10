@@ -37,13 +37,12 @@ export default function SleepPage() {
 
       {hasSleepData ? (
         <div className="space-y-6">
-          {/* Stats row */}
-          <div className="grid grid-cols-4 gap-4">
-            {[
+          {/* Stats row — efficiency hidden when not available (markdown source omits it) */}
+          {(() => {
+            const stats = [
               {
                 label: "Sleep Score (30d avg)",
                 value: avgSleepScore !== null ? String(avgSleepScore) : "—",
-                color: (avgSleepScore || 0) >= 75 ? "var(--success)" : (avgSleepScore || 0) >= 60 ? "var(--warning)" : "var(--danger)",
               },
               {
                 label: "Total Sleep (30d avg)",
@@ -53,17 +52,25 @@ export default function SleepPage() {
                 label: "Deep Sleep (30d avg)",
                 value: avgDeepSleep !== null ? `${avgDeepSleep} min` : "—",
               },
-              {
+            ]
+            if (avgEfficiency !== null) {
+              stats.push({
                 label: "Efficiency (30d avg)",
-                value: avgEfficiency !== null ? `${avgEfficiency}%` : "—",
-              },
-            ].map((stat) => (
-              <div key={stat.label} className="border border-[rgba(0,0,0,0.1)] rounded-lg p-4 text-center shadow-[var(--shadow-card)]">
-                <div className="text-[22px] font-bold tracking-[-0.02em]">{stat.value}</div>
-                <div className="text-[11px] text-[var(--text-secondary)] mt-0.5">{stat.label}</div>
+                value: `${avgEfficiency}%`,
+              })
+            }
+            const cols = stats.length === 4 ? "grid-cols-4" : "grid-cols-3"
+            return (
+              <div className={`grid ${cols} gap-4`}>
+                {stats.map((stat) => (
+                  <div key={stat.label} className="border border-[rgba(0,0,0,0.1)] rounded-lg p-4 text-center shadow-[var(--shadow-card)]">
+                    <div className="text-[22px] font-bold tracking-[-0.02em]">{stat.value}</div>
+                    <div className="text-[11px] text-[var(--text-secondary)] mt-0.5">{stat.label}</div>
+                  </div>
+                ))}
               </div>
-            ))}
-          </div>
+            )
+          })()}
 
           {/* Sleep Stages Chart */}
           {sleepEntries.length > 0 && (

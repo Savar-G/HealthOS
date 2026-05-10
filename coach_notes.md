@@ -18,7 +18,7 @@ You came out of an illness/stress event in mid-April (HRV crashed to 41ms on Apr
 
 - **Weight trajectory.** +3.8 lbs in 4 weeks ≈ ~1 lb/week. With 9 PRs and a successful running launch, this is almost certainly productive (glycogen + muscle + water from training adaptation, not pure fat). If weight crosses +5 lbs without continued performance gains, it tips from productive to surplus — recalibrate intake.
 - **Hamstring volume gap is now an injury risk.** 30-day volume: Quads 20 sets vs Hamstrings 8 sets (2.5:1). Phase 2 of running introduces faster work that loads hamstrings eccentrically. Add 2 hamstring sets/week (RDL or leg curl) before the Wk7-8 Phase 2 transition.
-- **Stale Oura raw exports.** Sleep + Steps CSVs last updated Apr 8 — 32 days behind. The Recovery_Log.md is current (you've been logging manually) but the Sleep page and Steps tab in the dashboard are showing old data. **Re-export Oura CSVs** to sync.
+- **Sleep stages detail** — the Sleep page now reads from the markdown log (which only has Deep + Total). REM and Light breakdowns are no longer available unless you re-export Oura CSVs manually. The Sleep Stages chart now shows "Deep + Other" instead of the 3-color stack.
 
 ## Cross-Domain Insights
 
@@ -36,19 +36,16 @@ Tue Z2 run + Mon Legs is calculated overlap. But Fri tempo work + Sat Push has n
 
 ## Action Items (Next 7 Days)
 
-1. **Re-export Oura CSVs** — sleep + activity raw data is 32 days behind. Drop into `oura/raw/` and run `python3 import_oura.py`.
-2. **Add 2 hamstring sets to next leg session** — RDL or seated leg curl. Even a single direct set 2x/week shifts the ratio meaningfully.
-3. **Tue May 12 = Recovery R2/W1, 22 min, Zone 1.** Non-negotiable — Wk5 is recovery, not "easy build."
-4. **Track weight at the same time of day** — current entries vary 7am to 9pm. Morning-only readings smooth out the daily noise.
-5. **Friday May 15 is the test** — second consecutive Friday hit = pattern locked. Skip = a flag we revisit the schedule.
+1. **Add 2 hamstring sets to next leg session** — RDL or seated leg curl. Even a single direct set 2x/week shifts the ratio meaningfully.
+2. **Tue May 12 = Recovery R2/W1, 22 min, Zone 1.** Non-negotiable — Wk5 is recovery, not "easy build."
+3. **Track weight at the same time of day** — current entries vary 7am to 9pm. Morning-only readings smooth out the daily noise.
+4. **Friday May 15 is the test** — second consecutive Friday hit = pattern locked. Skip = a flag we revisit the schedule.
 
 ## Data Health Check
 
 | Source | Status | Latest Entry | Days Stale |
 |---|---|---|---|
 | Strength CSV | ✓ Current | 2026-05-10 | 0 |
-| Oura Recovery Log | ✓ Current | 2026-05-10 | 0 |
-| Oura Sleep CSV | ⚠ Stale | 2026-04-08 | 32 |
-| Oura Activity CSV | ⚠ Stale | 2026-04-08 | 32 |
+| Oura Recovery Log (drives Recovery + Sleep + Steps) | ✓ Current | 2026-05-10 | 0 |
 | Weight CSV | ✓ Current | 2026-05-10 | 0 |
 | Running Log | ✓ Current | 2026-05-08 | 2 |
