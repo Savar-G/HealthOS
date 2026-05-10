@@ -95,12 +95,21 @@ export default function OverviewPage() {
 
         {/* Quick Stats — responsive grid */}
         <section className="section-animate animate-fade-in-up grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-4">
-          {[
-            { label: "Runs This Month", value: String(running.totalRuns) },
-            { label: "Strength Sessions (Apr)", value: String(strength.sessionsThisMonth) },
-            { label: "Avg HRV (7-day)", value: recovery.sevenDayAvgHRV ? `${recovery.sevenDayAvgHRV} ms` : "—" },
-            { label: "Total Sessions", value: String(strength.totalSessions) },
-          ].map((stat) => (
+          {(() => {
+            const currentMonth = new Date().toLocaleDateString("en-US", { month: "short" })
+            const monthStart = new Date()
+            monthStart.setDate(1)
+            monthStart.setHours(0, 0, 0, 0)
+            const runsThisMonth = running.runs.filter(
+              (r) => r.actualDist !== null && r.date && new Date(`${r.date}T00:00:00`) >= monthStart
+            ).length
+            return [
+              { label: `Runs (${currentMonth})`, value: String(runsThisMonth) },
+              { label: `Strength Sessions (${currentMonth})`, value: String(strength.sessionsThisMonth) },
+              { label: "Avg HRV (7-day)", value: recovery.sevenDayAvgHRV ? `${recovery.sevenDayAvgHRV} ms` : "—" },
+              { label: "Total Sessions", value: String(strength.totalSessions) },
+            ]
+          })().map((stat) => (
             <div
               key={stat.label}
               className="border border-[rgba(0,0,0,0.1)] rounded-lg p-4 md:p-5 text-center shadow-[var(--shadow-card)] hover:shadow-[var(--shadow-deep)] transition-shadow duration-200"

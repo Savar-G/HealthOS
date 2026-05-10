@@ -23,13 +23,21 @@ const navItems = [
   { href: "/insights", label: "Insights", icon: Sparkles },
 ]
 
-const domainStatus = [
-  { label: "Strength", status: "23-Day Gap", color: "var(--strength)", bgColor: "var(--strength-light)" },
-  { label: "Running", status: "Starts Apr 12", color: "var(--running)", bgColor: "var(--running-light)" },
-  { label: "Recovery", status: "Active", color: "var(--recovery)", bgColor: "var(--recovery-light)" },
-]
+export interface DomainStatusItem {
+  label: string
+  /** Short date like "May 10" or fallback "—" if no data */
+  lastUpdated: string
+  color: string
+  bgColor: string
+}
 
-export function Sidebar() {
+interface SidebarProps {
+  domainStatus: DomainStatusItem[]
+  /** Formatted date string for the footer, e.g. "May 10, 2026" */
+  lastUpdated: string
+}
+
+export function Sidebar({ domainStatus, lastUpdated }: SidebarProps) {
   const pathname = usePathname()
   const [mobileOpen, setMobileOpen] = useState(false)
 
@@ -92,8 +100,8 @@ export function Sidebar() {
                 <div className="w-2 h-2 rounded-full" style={{ backgroundColor: domain.color }} />
                 <span className="text-[12px] font-semibold" style={{ color: domain.color }}>{domain.label}</span>
               </div>
-              <span className="text-[11px] font-medium" style={{ color: domain.color, opacity: 0.7 }}>
-                {domain.status}
+              <span className="text-[11px] font-medium tabular-nums" style={{ color: domain.color, opacity: 0.7 }}>
+                {domain.lastUpdated}
               </span>
             </div>
           ))}
@@ -103,7 +111,7 @@ export function Sidebar() {
       {/* Footer */}
       <div className="px-5 py-3 border-t border-[rgba(0,0,0,0.06)]">
         <p className="text-[11px] text-[var(--text-tertiary)]">
-          Updated Apr 8, 2026
+          Updated {lastUpdated}
         </p>
       </div>
     </>
