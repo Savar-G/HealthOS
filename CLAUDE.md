@@ -94,9 +94,9 @@ Notion-inspired editorial minimalism:
 - Flags are prioritized by urgency
 - Dates use YYYY-MM-DD format
 
-## Current State (as of 2026-04-12)
-- **Strength:** Active — 994 sessions logged, 27-day gap since last workout (Mar 16)
-- **Running:** Active — 33-week plan (2x/week, extended +1 wk via deferred recovery), 6 runs logged through Wk4, easy pace PR 11:49/mi @ 141 bpm, quality sessions started (strides + tempo fartlek). Wk5 May 12-15 = Recovery Week.
-- **Oura:** Active — 94 daily entries, recovery status RED (HRV declining, possible illness)
-- **Weight:** Active — 1,602 daily entries, current 155.8 lbs, trending up
+## Current State (as of 2026-05-10)
+- **Strength:** Active — 996 sessions logged, last session Apr 18 (Push). Coming back from 24-day gap; weights regressed 10–20% as expected during rebuild.
+- **Running:** Active — 32-week half marathon plan (2x/week), Week 1 done. 1 run logged (Apr 14: 2.06 mi @ 12:35/mi, 138 bpm). Apr 17 Friday session skipped for basketball.
+- **Oura:** Active — 102 daily entries through Apr 19, recovery status 🟢 GREEN (HRV recovered from 41ms → 73ms; cleared to train)
+- **Weight:** Active — 1,625 daily entries, current 159.6 lbs (May 10), trending up (+3.8 lbs since Apr 12)
 - **Dashboard:** Next.js app with 5 interactive pages, all data-driven
