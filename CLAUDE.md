@@ -107,12 +107,13 @@ Notion-inspired editorial minimalism:
 
 Whenever you've updated multiple data sources (running log, strength workouts, Oura recovery, weight) and want the dashboard refreshed + a fresh coach deep dive, run **`/sync-health`** in Claude Code. The skill lives at `.claude/commands/sync-health.md`.
 
-It does three things in order:
+It does four things in order:
 
-1. **Sweep** — surveys the latest entry date in every data source (strength CSV, Oura recovery log + raw CSVs, weight CSV, run log) and flags any that are stale.
+1. **Sweep** — surveys the latest entry date in every data source (strength CSV, Oura recovery log, weight CSV, run log) and flags any that are stale.
 2. **Sync dashboard** — bumps the "Current State" snapshot in this CLAUDE.md, fixes any stale labels in dashboard pages, and runs `npm run build` to verify.
 3. **Coach deep dive** — rewrites `coach_notes.md` with cross-domain insights for the period since last sync. This file is rendered as the top section of the Insights page (`/insights`). The coach voice is opinionated, evidence-backed, and prescriptive — connecting domains in ways no single agent can.
+4. **Obsidian weekly summary** — creates a 1-page TL;DR note in the Obsidian vault at `10 Projects/HealthOS/Weekly Summaries/YYYY-MM-DD — Week NN.md`. Optimized for 30-second scanning on Sunday: snapshot table, top 3 wins, top 3 watch items, next week, one cross-domain insight. Uses the `mcp__obsidian__create-note` tool.
 
-The slash command commits and pushes everything in one logical commit.
+The slash command commits and pushes everything in one logical commit. Cadence: typically run every **Sunday** as part of the weekly health update — the Obsidian summary aligns to ISO weeks (Mon-Sun).
 
 **Don't** confuse `/sync-health` with the four domain agents. The agents (`strength/`, `running/`, `oura/`) update _their own_ data on every interaction. `/sync-health` is the periodic cross-cutting layer that turns that data into dashboard updates + coach insights.
