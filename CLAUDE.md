@@ -112,7 +112,7 @@ It does four things in order:
 1. **Sweep** — surveys the latest entry date in every data source (strength CSV, Oura recovery log, weight CSV, run log) and flags any that are stale.
 2. **Sync dashboard** — bumps the "Current State" snapshot in this CLAUDE.md, fixes any stale labels in dashboard pages, and runs `npm run build` to verify.
 3. **Coach deep dive** — rewrites `coach_notes.md` with cross-domain insights for the period since last sync. This file is rendered as the top section of the Insights page (`/insights`). The coach voice is opinionated, evidence-backed, and prescriptive — connecting domains in ways no single agent can.
-4. **Obsidian weekly summary** — creates a 1-page TL;DR note in the Obsidian vault at `10 Projects/HealthOS/Weekly Summaries/YYYY-MM-DD — Week NN.md`. Optimized for 30-second scanning on Sunday: snapshot table, top 3 wins, top 3 watch items, next week, one cross-domain insight. Uses the `mcp__obsidian__create-note` tool.
+4. **Obsidian weekly summary** — prepends a new weekly entry to the rolling log at `10 Projects/HealthOS/Weekly Log.md` in the Obsidian vault. Single file, all weeks, newest at top. Each entry is optimized for 30-second scanning on Sunday: snapshot table, top 3 wins, top 3 watch items, next week, one cross-domain insight. Uses `mcp__obsidian__read-note` + `mcp__obsidian__edit-note` (replace mode).
 
 The slash command commits and pushes everything in one logical commit. Cadence: typically run every **Sunday** as part of the weekly health update — the Obsidian summary aligns to ISO weeks (Mon-Sun).
 
