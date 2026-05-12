@@ -112,12 +112,12 @@ _Updated each time you report a run. Used to calibrate the plan._
 
 | Metric | Value | Date Set |
 |--------|-------|----------|
-| **Easy Pace (Zone 2)** | **11:49/mi @ 141 bpm (PR)** | May 5, 2026 |
+| **Easy Pace (Zone 2)** | 11:49/mi @ 141 bpm (PR — Wk4) / **regressed to 12:13 @ 145 in Wk5 ⚠️** | May 11, 2026 |
 | **Tempo Pace (Zone 3)** | Max HR 163 bpm hit in 1-min Z3 intervals (n=1 fartlek) | May 8, 2026 |
-| **Longest Run** | **2.71 mi** | May 5, 2026 |
-| **Longest Continuous Run Segment** | 4 min (R4/W1) | May 5, 2026 |
-| **Weekly Mileage (current)** | 4.72 miles (Wk4 ✅ over target) | May 8, 2026 |
-| **Cadence** | 150 spm (running) — consistent across all sessions, needs intervention | May 5, 2026 |
+| **Longest Run** | **2.87 mi** | May 11, 2026 |
+| **Longest Continuous Run Segment** | 5 min (R5/W1) | May 11, 2026 |
+| **Weekly Mileage (current)** | 2.87 miles (Wk5 in progress) | May 11, 2026 |
+| **Cadence** | 150 spm (consistent — needs intervention) | May 11, 2026 |
 | **Quality Sessions Completed** | 2 (4x20s strides + 5x1min Z3 fartlek) | May 8, 2026 |
 
 ---

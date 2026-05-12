@@ -234,6 +234,7 @@ First true tempo session. Different stimulus from Wed Apr 29 strides — slower 
 ---
 
 #### Tuesday, May 12 -- ZONE 2 LONG RUN (Post-Legs)
+> **Status:** DONE — moved to Mon May 11. 2.87 mi (Long Run PR), 35:01 (full time ✅), 145 bpm avg (163 max), 12:13/mi, RPE 6, cadence 150. ⚠️ Pace regression vs Wk4 Tue (12:13 vs 11:49 at +4 bpm). Recovery trigger fired.
 
 | Detail | Target |
 |--------|--------|
