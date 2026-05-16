@@ -12,16 +12,16 @@ _Exportable snapshot — updated after every run._
 |--------|-------|
 | **Schedule** | 2x/week (Tue Zone 2 + Fri Quality) integrated with 4x/week strength |
 | **Last run** | May 11 — 2.87 mi, 35:01, 145 bpm avg (163 max), 12:13/mi, cadence 150 spm, RPE 6 (R5/W1) |
-| **This week** | 2.87 / ~5 mi targeted (Week 5 Tue done, run on Mon May 11) |
-| **Current phase** | Phase 1.5 — Bridging to Phase 2 (quality work continuing) |
-| **Week in plan** | Week 5 of 33 (Build, recovery deferred) |
+| **This week** | 2.87 mi — **Wk5 ended as de-facto Recovery Week** (Fri skipped at Savar's call after coach flagged pace regression) |
+| **Current phase** | Phase 1.5 — Bridging to Phase 2 |
+| **Week in plan** | Week 5 of 33 (Effective Recovery — 1 light run + rest) |
 | **Plan timeline** | 33 weeks to half marathon (~late Nov 2026) |
 | **Longest continuous run** | 5 min (R5/W1, May 11) |
-| **Easy pace trend** | Wk1: 12:35/mi @ 138 → Wk2: 13:11/mi @ 141 → Wk3: 12:11/mi @ 144 → **Wk4: 11:49/mi @ 141** → **Wk5: 12:13/mi @ 145** ⚠️ pace regression at higher HR |
+| **Easy pace trend** | Wk1: 12:35/mi @ 138 → Wk2: 13:11/mi @ 141 → Wk3: 12:11/mi @ 144 → Wk4: 11:49/mi @ 141 → Wk5: 12:13/mi @ 145 (regression flagged → recovery taken) |
 | **Tempo data (n=1)** | Max HR 163 bpm hit Zone 3 ceiling during Wk4 Fri fartlek intervals |
-| **Friday adherence** | ✅ Wk4 Fri completed. Wk5 Fri upcoming May 15. |
+| **Friday adherence** | Wk5 Fri SKIPPED intentionally as recovery (athlete responded to coach's flag). |
 | **Injury flags** | None |
-| **Coach assessment** | ⚠️ **RECOVERY TRIGGER FIRED — Pace Regression.** Today's run (R5/W1, 35 min) at 12:13/mi @ 145 bpm avg is SLOWER + HIGHER HR than Wk4 Tue (11:49 @ 141). Max HR 163 = top of Zone 3 on what should have been a Zone 2 run (last Tue max was 155). RPE held at 6, but pace/HR efficiency went backward. This is exactly the fatigue signature I warned about with 5 weeks no recovery. Hit time target ✅, hit distance ✅, but the WAY he hit them shows accumulated load. Per working agreement: flagging it, Savar decides. |
+| **Coach assessment** | ✅ **Working agreement validated.** Pace regression triggered → coach flagged → athlete chose to take rest of week as recovery. Wk5 total: 2.87 mi (50% reduction vs Wk4's 4.72 mi — exactly recovery-week volume). Mon run also overlapped with leg day timing, compounding the load signal. Good listening to the body. Wk6 (May 19-22) = REBUILD: hold at R5/W1, do NOT advance ratio yet. Let efficiency metrics recover before pushing further. |
 
 ---
 
@@ -65,7 +65,8 @@ Claude will update this log and adjust the upcoming training plan based on your 
 | Week 2 | Apr 21-25 | ~3.25 mi | 1.80 mi | 1.80 mi | SKIPPED | 55% of planned volume |
 | Week 3 | Apr 28-29 | ~3.75 mi | 4.02 mi ✅ | 2.47 mi | 1.55 mi (strides, Wed) | Tue Z2 + Wed Strides (Fri swapped) |
 | Week 4 | May 5-8 | ~4 mi | **4.72 mi ✅** | 2.71 mi (Z2) | 2.01 mi (Tempo Fartlek) | Build Wk DONE — over target, both runs completed |
-| Week 5 | May 11-15 | ~5 mi | 2.87 mi | 2.87 mi (Mon, moved from Tue) | ~2 mi (Tempo Fartlek 6x — Fri) | **Build Wk** — Recovery deferred again. Tue moved to Mon May 11. |
+| Week 5 | May 11-15 | ~5 mi (planned) | 2.87 mi | 2.87 mi (Mon, moved from Tue) | SKIPPED (intentional recovery) | **De-facto Recovery Week** — Fri skipped after pace regression flagged. 50% volume vs Wk4. |
+| Week 6 | May 19-22 | ~5 mi | -- | 2.5 mi (Z2 R5/W1, hold) | ~2 mi (Tempo Fartlek 5x rebuild) | Rebuild Wk — HOLD ratio, no advance until efficiency rebuilds |
 
 ---
 

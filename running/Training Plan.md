@@ -250,8 +250,9 @@ Now running 83% of each interval block. Conversational pace. Run the FULL 35 min
 ---
 
 #### Friday, May 15 -- QUALITY: TEMPO FARTLEK (Progression)
+> **Status:** SKIPPED — intentional recovery. After Mon May 11 showed pace regression (recovery trigger #6 fired), athlete chose to skip Friday and treat Wk5 as a recovery week. Working agreement functioning correctly.
 
-| Detail | Target |
+| Detail | Original Target |
 |--------|--------|
 | **Total Time** | ~28 minutes |
 | **Structure** | 8 min WU + 6 x (1 min Z3 / 90 sec walk) + 5 min CD |
@@ -259,8 +260,42 @@ Now running 83% of each interval block. Conversational pace. Run the FULL 35 min
 | **Total Z3 time** | 6 minutes (vs 5 min last week, +20%) |
 | **Calendar** | 7:30 AM PDT |
 
+---
+
+### WEEK 6 -- Rebuild Week (May 19-22, 2026)
+**Target Total: ~5 miles | Run/Walk Ratio: Run 5 min / Walk 1 min (HOLD, no advance) | Intensity: Zone 2 + Zone 3 quality**
+
+> Coming off de-facto recovery week (Wk5 ended at 50% volume after pace regression flagged). Rebuild week: HOLD R5/W1 ratio rather than advancing. Goal: re-establish efficiency metrics (pace at same HR, max HR not drifting on easy days) before pushing further. If Tue lands at RPE ≤5 and Friday tempo paces show recovery vs Wk4 Fri, we resume progression in Wk7.
+
+---
+
+#### Tuesday, May 19 -- ZONE 2 LONG RUN (Post-Legs)
+
+| Detail | Target |
+|--------|--------|
+| **Total Time** | 35 minutes |
+| **Run/Walk Ratio** | Run 5 min / Walk 1 min |
+| **Estimated Distance** | ~2.5 miles |
+| **Zone** | Zone 2 (136-150 bpm) — target avg HR <143 |
+| **Calendar** | 7:30 AM PDT |
+
 **Instructions:**
-Same protocol as Wk4 Friday, +1 interval. The 6th interval will tell you something — if it feels harder than #5, that's accumulated fatigue from no recovery talking. Try a cadence intervention during warm-up: high-BPM music or watch metronome at 165 spm.
+Same prescription as Wk5 Tue. The key signal: did the recovery work? If avg HR drops below 143 and pace returns toward 11:49/mi at same RPE 4-5, efficiency is back. If HR is still elevated, we hold or recover further.
+
+---
+
+#### Friday, May 22 -- QUALITY: TEMPO FARTLEK (Rebuild)
+
+| Detail | Target |
+|--------|--------|
+| **Total Time** | ~26 minutes |
+| **Structure** | 8 min WU + 5 x (1 min Z3 / 90 sec walk) + 5 min CD |
+| **Interval Effort** | Zone 3 (150-164 bpm) |
+| **Total Z3 time** | 5 minutes (back to Wk4 Fri level — rebuild, not advance) |
+| **Calendar** | 7:30 AM PDT |
+
+**Instructions:**
+Repeat of Wk4 Friday workout exactly. Comparing today vs Wk4 Fri tells us if recovery worked: if max HR is lower at same intervals, efficiency rebuilt. Cadence intervention: try high-BPM music or watch metronome at 165 spm during warm-up.
 
 ---
 
