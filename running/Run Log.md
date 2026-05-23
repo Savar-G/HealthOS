@@ -11,17 +11,19 @@ _Exportable snapshot — updated after every run._
 | Metric | Value |
 |--------|-------|
 | **Schedule** | 2x/week (Tue Zone 2 + Fri Quality) integrated with 4x/week strength |
+| **Status** | ⏸️ **PAUSED (as of May 22, 2026)** — Savar pivoted to tennis. Plan and data preserved for future resumption. |
 | **Last run** | May 11 — 2.87 mi, 35:01, 145 bpm avg (163 max), 12:13/mi, cadence 150 spm, RPE 6 (R5/W1) |
-| **This week** | 2.87 mi — **Wk5 ended as de-facto Recovery Week** (Fri skipped at Savar's call after coach flagged pace regression) |
-| **Current phase** | Phase 1.5 — Bridging to Phase 2 |
-| **Week in plan** | Week 5 of 33 (Effective Recovery — 1 light run + rest) |
-| **Plan timeline** | 33 weeks to half marathon (~late Nov 2026) |
+| **Total runs logged** | 7 |
+| **Total miles** | 15.47 mi |
+| **Current phase (frozen)** | Phase 1.5 — Bridging to Phase 2 |
+| **Last completed week** | Week 5 of 33 (effective recovery week) |
+| **Plan timeline** | Paused — half marathon target ~late Nov 2026 if resumed within 4-6 weeks |
 | **Longest continuous run** | 5 min (R5/W1, May 11) |
-| **Easy pace trend** | Wk1: 12:35/mi @ 138 → Wk2: 13:11/mi @ 141 → Wk3: 12:11/mi @ 144 → Wk4: 11:49/mi @ 141 → Wk5: 12:13/mi @ 145 (regression flagged → recovery taken) |
-| **Tempo data (n=1)** | Max HR 163 bpm hit Zone 3 ceiling during Wk4 Fri fartlek intervals |
-| **Friday adherence** | Wk5 Fri SKIPPED intentionally as recovery (athlete responded to coach's flag). |
-| **Injury flags** | None |
-| **Coach assessment** | ✅ **Working agreement validated.** Pace regression triggered → coach flagged → athlete chose to take rest of week as recovery. Wk5 total: 2.87 mi (50% reduction vs Wk4's 4.72 mi — exactly recovery-week volume). Mon run also overlapped with leg day timing, compounding the load signal. Good listening to the body. Wk6 (May 19-22) = REBUILD: hold at R5/W1, do NOT advance ratio yet. Let efficiency metrics recover before pushing further. |
+| **Easy pace PR** | 11:49/mi @ 141 bpm (May 5, Wk4) |
+| **Easy pace trend (final)** | Wk1: 12:35 @ 138 → Wk2: 13:11 @ 141 → Wk3: 12:11 @ 144 → **Wk4: 11:49 @ 141 (PR)** → Wk5: 12:13 @ 145 (regression → recovery taken) |
+| **Tempo data (n=1)** | Max HR 163 bpm in 1-min Z3 intervals (Wk4 Fri) |
+| **Injury flags** | None (cleared) |
+| **Coach assessment** | Plan paused. Savar shifted focus to tennis (2x/week). See tennis/ folder for active tracking. Running files preserved — if resumed, the plan restarts at Wk6 (rebuild week) or earlier depending on time off. After 4+ weeks of no running, recommend restart at Wk3 ratio (R3/W1) to ease back in. |
 
 ---
 

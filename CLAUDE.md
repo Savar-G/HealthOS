@@ -1,6 +1,6 @@
 # HealthOS — Root Context
 
-This is Savar's personal health tracking system. It combines a **Next.js dashboard app** with four specialized Claude Code agents that manage domain-specific data.
+This is Savar's personal health tracking system. It combines a **Next.js dashboard app** with five specialized Claude Code agents that manage domain-specific data.
 
 ## Architecture
 
@@ -9,7 +9,8 @@ HealthOS/
 ├── CLAUDE.md          ← You are here (root orchestrator context)
 ├── DESIGN.md          ← Notion-inspired design system
 ├── src/               ← Next.js dashboard app (App Router)
-├── running/           ← Running coach agent
+├── tennis/            ← Tennis coach agent (ACTIVE — primary cardio)
+├── running/           ← Running coach agent (PAUSED — pivoted to tennis May 22)
 ├── strength/          ← Strength training tracker agent
 ├── oura/              ← Oura ring recovery/sleep analyst agent
 ├── data/              ← Weight CSV and other standalone data
@@ -29,14 +30,21 @@ An interactive Next.js web app that reads data from all agent directories and re
 
 **Tech:** Next.js 16, shadcn/ui, Tailwind CSS, Recharts, PapaParse. All data read server-side via `fs` — no database.
 
-## The Four Agents
+## The Five Agents
 
-### 1. Running (`running/CLAUDE.md`)
-- **Role:** AI running coach and data tracker
+### 1. Tennis (`tennis/CLAUDE.md`) — ACTIVE primary cardio
+- **Role:** AI tennis coach and data tracker
+- **Data files:** `Tennis Profile.md`, `Session Log.md`
+- **What it does:** Logs sessions, tracks skill progression (quarterly self-rating), match record, HR efficiency trend, recovery cost
+- **Key detail:** 2x/week tennis (drills + match play), goal = get measurably better. Started May 22, 2026 (pivot from running).
+- **State export:** "State of My Tennis" section at top of Tennis Profile.md
+- **Coaching framework:** Ericsson's deliberate practice (skill sessions) + application (match play). 1 session focused practice, 1 session pressure application.
+
+### 2. Running (`running/CLAUDE.md`) — PAUSED
+- **Role:** AI running coach and data tracker (currently inactive)
 - **Data files:** `Runner Profile.md`, `Training Plan.md`, `Run Log.md`
-- **What it does:** Logs runs, updates the training plan, tracks weekly mileage, flags plan adjustments, gives coaching feedback
-- **Key detail:** 27-week half marathon plan, 3x/week running (Sun long + Tue quality + Fri easy) integrated with strength training
-- **State export:** "State of My Running" section at top of Run Log.md
+- **Status:** Paused May 22, 2026 after Savar pivoted to tennis. 7 runs logged, made it to Wk5 of 33-week half marathon plan. Easy pace PR 11:49/mi @ 141 bpm. Plan and data preserved for future resumption.
+- **State export:** "State of My Running" section at top of Run Log.md (marked PAUSED)
 
 ### 2. Strength (`strength/CLAUDE.md`)
 - **Role:** Strength training tracker and coach
@@ -98,7 +106,8 @@ Notion-inspired editorial minimalism:
 
 ## Current State (as of 2026-05-10)
 - **Strength:** Active — 1,006 unique sessions, last session May 10 (Pull). 4 sessions this week, 9 PRs in last 22 days. Fully recovered from Mar-Apr gap and pushing past pre-break weights. Split stabilized at Push/Pull/Legs+Core/Upper.
-- **Running:** Active — 33-week half marathon plan (2x/week), 6 runs logged through May 8. Wk4 closed with PRs: easy pace 11:49/mi @ 141 bpm (Tue) + first quality session done (Fri tempo fartlek). Wk5 = Recovery Week.
+- **Tennis:** Active (NEW as of May 22) — 2x/week (drills + match play), goal = get measurably better. Tracking via Oura. No sessions logged yet.
+- **Running:** ⏸️ PAUSED (May 22) — Savar pivoted to tennis. 7 runs logged before pause, easy pace PR 11:49/mi @ 141 bpm. Plan and data preserved for future resumption.
 - **Oura:** Active — 123 daily entries through May 10. Status 🟢 GREEN. 7-day HRV 66ms, readiness 80, sleep 83. Dashboard now reads Sleep + Steps directly from `Recovery_Log.md` (the API skill writes there) — no CSV re-export needed.
 - **Weight:** Active — 1,625 daily entries, current 159.6 lbs (May 10), +3.8 lbs since Apr 12 (productive refueling during training rebuild).
 - **Dashboard:** Next.js app with 5 interactive pages, all data-driven. Insights page renders `coach_notes.md` at top.
