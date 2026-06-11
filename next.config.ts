@@ -13,6 +13,10 @@ const dataFiles = [
 ];
 
 const nextConfig: NextConfig = {
+  // A stray package-lock.json in the home directory makes Next.js infer the
+  // wrong workspace root — pin it to this project.
+  turbopack: { root: __dirname },
+  outputFileTracingRoot: __dirname,
   outputFileTracingIncludes: {
     "/": dataFiles,
     "/training": dataFiles,
