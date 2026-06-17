@@ -1,51 +1,51 @@
 # Coach's Deep Dive
 
-_Last sync: 2026-05-10_
-_Period covered: 2026-04-12 → 2026-05-10 (4 weeks)_
+_Last sync: 2026-06-17_
+_Period covered: 2026-05-10 → 2026-06-16 (~5 weeks)_
 
 ## The Big Story
 
-You came out of an illness/stress event in mid-April (HRV crashed to 41ms on Apr 11) and rebuilt across every domain in 4 weeks. Strength resumed after a 24-day gap and you've now banked 9 PRs in 22 days. Running launched from zero and hit a pace PR (11:49/mi) by Wk4 with HR _lower_ than your Wk1 baseline — that's textbook aerobic adaptation. Recovery flipped GREEN by Apr 19 and has held. Weight is up +3.8 lbs over the period, which is consistent with productive refueling during a building phase. **You're in a good rhythm. The next 2-3 weeks are about not breaking it.**
+This was the strongest five-week block of your year — and the data shows it was *bought* by a single decision: pausing running on May 22. Strength has gone vertical (17 sessions, 35+ PRs, multiple first-evers: Lat Pulldown e1RM over 200, Calf Press over 300, Incline Press SPM +15 lbs). Recovery climbed in lockstep — 7-day HRV up from 66→75 ms (+14%) and RHR down 58→56 bpm — because legs stopped competing for recovery with running. You also launched tennis and went 2-0 in clean straight sets. The one real cost: your aerobic engine is now idling. Tennis at your level (max HR 136) isn't cardio, and with running paused, structured endurance stimulus has dropped to roughly zero. **You traded cardiovascular fitness for strength + recovery, and that trade is paying off — but it's a trade, and you should make it on purpose, not by accident.**
 
 ## What's Working
 
-- **Aerobic adaptation is real and fast.** Wk1 Tue: 12:35/mi @ 138 bpm. Wk4 Tue: 11:49/mi @ 141 bpm. That's a 46-second/mile improvement at only +3 bpm — a ~6% pace gain in 3 weeks at lower relative effort. This is the response curve you want to see.
-- **Strength rebuild outpaced expectations.** Coming off a 24-day gap, the typical recovery window is 2-4 weeks to pre-break weights. You blew past pre-break on Incline DB Bench in 2 weeks. 9 PRs in 22 days means the "rebuild" is actually a "reload + push" phase.
-- **Sleep is doing the heavy lifting.** 7-day avg sleep score 83 (vs lifetime avg 78). The mid-period dip on May 2-3 (<5.5h) was absorbed inside 24h — readiness didn't tank. Solid sleep is what's making the rapid PR rate sustainable.
-- **Friday adherence reset.** May 8 was your first non-skipped Friday in 4 weeks. The plan only works at 2x/week if both runs land. You've now proven you can do it.
+- **Strength progression is the best of the year.** 35+ PRs in 5 weeks. The headliners: Lat Pulldown 170×6 (e1RM 204 — first time over 200), Tricep Dips Machine 205×8 (e1RM 260, +25 lbs in 5 wks), Calf Press 245×8 (e1RM 310 — first over 300), Incline Press SPM 95×7 (e1RM 117, +15 lbs in 5 wks). These are new all-time highs, not rebuild recoveries.
+- **Recovery is in a top-of-window state.** Jun 16: readiness 86, HRV 80, RHR 54. Six of the last seven days readiness ≥82. Status held 🟢 GREEN the entire period.
+- **The hamstring gap is being closed.** Added Seated Leg Curl and Cable SLDL; hamstring sets per 30 days went from 8 → 14. This is the muscle group you'd flagged as the imbalance, and it's now actively rotating.
+- **Tennis launched clean: 2-0, 24-13 in games.** Both matches straight sets, zero injury flags. Skill baseline is set (6.58/10) so progress is now measurable.
+- **Weight gain is productive, not surplus.** +2.0 lbs since May 10 (~0.4 lb/wk) landing *alongside* 35 PRs and rising HRV. That's lean mass, not overreaching fat.
 
 ## What to Watch
 
-- **Weight trajectory.** +3.8 lbs in 4 weeks ≈ ~1 lb/week. With 9 PRs and a successful running launch, this is almost certainly productive (glycogen + muscle + water from training adaptation, not pure fat). If weight crosses +5 lbs without continued performance gains, it tips from productive to surplus — recalibrate intake.
-- **Hamstring volume gap is now an injury risk.** 30-day volume: Quads 20 sets vs Hamstrings 8 sets (2.5:1). Phase 2 of running introduces faster work that loads hamstrings eccentrically. Add 2 hamstring sets/week (RDL or leg curl) before the Wk7-8 Phase 2 transition.
-- **Sleep stages detail** — the Sleep page now reads from the markdown log (which only has Deep + Total). REM and Light breakdowns are no longer available unless you re-export Oura CSVs manually. The Sleep Stages chart now shows "Deep + Other" instead of the 3-color stack.
+- **Cardio is now a hole in the program.** Running paused May 22; tennis tops out at HR 136 (bottom edge of Zone 2). You have no structured aerobic stimulus right now. If cardiovascular fitness matters to you at all, decide *now* how to backfill it — don't let the rising HRV fool you into thinking the aerobic engine is improving (it's de-loading, not training).
+- **Match play has a real recovery cost despite low HR.** The only dip in 5 weeks was Jun 9-10 (HRV 50, readiness 69) the morning after the 90-min Sid M. match. Neuromuscular + competitive stress is real even at avg HR 104. Don't stack a long Upper day the day after a match.
+- **Three strength stalls need a decision.** Hack Squat stuck at 80×6 for three sessions (still 2.5 lbs under your Mar PR), RDL trending *down* (80→70), Preacher Curl flat. Push Hack Squat to 82.5 and consider a short RDL deload-then-rebuild.
+- **Upper days are bleeding long.** 57-65 min. Either trim accessories or accept the time — but watch that it doesn't eat into next-day recovery.
+- **Weight threshold:** you're +5.8 lbs since the Apr 12 low. If it crosses ~165 *without* continued PRs, it tips from lean gain to surplus — recalibrate intake then, not before.
 
 ## Cross-Domain Insights
 
-### 1. Tuesday post-legs pattern is healing
-The plan's central bet: Mon Legs+Core → Tue Z2 run = active recovery, not added load. Wk1 evidence said "heavy legs, foot pain" → ❌. Wk4 evidence: Tue 11:49/mi PR at lower relative HR → ✅. The pattern that wasn't working is now working. Keep the rest day on Wed and don't let strength volume creep on Mondays.
-
-### 2. The HRV crash predicted the rebuild window
-On Apr 11, HRV hit 41ms (vs 88ms all-time avg) and body temp spiked +0.64°C — your system was screaming. By Apr 19, HRV was 73ms and status was GREEN. You started training Apr 13 (1 day before recovery fully landed) — risky timing, but it worked because the volume was deload-appropriate. **Lesson:** when HRV crashes >40% below baseline, give it ≥7 days before resuming hard work. You got away with 2 because the load was light.
-
-### 3. Sleep score → next-day session quality is the tightest correlation
-Sleep dipped May 2-3 (<5.5h, score in low 70s). May 4-5 readiness held (Oura absorbed it well). But your hardest session of the week was the May 5 run — long run PR, pace PR. That tells you readiness is currently a better predictor than raw sleep score for session output. Watch the next 7 days: if you stack 2+ poor-sleep nights, expect readiness to follow within 24-48h.
-
-### 4. Running is loading the same muscles strength is rebuilding
-Tue Z2 run + Mon Legs is calculated overlap. But Fri tempo work + Sat Push has no leg overlap, which is good. The hamstring imbalance (above) is the soft spot — running's eccentric loading on hamstrings is being added without a strength counterweight. This is the single biggest injury risk in your program right now.
+1. **The running pause directly bought your leg PRs.** With running's leg-fatigue interference gone since May 22, Hack Squat consistency improved and Calf Press hit its first-ever e1RM over 300. This is the interference effect, confirmed in your own data — lower-body recovery is no longer split between two sports.
+2. **Rising HRV is partly de-load, not pure fitness.** HRV +14% and RHR -2 bpm coincide exactly with dropping all aerobic load. Some of that gain is genuine adaptation; some is simply less systemic fatigue. Read the green readiness as "well-recovered," not "more aerobically fit" — those are different things.
+3. **Your serve weakness now has a physical base to convert.** Serve is your lowest skill (5 vs forehand 8 — a 3-point gap), and this block built exactly the muscles a serve needs: Incline Press SPM +15 lbs, Tricep Dips +25 lbs, Lateral Raise +5 lbs. The strength to hit a bigger serve is there; it's now a technique problem, not a power one.
+4. **Tennis recovery cost + strength scheduling are linked.** Because a match costs ~48h of recovery (the Jun 9-10 dip), your 4x/week strength rotation should treat match days like a training stressor — put the lighter session, not the 65-min Upper day, in the 24h after a match.
+5. **Weight, PRs, and HRV are telling one consistent story.** All three are up together. When body mass, performance, *and* recovery rise simultaneously, you're in a genuine building phase — not overreaching. This is the green light to keep eating and keep adding the +5 lb weekly bumps.
 
 ## Action Items (Next 7 Days)
 
-1. **Add 2 hamstring sets to next leg session** — RDL or seated leg curl. Even a single direct set 2x/week shifts the ratio meaningfully.
-2. **Tue May 12 = Recovery R2/W1, 22 min, Zone 1.** Non-negotiable — Wk5 is recovery, not "easy build."
-3. **Track weight at the same time of day** — current entries vary 7am to 9pm. Morning-only readings smooth out the daily noise.
-4. **Friday May 15 is the test** — second consecutive Friday hit = pattern locked. Skip = a flag we revisit the schedule.
+- **Decide the cardio question by Sun Jun 21.** Either (a) accept the strength-block trade and run no cardio, or (b) add one Zone 2 session (bike/jog/jump rope, 20-30 min) on a non-match, non-leg day. Pick one explicitly.
+- **Tue/Thu tennis: make one of them a serve-focused drill session.** Highest-leverage skill gain. Track serve makes/attempts so the 5/10 rating can move.
+- **Next leg day: attempt Hack Squat 82.5×6** to break the 3-session stall and reclaim the March PR.
+- **Program a short RDL reset:** drop to 65×8 for 2 sessions with clean hip hinge, then rebuild — the 80→70 slide is a form/fatigue issue, not strength loss.
+- **Don't schedule the 60-min Upper day within 24h of a match.** Put Legs+Core or a trimmed Push there instead.
+- **Keep eating.** Weight + PRs + HRV all rising = productive. Re-evaluate only if weight crosses ~165 without new PRs.
 
 ## Data Health Check
 
 | Source | Status | Latest Entry | Days Stale |
 |---|---|---|---|
-| Strength CSV | ✓ Current | 2026-05-10 | 0 |
-| Oura Recovery Log (drives Recovery + Sleep + Steps) | ✓ Current | 2026-05-10 | 0 |
-| Weight CSV | ✓ Current | 2026-05-10 | 0 |
-| Running Log | ✓ Current | 2026-05-08 | 2 |
+| Strength (`strong_workouts_raw.csv`) | ✅ Current | 2026-06-14 | 3 |
+| Recovery / Sleep / Steps (`Recovery_Log.md`) | ✅ Current | 2026-06-16 | 1 |
+| Weight (`weight.csv`) | ✅ Current | 2026-06-16 | 1 |
+| Tennis (`Session Log.md`) | ✅ Current | 2026-06-09 | 8 |
+| Running (`Run Log.md`) | ⏸️ Paused | 2026-05-11 | n/a (paused May 22) |

@@ -73,7 +73,8 @@ An interactive Next.js web app that reads data from all agent directories and re
 | Sleep | `oura/Recovery_Log.md` (Sleep Score, Deep, Total, HRV, HR fields) | 123+ entries | Markdown tables |
 | Steps | `oura/Recovery_Log.md` (Steps field) | 123+ entries | Markdown tables |
 | Weight | `data/weight.csv` | 1,658+ entries | CSV (comma) |
-| Running | `running/Run Log.md` | 6+ runs | Markdown tables |
+| Running | `running/Run Log.md` | 7 runs (paused) | Markdown tables |
+| Tennis | `tennis/Session Log.md` | 2 matches | Markdown |
 
 > **Note on Oura data:** All Oura metrics now flow through `oura/Recovery_Log.md`. The Oura API skill writes directly to that markdown file. The `oura/raw/` CSVs are historical-only — kept as a backup but no longer read by the dashboard. REM sleep, light sleep, and efficiency are NOT in the markdown source, so the Sleep page falls back to a "Deep + Other" 2-stack composition view.
 
@@ -106,7 +107,7 @@ Notion-inspired editorial minimalism:
 
 ## Current State (as of 2026-06-16)
 - **Strength:** Active — 1,023 unique sessions, last session Jun 14 (Pull). 4 sessions this week, 35+ PRs in last 5 weeks. Best progression run of the year — Tricep Dips Machine 180→205, Lat Pulldown 160→170 (first e1RM >200), Calf Press 235→245 (first e1RM >300). Push/Pull/Legs+Core/Upper rotation locked in.
-- **Tennis:** Active (NEW as of May 22) — 2x/week (drills + match play), goal = get measurably better. Tracking via Oura. No sessions logged yet.
+- **Tennis:** Active (NEW as of May 22) — 2x/week (drills + match play), goal = get measurably better. **2-0 match record** (last: Jun 9, beat Sid M. 6-1, 6-3; 90 min, avg HR 104). Skill baseline 6.58/10 — forehand the weapon (8), serve the weakness (5). Match HR profile (max 136) shows tennis isn't a cardio stimulus at this level.
 - **Running:** ⏸️ PAUSED (May 22) — Savar pivoted to tennis. 7 runs logged before pause, easy pace PR 11:49/mi @ 141 bpm. Plan and data preserved for future resumption.
 - **Oura:** Active — 160 daily entries through Jun 16. Status 🟢 GREEN. 7-day HRV 75ms ↑, readiness 83, sleep 82, RHR 56.3 bpm ↓. Recovery strengthened materially over the last 5 weeks (HRV +14%, RHR -2 bpm). Dashboard reads Sleep + Steps directly from `Recovery_Log.md`.
 - **Weight:** Active — 1,658 daily entries, current 161.6 lbs (Jun 16), 7-day avg 161.1, 30-day avg 160.1. Up +2.0 lbs since May 10 (~0.4 lb/wk) — gradual climb continuing alongside the year's best strength progression (35+ PRs), so still tracking as productive lean-mass gain rather than surplus.
