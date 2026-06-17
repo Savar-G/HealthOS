@@ -25,7 +25,8 @@ After each session, tell Claude:
 
 | # | Date | Day | Type | Duration | Avg HR | Max HR | Cal | Focus / Notes | RPE |
 |---|------|-----|------|----------|--------|--------|-----|---------------|-----|
-| -- | -- | -- | -- | -- | -- | -- | -- | _No sessions logged yet. Play your first session and report back!_ | -- |
+| 1 | 2026-06-02 | Tue | Match | -- | -- | -- | -- | vs Scott F. — won 6-3, 6-4. Straight sets. | -- |
+| 2 | 2026-06-09 | Tue | Match | -- | -- | -- | -- | vs Sid M. — won 6-1, 6-3. Dominant 1st set. | -- |
 
 ---
 
@@ -33,7 +34,8 @@ After each session, tell Claude:
 
 | Week | Dates | Sessions | Total Min | Drills | Matches | Notes |
 |------|-------|----------|-----------|--------|---------|-------|
-| Week 1 | -- | -- | -- | -- | -- | _First week pending_ |
+| Week of Jun 1 | Jun 1-7 | 1 | -- | 0 | 1 | Match vs Scott F. (W 6-3, 6-4) |
+| Week of Jun 8 | Jun 8-14 | 1 | -- | 0 | 1 | Match vs Sid M. (W 6-1, 6-3) |
 
 ---
 
@@ -69,7 +71,8 @@ _For similar session intensities, avg HR should DECLINE as fitness improves._
 
 | Date | Duration | Avg HR | Max HR | Result | Notes |
 |------|----------|--------|--------|--------|-------|
-| -- | -- | -- | -- | -- | -- |
+| 2026-06-02 | -- | -- | -- | W 6-3, 6-4 | vs Scott F. — Oura data not reported |
+| 2026-06-09 | -- | -- | -- | W 6-1, 6-3 | vs Sid M. — Oura data not reported |
 
 ---
 
@@ -87,9 +90,11 @@ _Tracks impact of each session on next-day Oura readiness. Helps identify which 
 
 | Metric | Value | Date |
 |--------|-------|------|
-| **Total Sessions** | 0 | -- |
-| **Total Time on Court** | 0 min | -- |
-| **Match Record** | 0-0 | -- |
+| **Total Sessions** | 2 | 2026-06-09 |
+| **Total Time on Court** | TBD (duration not reported) | -- |
+| **Match Record** | **2-0** (4 sets won, 0 lost) | 2026-06-09 |
+| **Sets Win %** | 100% (4/4) | 2026-06-09 |
+| **Games Win %** | 70.4% (24-13 cumulative) | 2026-06-09 |
 | **Longest Session** | -- | -- |
 | **Highest Avg HR** | -- | -- |
 | **Highest Max HR** | -- | -- |

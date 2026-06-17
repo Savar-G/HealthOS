@@ -11,15 +11,16 @@ _Exportable snapshot — updated after every session._
 | Metric | Value |
 |--------|-------|
 | **Schedule** | 2x/week tennis (mix of drills + match play) integrated with 4x/week Push/Pull/Legs/Upper strength |
-| **Last session** | No sessions logged yet |
-| **This week** | 0 / 2 sessions targeted |
+| **Last session** | June 9, 2026 — Match vs Sid M., won 6-1, 6-3 |
+| **This week** | 1 match logged (June 9) |
 | **Goal** | Get measurably better (skill + match play) |
 | **Skill self-rating (baseline)** | TBD — need first quarterly rating |
-| **Match record** | 0-0 |
-| **HR efficiency trend** | No data yet |
-| **Recovery cost trend** | No data yet (next-day Oura readiness) |
+| **Match record** | **2-0** (4 sets won, 0 lost) |
+| **NTRP level** | 3.0 (self-rated) |
+| **HR efficiency trend** | No data yet (Oura data not reported for matches) |
+| **Recovery cost trend** | No data yet |
 | **Injury flags** | None |
-| **Coach assessment** | Fresh start on tennis tracking. 2x/week structure (drills + match play) follows deliberate practice framework. Strength training base (4x/week) is a tennis asset — explosive + rotational + single-leg work transfers directly. First session: log it and we'll start building the baseline. |
+| **Coach assessment** | First two matches logged — 2-0 record with clean wins (6-3, 6-4 and 6-1, 6-3). Set margins suggest playing at or slightly above 3.0 level. Both matches won in straight sets without breakers = comfortable wins. Need more data: match duration, Oura HR if worn, and ideally drill/practice sessions in between (currently only seeing match data). Next: log session details from Oura if available, and start tracking skill focus per session. |
 
 ---
 
@@ -32,7 +33,7 @@ _Exportable snapshot — updated after every session._
 | **Sport** | Tennis (primary) |
 | **Goal** | Get measurably better — improve skill, win more matches |
 | **Schedule** | 2x/week (mix of drills + match play) |
-| **Current Level** | Returning to tennis — self-assessment pending |
+| **Current Level** | NTRP 3.0 (self-rated, returning to tennis) |
 | **Timezone** | America/Vancouver (PDT) |
 | **Coach** | Claude (AI Tennis Coach) |
 
@@ -133,7 +134,7 @@ _Updated as you report sessions and skill ratings._
 | **Skill self-rating: Volley** | TBD | -- |
 | **Skill self-rating: Footwork** | TBD | -- |
 | **Skill self-rating: Mental** | TBD | -- |
-| **Match record (current period)** | 0-0 | -- |
+| **Match record (current period)** | **2-0** (4 sets, 0 lost) | June 9, 2026 |
 | **Avg session HR (drill)** | TBD | -- |
 | **Avg session HR (match)** | TBD | -- |
 | **Longest session** | TBD | -- |
@@ -154,7 +155,8 @@ _What you're actively working on. Updated as focus shifts._
 
 | Date | Opponent | Type | Score | Result | Notes |
 |------|----------|------|-------|--------|-------|
-| -- | -- | -- | -- | -- | _No matches logged yet_ |
+| 2026-06-02 | Scott F. | Match (best of 3 sets) | 6-3, 6-4 | **W** | Straight sets, 3-game and 2-game margins |
+| 2026-06-09 | Sid M. | Match (best of 3 sets) | 6-1, 6-3 | **W** | Straight sets, dominant first set (5-game margin) |
 
 ---
 
@@ -162,9 +164,9 @@ _What you're actively working on. Updated as focus shifts._
 
 - [ ] First session logged with full data (HR, duration, RPE, what worked on)
 - [ ] First quarterly skill self-rating completed (baseline)
-- [ ] First match logged
-- [ ] First match win
+- [x] First match logged ✅ (June 2, 2026 — vs Scott F., won 6-3, 6-4)
+- [x] First match win ✅ (June 2, 2026)
 - [ ] 10 sessions completed
 - [ ] First skill self-rating improvement (any category, +1 point)
 - [ ] First NTRP / UTR rating (if you choose to get one)
-- [ ] Win record above .500 over a 10-match window
+- [ ] Win record above .500 over a 10-match window (currently 2-0)
