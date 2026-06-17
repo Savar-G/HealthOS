@@ -104,11 +104,11 @@ Notion-inspired editorial minimalism:
 - Flags are prioritized by urgency
 - Dates use YYYY-MM-DD format
 
-## Current State (as of 2026-05-10)
-- **Strength:** Active — 1,006 unique sessions, last session May 10 (Pull). 4 sessions this week, 9 PRs in last 22 days. Fully recovered from Mar-Apr gap and pushing past pre-break weights. Split stabilized at Push/Pull/Legs+Core/Upper.
+## Current State (as of 2026-06-16)
+- **Strength:** Active — 1,023 unique sessions, last session Jun 14 (Pull). 4 sessions this week, 35+ PRs in last 5 weeks. Best progression run of the year — Tricep Dips Machine 180→205, Lat Pulldown 160→170 (first e1RM >200), Calf Press 235→245 (first e1RM >300). Push/Pull/Legs+Core/Upper rotation locked in.
 - **Tennis:** Active (NEW as of May 22) — 2x/week (drills + match play), goal = get measurably better. Tracking via Oura. No sessions logged yet.
 - **Running:** ⏸️ PAUSED (May 22) — Savar pivoted to tennis. 7 runs logged before pause, easy pace PR 11:49/mi @ 141 bpm. Plan and data preserved for future resumption.
-- **Oura:** Active — 123 daily entries through May 10. Status 🟢 GREEN. 7-day HRV 66ms, readiness 80, sleep 83. Dashboard now reads Sleep + Steps directly from `Recovery_Log.md` (the API skill writes there) — no CSV re-export needed.
+- **Oura:** Active — 160 daily entries through Jun 16. Status 🟢 GREEN. 7-day HRV 75ms ↑, readiness 83, sleep 82, RHR 56.3 bpm ↓. Recovery strengthened materially over the last 5 weeks (HRV +14%, RHR -2 bpm). Dashboard reads Sleep + Steps directly from `Recovery_Log.md`.
 - **Weight:** Active — 1,625 daily entries, current 159.6 lbs (May 10), +3.8 lbs since Apr 12 (productive refueling during training rebuild).
 - **Dashboard:** Next.js app with 5 interactive pages, all data-driven. Insights page renders `coach_notes.md` at top.
 
