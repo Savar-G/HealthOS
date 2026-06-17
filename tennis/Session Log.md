@@ -25,8 +25,8 @@ After each session, tell Claude:
 
 | # | Date | Day | Type | Duration | Avg HR | Max HR | Cal | Focus / Notes | RPE |
 |---|------|-----|------|----------|--------|--------|-----|---------------|-----|
-| 1 | 2026-06-02 | Tue | Match | -- | -- | -- | -- | vs Scott F. — won 6-3, 6-4. Straight sets. | -- |
-| 2 | 2026-06-09 | Tue | Match | -- | -- | -- | -- | vs Sid M. — won 6-1, 6-3. Dominant 1st set. | -- |
+| 1 | 2026-06-02 | Tue | Match | 90 min | -- | -- | -- | vs Scott F. — won 6-3, 6-4. Straight sets. No Oura data. | -- |
+| 2 | 2026-06-09 | Tue | Match | 90 min | 104 bpm | 136 bpm | 476 | vs Sid M. — won 6-1, 6-3. Dominant 1st set. Oura: 31min Z0 / 34min Z1 / 12min Z2 (Oura zones). | -- |
 
 ---
 
@@ -45,7 +45,7 @@ After each session, tell Claude:
 
 | Date | Serve | FH | BH | Volley | Footwork | Mental | Overall | Notes |
 |------|-------|----|----|--------|----------|--------|---------|-------|
-| -- | -- | -- | -- | -- | -- | -- | -- | _No baseline yet — set after first 2-3 sessions_ |
+| 2026-06-09 | 5 | 8 | 6.5 | 7 | 7 | 7 | **6.58** | Baseline. FH is the weapon, serve is the weakness — 3-point gap. |
 
 ### Skill Focus History
 
@@ -53,7 +53,8 @@ _What you've worked on each session, in chronological order._
 
 | Date | Focus | Outcome |
 |------|-------|---------|
-| -- | -- | -- |
+| 2026-06-02 | Match play (vs Scott F.) | Won 6-3, 6-4 |
+| 2026-06-09 | Match play (vs Sid M.) | Won 6-1, 6-3 |
 
 ---
 
@@ -71,8 +72,8 @@ _For similar session intensities, avg HR should DECLINE as fitness improves._
 
 | Date | Duration | Avg HR | Max HR | Result | Notes |
 |------|----------|--------|--------|--------|-------|
-| 2026-06-02 | -- | -- | -- | W 6-3, 6-4 | vs Scott F. — Oura data not reported |
-| 2026-06-09 | -- | -- | -- | W 6-1, 6-3 | vs Sid M. — Oura data not reported |
+| 2026-06-02 | 90 min | -- | -- | W 6-3, 6-4 | vs Scott F. — Oura data not recorded |
+| 2026-06-09 | 90 min | 104 bpm | 136 bpm | W 6-1, 6-3 | vs Sid M. — baseline match HR profile (low intensity by HR) |
 
 ---
 
@@ -91,11 +92,12 @@ _Tracks impact of each session on next-day Oura readiness. Helps identify which 
 | Metric | Value | Date |
 |--------|-------|------|
 | **Total Sessions** | 2 | 2026-06-09 |
-| **Total Time on Court** | TBD (duration not reported) | -- |
+| **Total Time on Court** | 180 min (3 hours) | 2026-06-09 |
 | **Match Record** | **2-0** (4 sets won, 0 lost) | 2026-06-09 |
 | **Sets Win %** | 100% (4/4) | 2026-06-09 |
 | **Games Win %** | 70.4% (24-13 cumulative) | 2026-06-09 |
-| **Longest Session** | -- | -- |
-| **Highest Avg HR** | -- | -- |
-| **Highest Max HR** | -- | -- |
-| **Lowest Avg HR (same duration)** | -- (fitness signal) | -- |
+| **Longest Session** | 90 min (both matches) | 2026-06-09 |
+| **Highest Avg HR** | 104 bpm (Sid M. match) | 2026-06-09 |
+| **Highest Max HR** | 136 bpm (Sid M. match) | 2026-06-09 |
+| **Calories per match** | 476 (Sid M.) | 2026-06-09 |
+| **Lowest Avg HR (same duration)** | -- (fitness signal — only 1 match w/ Oura) | -- |

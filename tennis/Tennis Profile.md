@@ -11,16 +11,16 @@ _Exportable snapshot — updated after every session._
 | Metric | Value |
 |--------|-------|
 | **Schedule** | 2x/week tennis (mix of drills + match play) integrated with 4x/week Push/Pull/Legs/Upper strength |
-| **Last session** | June 9, 2026 — Match vs Sid M., won 6-1, 6-3 |
+| **Last session** | June 9, 2026 — Match vs Sid M., won 6-1, 6-3 (90 min, avg HR 104, max 136, 476 cal) |
 | **This week** | 1 match logged (June 9) |
 | **Goal** | Get measurably better (skill + match play) |
-| **Skill self-rating (baseline)** | TBD — need first quarterly rating |
-| **Match record** | **2-0** (4 sets won, 0 lost) |
-| **NTRP level** | 3.0 (self-rated) |
-| **HR efficiency trend** | No data yet (Oura data not reported for matches) |
-| **Recovery cost trend** | No data yet |
+| **Skill self-rating (6/9 baseline)** | Serve 5 / FH 8 / BH 6.5 / Volley 7 / Footwork 7 / Mental 7 → **Overall 6.58/10** |
+| **Match record** | **2-0** (4 sets won, 0 lost, 24-13 games) |
+| **NTRP level** | 3.0 (self-rated, but game win % suggests 3.0/3.5 boundary) |
+| **HR efficiency trend** | Match avg HR 104, max 136 — surprisingly low. Tennis at this level isn't a cardio stimulus (vs running easy day was 141 avg). |
+| **Recovery cost trend** | No next-day Oura readiness data yet |
 | **Injury flags** | None |
-| **Coach assessment** | First two matches logged — 2-0 record with clean wins (6-3, 6-4 and 6-1, 6-3). Set margins suggest playing at or slightly above 3.0 level. Both matches won in straight sets without breakers = comfortable wins. Need more data: match duration, Oura HR if worn, and ideally drill/practice sessions in between (currently only seeing match data). Next: log session details from Oura if available, and start tracking skill focus per session. |
+| **Coach assessment** | Strong start. 2-0 record with clean straight-sets wins. Skill baseline set: FH is the weapon (8), serve is the weakness (5) — 3-point gap is significant. **Primary skill focus: serve work** (highest leverage improvement). Match HR profile reveals tennis at 3.0 level isn't a cardio workout — max HR 136 stays at the bottom edge of Karvonen Zone 2. Keep the 4x/week strength training; consider adding cardio elsewhere (run, bike, jump rope) if fitness gain matters. |
 
 ---
 
@@ -128,16 +128,18 @@ _Updated as you report sessions and skill ratings._
 
 | Metric | Value | Date Set |
 |--------|-------|----------|
-| **Skill self-rating: Serve** | TBD | -- |
-| **Skill self-rating: Forehand** | TBD | -- |
-| **Skill self-rating: Backhand** | TBD | -- |
-| **Skill self-rating: Volley** | TBD | -- |
-| **Skill self-rating: Footwork** | TBD | -- |
-| **Skill self-rating: Mental** | TBD | -- |
+| **Skill self-rating: Serve** | **5** ← primary focus | June 9, 2026 |
+| **Skill self-rating: Forehand** | **8** ← weapon | June 9, 2026 |
+| **Skill self-rating: Backhand** | **6.5** | June 9, 2026 |
+| **Skill self-rating: Volley** | **7** | June 9, 2026 |
+| **Skill self-rating: Footwork** | **7** | June 9, 2026 |
+| **Skill self-rating: Mental** | **7** | June 9, 2026 |
+| **Overall skill rating** | **6.58/10** | June 9, 2026 |
 | **Match record (current period)** | **2-0** (4 sets, 0 lost) | June 9, 2026 |
-| **Avg session HR (drill)** | TBD | -- |
-| **Avg session HR (match)** | TBD | -- |
-| **Longest session** | TBD | -- |
+| **Avg session HR (drill)** | TBD (no drill sessions logged yet) | -- |
+| **Avg session HR (match)** | 104 bpm (n=1, Sid M.) | June 9, 2026 |
+| **Max HR (match)** | 136 bpm (n=1, Sid M.) | June 9, 2026 |
+| **Longest session** | 90 min | June 9, 2026 |
 
 ---
 
@@ -147,7 +149,7 @@ _What you're actively working on. Updated as focus shifts._
 
 | Period | Primary Skill Focus | Secondary | Status |
 |--------|---------------------|-----------|--------|
-| -- | TBD (set after first session) | TBD | -- |
+| Jun-Aug 2026 | **Serve** (baseline 5) | Backhand (baseline 6.5) | Active — highest leverage given 3-point gap from FH |
 
 ---
 
@@ -155,15 +157,15 @@ _What you're actively working on. Updated as focus shifts._
 
 | Date | Opponent | Type | Score | Result | Notes |
 |------|----------|------|-------|--------|-------|
-| 2026-06-02 | Scott F. | Match (best of 3 sets) | 6-3, 6-4 | **W** | Straight sets, 3-game and 2-game margins |
-| 2026-06-09 | Sid M. | Match (best of 3 sets) | 6-1, 6-3 | **W** | Straight sets, dominant first set (5-game margin) |
+| 2026-06-02 | Scott F. | Match (best of 3 sets, 90 min) | 6-3, 6-4 | **W** | Straight sets, 3-game and 2-game margins. No Oura data. |
+| 2026-06-09 | Sid M. | Match (best of 3 sets, 90 min) | 6-1, 6-3 | **W** | Straight sets, dominant 1st (5-game). Avg HR 104, max 136, 476 cal. |
 
 ---
 
 ## Milestones
 
-- [ ] First session logged with full data (HR, duration, RPE, what worked on)
-- [ ] First quarterly skill self-rating completed (baseline)
+- [x] First session logged with full data (HR, duration, RPE, what worked on) ✅ (June 9, 2026 — Sid M. match with full Oura)
+- [x] First quarterly skill self-rating completed (baseline) ✅ (June 9, 2026 — 6.58/10 overall)
 - [x] First match logged ✅ (June 2, 2026 — vs Scott F., won 6-3, 6-4)
 - [x] First match win ✅ (June 2, 2026)
 - [ ] 10 sessions completed
