@@ -1,66 +1,61 @@
 # Strength Profile
 
 ## State of My Strength
-_Last updated: 2026-06-14_
+_Last updated: 2026-07-04_
 
-- **Last session:** 2026-06-14 — Pull (32min); Lat Pulldown 170x6 (PR), Seated Row Machine 160x8 (PR), Cable Pullover 30.5x8 (PR)
-- **This week (Mon Jun 8–Sun Jun 14):** 4 sessions (Upper, Legs+Core, Push, Pull), 32,726 lbs total volume
+- **Last session:** 2026-07-04 — Push (49min); Incline Press SPM 105x6 (PR), Pec Deck 155x6, Shoulder Press 80x4
+- **This week (Mon Jun 29–Sun Jul 5):** 3 sessions (Upper, Legs+Core, Push), 25,330 lbs total volume
 - **Current focus lifts:**
-  - Incline Press SPM: 95 lbs working (e1RM PR 117.2 — up from 80 in 6 weeks)
-  - Lat Pulldown (Wide): 170 lbs working (e1RM PR 204.0 — first time over 200)
-  - Tricep Dips Machine: 205 lbs working (e1RM PR 259.7 — up from 180 in 6 weeks)
-  - Lateral Raise (Machine): 90 lbs working (e1RM PR 114.0)
-  - Calf Press: 245 lbs working (e1RM PR 310.3 — first time over 300)
-  - Hack Squat: 80 lbs working (still 2.5 lb shy of 82.5 PR from Mar)
-- **Progressive overload trend:** 🔥 Best run of the year. 35+ PRs in last 5 weeks. Every upper-body push and pull movement has progressed. Hamstrings now actively rotating between Lying Leg Curl, Seated Leg Curl, and Cable SLDL.
-- **Volume balance (last 5 weeks):** Back (~58 sets) ≈ Chest (~38) ≈ Shoulders (~36) ≈ Triceps (~30) ≈ Biceps (~24) > Quads (~22) > Hamstrings (~14) > Core (~8). Hamstrings improved with new Seated Leg Curl and Cable SLDL additions.
-- **Coach assessment:** Exceptional consistency since May 11 — 17 sessions over 5 weeks, perfect 4-day PPL+Upper rotation. Adding seated leg curl, cable SLDL, and hip ad/abductor work has addressed the hamstring weakness. Push/Pull strength gains are now in the post-rebuild zone — these are new all-time highs, not recoveries. Watch for upper-body fatigue accumulation; Upper days are running long (1h+).
+  - Incline Press SPM: 105 lbs working (e1RM PR **126.0** — up from 80 in 8 weeks, +31% e1RM)
+  - Calf Press: 250-260 lbs working (e1RM PR **325.0** — the biggest lift on the log)
+  - Seated Leg Curl: 120 lbs working (e1RM PR **164.0** — up from 100 in 3 weeks)
+  - Seated Row (Cable): 160 lbs working (e1RM PR 202.7 — first over 200)
+  - Lat Pulldown (Wide): 170 lbs working (last hit Jun 28, 3/2 grinder reps — plateaued)
+  - Hack Squat: 82.5 lbs working (finally matched Mar 2 PR on Jul 3)
+- **Progressive overload trend:** 🔥🔥 Still climbing. 24 more PRs in the last 3 weeks on top of the 35+ from May–Jun. Lower body has now caught up to upper — Calf Press, Seated Leg Curl, Hip Adductor, and Cable SLDL all hit new highs.
+- **Volume balance (last 3 weeks):** Chest ≈ Shoulders ≈ Quads ≈ Hamstrings > Triceps > Back ≈ Biceps > Core. **Big shift:** Pull sessions dropped out — only 1 Pull day in the last 3 weeks (Jun 14) vs 4 Upper + 3 Legs+Core + 1 Push. Back volume falling behind.
+- **Coach assessment:** Best 8-week progression run on record. But the split has quietly shifted from PPL+Upper (4x/wk) to Upper/Legs+Core (2-3x/wk) with Pull nearly absent. Chest and shoulders getting hit 2-3x/wk through Upper days, but dedicated back work (Lat Pulldown, Rows, Cable Pullover, Rear Delt) has evaporated. If you keep this pattern another 4 weeks, expect a lat/upper-back imbalance and rear-delt regression. Recommend restoring at least 1 Pull day per week.
 
 ### Session Frequency (Last 6 weeks)
 | Week | Sessions | Volume (lbs) | Notes |
 |---|---|---|---|
-| Jun 8–14 | 4 | 32,726 | Upper, Legs+Core, Push, Pull |
-| Jun 1–7 | 4 | 33,546 | Upper, Legs+Core, Push, Pull |
-| May 25–31 | 4 | 40,123 | Legs+Core, Upper, Push, Pull |
-| May 18–24 | 3 | 19,788 | Pull, Push, Pull |
-| May 11–17 | 2 | 19,236 | Upper, Push |
-| May 4–10 | 4 | 29,507 | Legs+Core, Upper, Push, Pull |
+| Jun 29–Jul 5 | 3 | 25,330 | Upper, Legs+Core, Push |
+| Jun 22–Jun 28 | 3 | 30,698 | Upper, Legs+Core, Upper |
+| Jun 15–Jun 21 | 2 | 21,389 | Upper, Legs+Core |
+| Jun 8–Jun 14 | 4 | 32,726 | Upper, Legs+Core, Push, Pull |
+| Jun 1–Jun 7 | 4 | 33,546 | Upper, Legs+Core, Push, Pull |
+| May 25–May 31 | 4 | 40,123 | Legs+Core, Upper, Push, Pull |
 
-### Recent PRs (Last 30 Days)
+### Recent PRs (Last 3 Weeks)
 | Exercise | Weight x Reps | Est. 1RM | Date | Notes |
 |---|---|---|---|---|
-| Calf Press on Seated Leg Press | 245 x 8 | 310.3 | 2026-06-12 | ⬆ from 240x8 (first time >300) |
-| Tricep Dips Machine | 205 x 8 | 259.7 | 2026-06-06 | ⬆ +25 lbs from 180x9 in 5 wks |
-| Lat Focus Wide Grip Lat Pulldown | 170 x 6 | 204.0 | 2026-06-14 | ⬆ from 160x8 (first time >200) |
-| Seated Row (Machine) | 160 x 8 | 202.7 | 2026-06-14 | ⬆ from 150x8 |
-| Seated Row (Cable) | 150 x 8 | 190.0 | 2026-06-03 | ⬆ from 145x7 |
-| Cable SLDL | 140 x 10 | 186.7 | 2026-06-12 | First time tracked |
-| Pec Deck (Machine) | 150 x 7 | 185.0 | 2026-06-06 | ⬆ from 145x8 |
-| Reverse Fly (Machine) | 105 x 8 | 133.0 | 2026-06-07 | First time tracked |
-| Seated Leg Curl (Machine) | 100 x 9 | 130.0 | 2026-06-12 | First time tracked |
-| Incline Press on Shoulder Press Machine | 95 x 7 | 117.2 | 2026-06-11 | ⬆ from 80x6 in 5 wks |
-| Chest Supported Lat Pulldown | 95 x 7 | 117.2 | 2026-06-11 | ⬆ from 92.5x7 |
-| Lateral Raise (Machine) | 90 x 8 | 114.0 | 2026-06-11 | ⬆ from 85x6 in 5 wks |
-| Hip Adductor (Machine) | 75 x 9 | 97.5 | 2026-06-12 | ⬆ from 75x5 |
-| Incline Bench Press (Dumbbell) | 70 x 6 | 84.0 | 2026-06-13 | ⬆ from 65x7 |
-| Tricep Pushdown | 67.5 x 7 | 83.2 | 2026-06-03 | ⬆ from 60.5x10 |
-| Iso-Lateral Chest Press (Machine) | 70 x 5 | 81.7 | 2026-05-28 | ⬆ from 60x8 |
-| DB Seated Shoulder Press | 60 x 5 | 70.0 | 2026-05-30 | ⬆ from 60x4 |
-| Reverse Curl (Cable) | 47.5 x 8 | 60.2 | 2026-06-14 | ⬆ from 40.5x9 in 5 wks |
-| Bicep Curl (Dumbbell) | 40 x 5 | 46.7 | 2026-06-14 | ⬆ from 35x7 |
-| Cable Lat Pullover | 30.5 x 8 | 38.6 | 2026-06-14 | ⬆ from 24x7 (+27% in 5 wks) |
+| Calf Press on Seated Leg Press | 250 x 9 | 325.0 | 2026-06-20 | ⬆ +15 e1RM from 245x8 |
+| Seated Leg Curl (Machine) | 120 x 11 | 164.0 | 2026-07-03 | ⬆ +34 e1RM in 3 weeks |
+| Incline Press on Shoulder Press Machine | 105 x 6 | 126.0 | 2026-07-04 | ⬆ from 95x7 |
+| Cable SLDL | 160 x 8 | 202.7 | 2026-06-20 | ⬆ from 140x10 |
+| Seated Row (Cable) | 160 x 8 | 202.7 | 2026-06-25 | First >200 (from 150x8) |
+| Pec Deck (Machine) | 150 x 8 | 190.0 | 2026-06-28 | ⬆ from 150x7 |
+| Lateral Raise (Machine) | 95 x 7 | 117.2 | 2026-06-25 | ⬆ from 90x8 |
+| Hip Adductor (Machine) | 90 x 8 | 114.0 | 2026-07-03 | ⬆ +7 in 2 weeks |
+| Preacher Curl (Machine) | 72.5 x 6 | 87.0 | 2026-06-25 | ⬆ from 70x7 (2023 PR broken) |
+| Tricep Pushdown | 67.5 x 8 | 85.5 | 2026-06-17 | ⬆ from 67.5x7 |
+| Iso-Lateral Chest Press (Machine) | 65 x 8 | 82.3 | 2026-07-01 | ⬆ from 70x5 (rep quality trade) |
+| Bicep Curl (Barbell) | 60 x 6 | 72.0 | 2026-06-28 | First time tracked |
+| Reverse Curl (Cable) | 50.5 x 9 | 65.7 | 2026-06-25 | ⬆ from 47.5x8 |
+| Back Extension | 25 x 10 | 33.3 | 2026-07-03 | First time tracked |
+| Lateral Raise (Cable) | 17.5 x 5 | 20.4 | 2026-07-04 | First time tracked |
 
 ### Stall Flags
-- **Hack Squat** — stuck at 80x6 for 3 sessions (May 25, Jun 5, Jun 12). Still 2.5 lbs below Mar 2 PR (82.5x6). Time to try 82.5 again.
-- **Preacher Curl (Machine)** — Inconsistent at 70 lbs (6, 5, 5 reps). Stays the white whale; bicep curls are clearly the recovery point of the workout.
-- **Romanian Deadlift (Barbell)** — 80x5, 80x4 then dropped to 70x4 on Jun 5. Trending the wrong direction. Consider deload then rebuild.
+- **Lat Focus Wide Grip Lat Pulldown** — 170x5, 170x4 on Jun 28 (only Pull-adjacent day). Regressing from Jun 14's 170x6. Combined with the missing Pull days, this is the clearest warning sign.
+- **Shoulder Press (Plate Loaded)** — hovering at 75x6-7 for 4 consecutive sessions. 80x4 on Jul 4 was a grinder. Time to either commit to the 80 push or drop to 77.5 for cleaner reps.
+- **Preacher Curl (Machine)** — hit 72.5x6 once (Jun 25) but fell back to 70x5-6. Reproduce the 72.5 to confirm it wasn't a fluke.
 
 ### Flags
-1. **Best progression run since the rebuild started** — Tricep Dips +25 lbs, Lat Pulldown +10 lbs, Incline Press SPM +15 lbs in 5 weeks. Coaching priority: keep the +5 lb weekly bumps coming but watch for grinder reps.
-2. **Upper days running long** — Jun 11 Upper was 57min, May 28 Upper was 1h 5min. Either trim the accessory work or commit to the extra time — but don't let it bleed into next-day recovery.
-3. **Hamstrings finally addressed** — added Seated Leg Curl and Cable SLDL. Sets per 30d up from 8 → 14. Keep both in rotation.
-4. **Tennis pivot completed** — running is paused (since May 22). Leg fatigue interference from running is gone, which is showing up in better hack squat consistency and calf press PRs.
-5. **Pull sessions getting shorter** — Jun 14 was 32 min vs 59 min on May 31. Possibly skipping accessory volume on the way out. Watch back volume next few weeks.
+1. **Pull sessions have disappeared** — only 1 Pull day (Jun 14) in the last 3 weeks vs 4 Upper days. Dedicated back work down 70%+. **Priority fix.**
+2. **Incline Press SPM has become the hero lift** — hit every Upper/Push day, jumped 80→105 in 8 weeks. Watch for shoulder impingement or grinder reps at 105+.
+3. **Hamstrings fully rehabilitated** — Seated Leg Curl 100→120x11 in 3 weeks. Adding this and Cable SLDL closed the biggest muscle-group gap in the profile.
+4. **Hack Squat stall broken** — matched Mar 2 PR of 82.5x6 on Jul 3 after 4 months. Time to push 85 next Legs day.
+5. **Cable Crunch logged as 0 reps** on Jun 26 and Jul 3 — either data entry issue or unfinished sets. Worth clarifying next session.
 
 ---
 
@@ -68,7 +63,7 @@ _Last updated: 2026-06-14_
 - **App**: Strong (iOS)
 - **Data Format**: Strong export CSV
 - **Goals**: Hypertrophy + Strength (building muscle)
-- **Current Split**: Push / Pull / Legs+Core / Upper hybrid, 3-4x/week
-- **Training History**: 1,023 sessions since September 2020 (~5.7 years). Previously ran PPL, Upper/Lower, Full Body A/B/C before current hybrid.
+- **Current Split**: Upper / Legs+Core dominant (with occasional Push), 2-3x/week — shifted from prior 4x/week PPL+Upper
+- **Training History**: 1,034 sessions since September 2020 (~5.8 years).
 - **Injuries/Limitations**: None reported
 - **Concurrent Training**: Tennis 2x/week (drills + match play) since May 22 2026. Running paused.

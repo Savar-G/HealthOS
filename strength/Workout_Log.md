@@ -1,8 +1,189 @@
 # Workout Log
 
-_Full history: 1,023 sessions from 2020-09-08 to 2026-06-14._
+_Full history: 1,034 sessions from 2020-09-08 to 2026-07-04._
 _Raw data: `strong_workouts_raw.csv`_
 _Below: last sessions in detail._
+
+---
+
+## 2026-07-04 — Push (49min)
+| Exercise | Set | Weight (lbs) | Reps |
+|---|---|---|---|
+| Incline Press on Shoulder Press Machine | 1 | 105 | 6 |
+| Incline Press on Shoulder Press Machine | 2 | 105 | 4 |
+| Pec Deck (Machine) | 1 | 155 | 6 |
+| Pec Deck (Machine) | 2 | 155 | 5 |
+| Shoulder Press (Plate Loaded) | 1 | 80 | 4 |
+| Shoulder Press (Plate Loaded) | 2 | 70 | 7 |
+| Triceps Dip | 1 | 25 | 6 |
+| Triceps Dip | 2 | 25 | 5 |
+| Lateral Raise (Cable) | 1 | 17.5 | 5 |
+| Lateral Raise (Cable) | 2 | 12.5 | 10 |
+| Single Arm Tricep Extension | 1 | 24 | 8 |
+| Single Arm Tricep Extension | 2 | 24 | 8 |
+| Single Arm Tricep Extension | 3 | 24 | 6 |
+| Single Arm Tricep Extension | 4 | 24 | 6 |
+
+**PRs this session**: Incline Press SPM 105x6 (e1RM 126.0, ⬆ from 100x7), Lateral Raise Cable 17.5x5 (first time)
+
+---
+
+## 2026-07-03 — Legs + Core (1h)
+| Exercise | Set | Weight (lbs) | Reps |
+|---|---|---|---|
+| Calf Press on Seated Leg Press | 1 | 260 | 7 |
+| Calf Press on Seated Leg Press | 2 | 260 | 5 |
+| Seated Leg Curl (Machine) | 1 | 120 | 11 |
+| Seated Leg Curl (Machine) | 2 | 120 | 10 |
+| Hack Squat | 1 | 82.5 | 6 |
+| Hack Squat | 2 | 82.5 | 6 |
+| Back Extension | 1 | 25 | 10 |
+| Back Extension | 2 | 25 | 9 |
+| Leg Extension (Machine) | 1 | 180 | 8 |
+| Leg Extension (Machine) | 2 | 180 | 6 |
+| Hip Adductor (Machine) | 1 | 90 | 8 |
+| Hip Adductor (Machine) | 2 | 90 | 4 |
+
+**PRs this session**: Seated Leg Curl 120x11 (e1RM 164.0, ⬆ from 115x8), Hip Adductor 90x8 (e1RM 114.0, ⬆ from 80x10), Back Extension 25x10 (first time), Hack Squat matched Mar PR at 82.5x6 (stall broken)
+
+---
+
+## 2026-07-01 — Upper (57min)
+| Exercise | Set | Weight (lbs) | Reps |
+|---|---|---|---|
+| Incline Press on Shoulder Press Machine | 1 | 100 | 7 |
+| Incline Press on Shoulder Press Machine | 2 | 100 | 6 |
+| Iso-Lateral Chest Press (Machine) | 1 | 65 | 8 |
+| Iso-Lateral Chest Press (Machine) | 2 | 65 | 7 |
+| Chest Supported Lat Pulldown | 1 | 90 | 8 |
+| Chest Supported Lat Pulldown | 2 | 90 | 8 |
+| Chest Supported Lat Pulldown | 3 | 90 | 7 |
+| Chest Supported Lat Pulldown | 4 | 90 | 7 |
+| Shoulder Press (Plate Loaded) | 1 | 75 | 7 |
+| Lateral Raise (Machine) | 1 | 95 | 6 |
+| Lateral Raise (Machine) | 2 | 85 | 8 |
+| Seated Row (Cable) | 1 | 160 | 7 |
+| Seated Row (Cable) | 2 | 160 | 6 |
+| Triceps Dip | 1 | 25 | 7 |
+| Triceps Dip | 2 | 25 | 5 |
+| Preacher Curl (Machine) | 1 | 70 | 6 |
+| Preacher Curl (Machine) | 2 | 70 | 5 |
+
+**PRs this session**: Incline Press SPM 100x7 (e1RM 123.3, ⬆ from 100x6), Iso-Lateral Chest Press 65x8 (e1RM 82.3, ⬆ from 70x5)
+
+---
+
+## 2026-06-28 — Upper (1h 1min)
+| Exercise | Set | Weight (lbs) | Reps |
+|---|---|---|---|
+| Incline Press on Shoulder Press Machine | 1 | 100 | 6 |
+| Incline Press on Shoulder Press Machine | 2 | 100 | 5 |
+| Pec Deck (Machine) | 1 | 150 | 8 |
+| Pec Deck (Machine) | 2 | 150 | 7 |
+| Lat Focus Wide Grip Lat Pulldown | 1 | 170 | 5 |
+| Lat Focus Wide Grip Lat Pulldown | 2 | 170 | 4 |
+| Shoulder Press (Plate Loaded) | 1 | 75 | 6 |
+| Seated Row (Cable) | 1 | 160 | 5 |
+| Seated Row (Cable) | 2 | 160 | 5 |
+| Triceps Dip | 1 | 25 | 7 |
+| Triceps Dip | 2 | 25 | 6 |
+| Lateral Raise (Machine) | 1 | 95 | 6 |
+| Lateral Raise (Machine) | 2 | 85 | 8 |
+| Bicep Curl (Barbell) | 1 | 50 | 12 |
+| Bicep Curl (Barbell) | 2 | 60 | 6 |
+
+**PRs this session**: Pec Deck 150x8 (e1RM 190.0, ⬆ from 150x7), Bicep Curl Barbell 60x6 (e1RM 72.0, first time)
+
+---
+
+## 2026-06-26 — Legs + Core (53min)
+| Exercise | Set | Weight (lbs) | Reps |
+|---|---|---|---|
+| Calf Press on Seated Leg Press | 1 | 255 | 8 |
+| Calf Press on Seated Leg Press | 2 | 255 | 6 |
+| Seated Leg Curl (Machine) | 1 | 115 | 8 |
+| Seated Leg Curl (Machine) | 2 | 115 | 8 |
+| Hack Squat | 1 | 82.5 | 5 |
+| Hack Squat | 2 | 82.5 | 5 |
+| Back Extension (Machine) | 1 | 10 | 10 |
+| Back Extension (Machine) | 2 | 10 | 10 |
+| Leg Extension (Machine) | 1 | 175 | 9 |
+| Leg Extension (Machine) | 2 | 175 | 7 |
+| Hip Adductor (Machine) | 1 | 80 | 10 |
+| Hip Adductor (Machine) | 2 | 80 | 8 |
+
+**PRs this session**: Seated Leg Curl 115x8 (e1RM 145.7, ⬆ from 110x9), Back Extension Machine 10x10 (first time), Hip Adductor 80x10 (e1RM 106.7, ⬆ from 75x9)
+
+---
+
+## 2026-06-25 — Upper (1h)
+| Exercise | Set | Weight (lbs) | Reps |
+|---|---|---|---|
+| Pec Deck (Machine) | 1 | 150 | 7 |
+| Pec Deck (Machine) | 2 | 150 | 5 |
+| Incline Press on Shoulder Press Machine | 1 | 100 | 4 |
+| Incline Press on Shoulder Press Machine | 2 | 90 | 5 |
+| Shoulder Press (Plate Loaded) | 1 | 75 | 6 |
+| Lateral Raise (Machine) | 1 | 95 | 7 |
+| Lateral Raise (Machine) | 2 | 85 | 7 |
+| Seated Row (Cable) | 1 | 160 | 8 |
+| Seated Row (Cable) | 2 | 160 | 6 |
+| Triceps Dip | 1 | 15 | 11 |
+| Triceps Dip | 2 | 15 | 9 |
+| Preacher Curl (Machine) | 1 | 72.5 | 6 |
+| Preacher Curl (Machine) | 2 | 72.5 | 4 |
+| Chest Supported Lat Pulldown | 1 | 95 | 6 |
+| Chest Supported Lat Pulldown | 2 | 95 | 6 |
+| Chest Supported Lat Pulldown | 3 | 90 | 5 |
+| Chest Supported Lat Pulldown | 4 | 95 | 5 |
+| Tricep Pushdown | 1 | 69 | 6 |
+| Reverse Curl (Cable) | 1 | 50.5 | 9 |
+
+**PRs this session**: Lateral Raise Machine 95x7 (e1RM 117.2, ⬆ from 90x8), Seated Row Cable 160x8 (e1RM 202.7 — first time >200), Preacher Curl 72.5x6 (e1RM 87.0 — finally broke 2023 PR of 70x7), Reverse Curl 50.5x9 (e1RM 65.7)
+
+---
+
+## 2026-06-20 — Legs + Core (41min)
+| Exercise | Set | Weight (lbs) | Reps |
+|---|---|---|---|
+| Seated Leg Curl (Machine) | 1 | 110 | 9 |
+| Seated Leg Curl (Machine) | 2 | 110 | 8 |
+| Calf Press on Seated Leg Press | 1 | 250 | 9 |
+| Calf Press on Seated Leg Press | 2 | 250 | 7 |
+| Hack Squat | 1 | 80 | 7 |
+| Hack Squat | 2 | 80 | 6 |
+| Cable SLDL | 1 | 160 | 8 |
+| Cable SLDL | 2 | 160 | 8 |
+| Leg Extension (Machine) | 1 | 170 | 8 |
+| Leg Extension (Machine) | 2 | 170 | 7 |
+
+**PRs this session**: Calf Press 250x9 (e1RM 325.0, ⬆ from 245x8), Seated Leg Curl 110x9 (e1RM 143.0), Cable SLDL 160x8 (e1RM 202.7, ⬆ from 140x10)
+
+---
+
+## 2026-06-17 — Upper (1h 6min)
+| Exercise | Set | Weight (lbs) | Reps |
+|---|---|---|---|
+| Incline Press on Shoulder Press Machine | 1 | 100 | 6 |
+| Incline Press on Shoulder Press Machine | 2 | 100 | 5 |
+| Iso-Lateral Chest Press (Machine) | 1 | 60 | 9 |
+| Iso-Lateral Chest Press (Machine) | 2 | 60 | 8 |
+| Lateral Raise (Machine) | 1 | 95 | 6 |
+| Lateral Raise (Machine) | 2 | 85 | 8 |
+| Seated Row (Cable) | 1 | 160 | 7 |
+| Seated Row (Cable) | 2 | 160 | 5 |
+| Triceps Dip | 1 | 10 | 10 |
+| Triceps Dip | 2 | 10 | 8 |
+| Preacher Curl (Machine) | 1 | 70 | 7 |
+| Preacher Curl (Machine) | 2 | 70 | 5 |
+| Chest Supported Lat Pulldown | 1 | 95 | 7 |
+| Chest Supported Lat Pulldown | 2 | 95 | 7 |
+| Tricep Pushdown | 1 | 67.5 | 8 |
+| Tricep Pushdown | 2 | 67.5 | 6 |
+| Reverse Curl (Cable) | 1 | 49 | 9 |
+| Reverse Curl (Cable) | 2 | 49 | 7 |
+
+**PRs this session**: Incline Press SPM 100x6 (e1RM 120.0 — first time hitting 100 lbs), Seated Row Cable 160x7 (e1RM 197.3), Tricep Pushdown 67.5x8 (e1RM 85.5), Reverse Curl 49x9 (e1RM 63.7)
 
 ---
 
