@@ -11,11 +11,11 @@ _Exportable snapshot — updated after every session._
 | Metric | Value |
 |--------|-------|
 | **Schedule** | 2x/week tennis (mix of drills + match play) integrated with 4x/week Push/Pull/Legs/Upper strength |
-| **Last session** | June 9, 2026 — Match vs Sid M., won 6-1, 6-3 (90 min, avg HR 104, max 136, 476 cal) |
-| **This week** | 1 match logged (June 9) |
+| **Last session** | June 23, 2026 — Match vs Alejandro F. (3.0), won 6-4, 1-6, 7-9 (92 min, avg HR 111, max 133, 505 cal) — first 3-setter, 3rd match in 3 days |
+| **Recent activity** | 6 sessions logged: 5 matches + 1 practice. Match record **4-1** (4-0 vs 3.0, 0-1 vs 4.0). Played 3 matches in 3 days (Jun 21-23) — fatigue accumulation likely. |
 | **Goal** | Get measurably better (skill + match play) |
 | **Skill self-rating (6/9 baseline)** | Serve 5 / FH 8 / BH 6.5 / Volley 7 / Footwork 7 / Mental 7 → **Overall 6.58/10** |
-| **Match record** | **2-0** (4 sets won, 0 lost, 24-13 games) |
+| **Match record** | **4-1** (8 sets won, 3 lost, 58-45 games) — 4-0 vs 3.0, 0-1 vs 4.0 |
 | **NTRP level** | 3.0 (self-rated, but game win % suggests 3.0/3.5 boundary) |
 | **HR efficiency trend** | Match avg HR 104, max 136 — surprisingly low. Tennis at this level isn't a cardio stimulus (vs running easy day was 141 avg). |
 | **Recovery cost trend** | No next-day Oura readiness data yet |
@@ -135,11 +135,11 @@ _Updated as you report sessions and skill ratings._
 | **Skill self-rating: Footwork** | **7** | June 9, 2026 |
 | **Skill self-rating: Mental** | **7** | June 9, 2026 |
 | **Overall skill rating** | **6.58/10** | June 9, 2026 |
-| **Match record (current period)** | **2-0** (4 sets, 0 lost) | June 9, 2026 |
-| **Avg session HR (drill)** | TBD (no drill sessions logged yet) | -- |
-| **Avg session HR (match)** | 104 bpm (n=1, Sid M.) | June 9, 2026 |
-| **Max HR (match)** | 136 bpm (n=1, Sid M.) | June 9, 2026 |
-| **Longest session** | 90 min | June 9, 2026 |
+| **Match record (current period)** | **4-1** (8 sets won, 3 lost) — 4-0 vs 3.0, 0-1 vs 4.0 | June 23, 2026 |
+| **Avg session HR (drill)** | 102 bpm (n=1, Jun 20) | June 20, 2026 |
+| **Avg session HR (match)** | 110 bpm (n=4, range 104-115) | June 23, 2026 |
+| **Max HR (match)** | 161 bpm (Steven) | June 21, 2026 |
+| **Longest session** | 117 min (Steven match) | June 21, 2026 |
 
 ---
 
@@ -159,6 +159,9 @@ _What you're actively working on. Updated as focus shifts._
 |------|----------|------|-------|--------|-------|
 | 2026-06-02 | Scott F. | Match (best of 3 sets, 90 min) | 6-3, 6-4 | **W** | Straight sets, 3-game and 2-game margins. No Oura data. |
 | 2026-06-09 | Sid M. | Match (best of 3 sets, 90 min) | 6-1, 6-3 | **W** | Straight sets, dominant 1st (5-game). Avg HR 104, max 136, 476 cal. |
+| 2026-06-21 | **Steven** | Singles (117 min) | 3-6, 3-6 | **L** | **4.0 level**. First loss — playing above his level. Consistent 3-game margin both sets. Avg HR 115, max 161, 769 cal, first Z4 time. |
+| 2026-06-22 | Jinwoo P. | Singles (70 min) | 6-3, 6-2 | **W** | 3.0 level. Bounce-back win day after Steven loss. Higher HR than Sid M. despite shorter match — tougher 3.0 or residual fatigue. |
+| 2026-06-23 | Alejandro F. | Singles (92 min, 3 sets) | 6-4, 1-6, 7-9 | **W** | 3.0 level. First 3-setter. Mid-match dip (1-6 2nd set) then closed out extended 3rd. No Z3+ time — lowest max HR of any match. Match #3 in 3 days. |
 
 ---
 
