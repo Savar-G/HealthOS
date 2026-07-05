@@ -1,15 +1,15 @@
 # Oura Profile
 
 ## State of My Recovery
-- **Last entry:** 2026-06-16
-- **7-day avg HRV:** 75 ms ↑
-- **7-day avg resting HR:** 56.3 bpm ↓
+- **Last entry:** 2026-07-04
+- **7-day avg HRV:** 77 ms ↑
+- **7-day avg resting HR:** 55.1 bpm ↓
 - **7-day avg readiness:** 83
-- **Sleep quality trend:** improving
+- **Sleep quality trend:** stable-strong
 - **Current recovery status:** 🟢 Green
-- **Analyst note:** Recovery profile has strengthened materially over the last 5 weeks. 7d HRV jumped from 66 → 75 ms (+14%), RHR dropped from 58 → 56 bpm. Readiness holding 83 avg with 6 of last 7 days ≥82. One dip Jun 9-10 (R=69→71, HRV=50→57) — likely a hard tennis session combined with a short night — fully absorbed within 48h. Today (Jun 16): R86, HRV 80, RHR 54 — top-of-window state.
+- **Analyst note:** Recovery still tracking at a materially higher baseline than mid-May. 7d HRV now 77 ms (up from 75 last sync, up from 66 pre-sync) — that's +17% over 8 weeks. RHR pushed lower again to 55.1 bpm (-1.2). Peak day Jun 27: HRV 99, R90, 11.7k steps. One clear dip Jun 30 (R72, HRV 51, RHR 62) — fully absorbed within 24h (Jul 1 back to R91). Today (Jul 4): R81, HRV 84, RHR 52, deep sleep 2h 12m.
 
-## All-Time Baselines (903 days: 2023-12-26 → 2026-06-16)
+## All-Time Baselines (921 days: 2023-12-26 → 2026-07-04)
 
 | Metric | Average | Min | Max |
 |--------|---------|-----|-----|
@@ -24,12 +24,12 @@
 
 | Metric | 30-day Avg | 7-day Avg | Direction |
 |--------|-----------|-----------|-----------|
-| Readiness | 83 | 83 | → |
-| HRV | 70 ms | 75 ms | ↑ |
-| Resting HR | 57.4 bpm | 56.3 bpm | ↓ |
+| Readiness | 84 | 83 | → |
+| HRV | 74 ms | 77 ms | ↑ |
+| Resting HR | 56.0 bpm | 55.1 bpm | ↓ |
 | Sleep Score | 82 | 82 | → |
-| Activity | 78 | 80 | ↑ |
-| Steps | 7,234 | 6,637 | ↓ |
+| Activity | 77 | 74 | ↓ |
+| Steps | 7,366 | 6,067 | ↓ |
 
 ## Patterns & Notes
 <!-- Updated as trends emerge -->
