@@ -72,7 +72,7 @@ An interactive Next.js web app that reads data from all agent directories and re
 | Recovery | `oura/Recovery_Log.md` | 123+ daily entries | Markdown tables |
 | Sleep | `oura/Recovery_Log.md` (Sleep Score, Deep, Total, HRV, HR fields) | 123+ entries | Markdown tables |
 | Steps | `oura/Recovery_Log.md` (Steps field) | 123+ entries | Markdown tables |
-| Weight | `data/weight.csv` | 1,658+ entries | CSV (comma) |
+| Weight | `data/weight.csv` | 1,674+ entries | CSV (comma) |
 | Running | `running/Run Log.md` | 7 runs (paused) | Markdown tables |
 | Tennis | `tennis/Session Log.md` | 6 sessions (5 matches + 1 practice) | Markdown |
 
@@ -110,7 +110,7 @@ Notion-inspired editorial minimalism:
 - **Tennis:** Active — 6 sessions logged (5 matches + 1 practice). **4-1 match record** (4-0 vs 3.0, 0-1 vs 4.0). Last session Jun 23 (W vs Alejandro F. 6-4, 1-6, 7-9 — first 3-setter). Played 3 matches in 3 days Jun 21-23 (~4.5h court time), max HR dropped session-over-session suggesting fatigue. Skill baseline 6.58/10 — forehand the weapon (8), serve the weakness (5), primary focus = serve. First loss was competitive 3-6, 3-6 to Steven (4.0).
 - **Running:** ⏸️ PAUSED (May 22) — Savar pivoted to tennis. 7 runs logged before pause, easy pace PR 11:49/mi @ 141 bpm. Plan and data preserved for future resumption.
 - **Oura:** Active — 178 daily entries through Jul 4. Status 🟢 GREEN. 7-day HRV 77ms ↑, readiness 83, sleep 82, RHR 55.1 bpm ↓. Baseline holding materially higher than May (HRV +17% over 8 weeks). Peak day Jun 27 (HRV 99, R90). One dip Jun 30 fully absorbed in 24h. Today (Jul 4): R81, HRV 84, RHR 52.
-- **Weight:** Active — 1,658 daily entries, current 161.6 lbs (Jun 16), 7-day avg 161.1, 30-day avg 160.1. Up +2.0 lbs since May 10 (~0.4 lb/wk) — gradual climb continuing alongside the year's best strength progression (35+ PRs), so still tracking as productive lean-mass gain rather than surplus.
+- **Weight:** Active — 1,674 daily entries, current 163.0 lbs (Jul 4), 7-day avg 162.7, 30-day avg 161.4. Up +3.4 lbs since May 10 (~0.5 lb/wk) — climb continuing alongside 60+ PRs over 8 weeks, so still tracking as productive lean-mass gain. **Now closing on the ~165 lbs surplus-watch line** — if it crosses without continued PRs, recalibrate intake.
 - **Dashboard:** Next.js app with 5 interactive pages, all data-driven. Insights page renders `coach_notes.md` at top.
 
 ## Workflow: `/sync-health`

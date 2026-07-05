@@ -20,7 +20,7 @@ The build kept climbing — this is now the best 8-week strength run on record (
 - **Pull has disappeared — this is the new #1 risk.** One Pull day in the last 3 weeks (Jun 14) vs 4 Upper + 3 Legs+Core. Back volume is now behind everything. The early symptom is already here: Lat Pulldown plateaued at 170 with grinder reps (3/2) on Jun 28. Left unchecked another 4 weeks, expect lat/upper-back imbalance and rear-delt regression. **Restore at least 1 dedicated Pull day per week — this week.**
 - **Real cardio is still missing — and tennis showed you the fix.** Against 3.0 opponents, tennis maxes at HR 133-141 (not a stimulus). Against Steven (4.0) on Jun 21, you hit max HR 161 with 15 min in Zone 3+. Playing up is the only time tennis becomes cardio. If fitness matters, schedule 4.0 opponents deliberately.
 - **Fatigue was visible across the 3-in-3 tennis block.** Max HR fell session over session (161 → 141 → 133) Jun 21-23 — that's accumulating fatigue, not improving efficiency. Don't stack three match days again without a recovery day between.
-- **Weight data is stale (18 days).** Last entry Jun 16 (161.6). No new weigh-ins this period, so the body-comp side of the build is currently a blind spot — log a few this week to confirm the gain is still tracking with performance.
+- **Weight is closing on the surplus-watch line.** Weigh-ins are current again through Jul 4: 163.0 lbs, 7-day avg 162.7 (+3.4 since May 10, ~0.5 lb/wk). Still productive while 60+ PRs stack up, but you're ~2 lbs from the ~165 threshold — if it crosses without continued PRs, pull intake back.
 - **Split has drifted off-plan.** The documented program is PPL+Upper 4x/week; the last 3 weeks ran Upper/Legs+Core 2-3x/week with Push and Pull as afterthoughts. Decide whether the plan is Upper/Lower now, or restore PPL — but make it a choice.
 
 ## Cross-Domain Insights
@@ -36,7 +36,7 @@ The build kept climbing — this is now the best 8-week strength run on record (
 - **Log one dedicated Pull day this week** (Lat Pulldown, Rows, Cable Pullover, Rear Delt). Non-negotiable — this is the top priority. Schedule it 48h from any match.
 - **Book at least one 3.5/4.0 opponent** for your next match slot — it's your skill *and* cardio stimulus in one.
 - **Don't schedule 3 consecutive match days again.** Put a recovery or light-strength day between matches.
-- **Log 3-4 morning weigh-ins** to un-stale the weight data and confirm body comp is still tracking with PRs.
+- **Watch the ~165 lbs line.** Weigh-ins are current (163.0, 7d 162.7). Keep logging mornings; if the 7-day average crosses 165 without new PRs, trim intake.
 - **Push Lat Pulldown past the 170 plateau** — either a back-off/volume week at 155-160 for reps, or a grip/angle change; the grinder reps say straight linear loading has stalled.
 - **Pick a serve drill** for your next practice session and track makes/attempts so the 5/10 rating can finally move.
 
@@ -47,5 +47,5 @@ The build kept climbing — this is now the best 8-week strength run on record (
 | Strength (`strong_workouts_raw.csv`) | ✅ Current | 2026-07-04 | 0 |
 | Recovery / Sleep / Steps (`Recovery_Log.md`) | ✅ Current | 2026-07-04 | 0 |
 | Tennis (`Session Log.md`) | ✅ Current | 2026-06-23 | 11 |
-| Weight (`weight.csv`) | ⚠️ Stale | 2026-06-16 | 18 |
+| Weight (`weight.csv`) | ✅ Current | 2026-07-04 | 0 |
 | Running (`Run Log.md`) | ⏸️ Paused | 2026-05-11 | n/a (paused May 22) |
