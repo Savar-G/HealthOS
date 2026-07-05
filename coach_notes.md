@@ -1,51 +1,51 @@
 # Coach's Deep Dive
 
-_Last sync: 2026-06-17_
-_Period covered: 2026-05-10 → 2026-06-16 (~5 weeks)_
+_Last sync: 2026-07-04_
+_Period covered: 2026-06-17 → 2026-07-04 (~2.5 weeks)_
 
 ## The Big Story
 
-This was the strongest five-week block of your year — and the data shows it was *bought* by a single decision: pausing running on May 22. Strength has gone vertical (17 sessions, 35+ PRs, multiple first-evers: Lat Pulldown e1RM over 200, Calf Press over 300, Incline Press SPM +15 lbs). Recovery climbed in lockstep — 7-day HRV up from 66→75 ms (+14%) and RHR down 58→56 bpm — because legs stopped competing for recovery with running. You also launched tennis and went 2-0 in clean straight sets. The one real cost: your aerobic engine is now idling. Tennis at your level (max HR 136) isn't cardio, and with running paused, structured endurance stimulus has dropped to roughly zero. **You traded cardiovascular fitness for strength + recovery, and that trade is paying off — but it's a trade, and you should make it on purpose, not by accident.**
+The build kept climbing — this is now the best 8-week strength run on record (60+ PRs total, 24 in the last 3 weeks alone), recovery pushed to a new high (7d HRV 77 ms, +17% over 8 weeks), and you cleared two things I flagged last sync: the Hack Squat stall broke (82.5×6 on Jul 3, finally matching your March PR) and lower body fully caught up to upper (Calf Press e1RM 325 is now the single biggest lift on your log). But the period also surfaced two real cracks. First, **Pull work has quietly vanished** — one Pull day in three weeks — and your main back lift already plateaued. Second, tennis is telling you something: you played three matches in three days (Jun 21-23), took your first loss to a 4.0 opponent, and that loss was the *only* match all period that actually raised your heart rate. **The strength engine is roaring; the risk has moved to what you've stopped doing — pulling, and real cardio.**
 
 ## What's Working
 
-- **Strength progression is the best of the year.** 35+ PRs in 5 weeks. The headliners: Lat Pulldown 170×6 (e1RM 204 — first time over 200), Tricep Dips Machine 205×8 (e1RM 260, +25 lbs in 5 wks), Calf Press 245×8 (e1RM 310 — first over 300), Incline Press SPM 95×7 (e1RM 117, +15 lbs in 5 wks). These are new all-time highs, not rebuild recoveries.
-- **Recovery is in a top-of-window state.** Jun 16: readiness 86, HRV 80, RHR 54. Six of the last seven days readiness ≥82. Status held 🟢 GREEN the entire period.
-- **The hamstring gap is being closed.** Added Seated Leg Curl and Cable SLDL; hamstring sets per 30 days went from 8 → 14. This is the muscle group you'd flagged as the imbalance, and it's now actively rotating.
-- **Tennis launched clean: 2-0, 24-13 in games.** Both matches straight sets, zero injury flags. Skill baseline is set (6.58/10) so progress is now measurable.
-- **Weight gain is productive, not surplus.** +2.0 lbs since May 10 (~0.4 lb/wk) landing *alongside* 35 PRs and rising HRV. That's lean mass, not overreaching fat.
+- **Best 8-week progression on record.** 24 PRs in the last 3 weeks on top of 35+ before. Headliners: Incline Press SPM 105×6 (e1RM 126 — up from 80 in 8 weeks, +31%), Calf Press 250-260 (e1RM 325, biggest lift on the log), Seated Leg Curl 120 (e1RM 164, +20 lbs in 3 weeks), Seated Row Cable 160 (e1RM 203, first over 200).
+- **The Hack Squat stall broke.** Jul 3 you hit 82.5×6, reclaiming the March PR after three stalled sessions. That was last sync's action item — closed.
+- **Recovery hit a new high.** 7d HRV 77 ms (up from 75 → 66 over 8 weeks, +17%), RHR down to 55.1 (-1.2). Peak day Jun 27: HRV 99, readiness 90, 11.7k steps. Today (Jul 4): R81, HRV 84, RHR 52.
+- **Tennis is 4-1 and you competed with a 4.0.** 58-45 in games, 4-0 vs 3.0 opponents. The one loss (Steven, 4.0) was a competitive 3-6, 3-6, not a blowout.
+- **A heavy tennis block was fully absorbed.** Three matches in three days (~4.5h court time, Jun 21-23) and recovery peaked four days later (Jun 27, HRV 99). Your system ate a big acute load without a lasting dip.
 
 ## What to Watch
 
-- **Cardio is now a hole in the program.** Running paused May 22; tennis tops out at HR 136 (bottom edge of Zone 2). You have no structured aerobic stimulus right now. If cardiovascular fitness matters to you at all, decide *now* how to backfill it — don't let the rising HRV fool you into thinking the aerobic engine is improving (it's de-loading, not training).
-- **Match play has a real recovery cost despite low HR.** The only dip in 5 weeks was Jun 9-10 (HRV 50, readiness 69) the morning after the 90-min Sid M. match. Neuromuscular + competitive stress is real even at avg HR 104. Don't stack a long Upper day the day after a match.
-- **Three strength stalls need a decision.** Hack Squat stuck at 80×6 for three sessions (still 2.5 lbs under your Mar PR), RDL trending *down* (80→70), Preacher Curl flat. Push Hack Squat to 82.5 and consider a short RDL deload-then-rebuild.
-- **Upper days are bleeding long.** 57-65 min. Either trim accessories or accept the time — but watch that it doesn't eat into next-day recovery.
-- **Weight threshold:** you're +5.8 lbs since the Apr 12 low. If it crosses ~165 *without* continued PRs, it tips from lean gain to surplus — recalibrate intake then, not before.
+- **Pull has disappeared — this is the new #1 risk.** One Pull day in the last 3 weeks (Jun 14) vs 4 Upper + 3 Legs+Core. Back volume is now behind everything. The early symptom is already here: Lat Pulldown plateaued at 170 with grinder reps (3/2) on Jun 28. Left unchecked another 4 weeks, expect lat/upper-back imbalance and rear-delt regression. **Restore at least 1 dedicated Pull day per week — this week.**
+- **Real cardio is still missing — and tennis showed you the fix.** Against 3.0 opponents, tennis maxes at HR 133-141 (not a stimulus). Against Steven (4.0) on Jun 21, you hit max HR 161 with 15 min in Zone 3+. Playing up is the only time tennis becomes cardio. If fitness matters, schedule 4.0 opponents deliberately.
+- **Fatigue was visible across the 3-in-3 tennis block.** Max HR fell session over session (161 → 141 → 133) Jun 21-23 — that's accumulating fatigue, not improving efficiency. Don't stack three match days again without a recovery day between.
+- **Weight data is stale (18 days).** Last entry Jun 16 (161.6). No new weigh-ins this period, so the body-comp side of the build is currently a blind spot — log a few this week to confirm the gain is still tracking with performance.
+- **Split has drifted off-plan.** The documented program is PPL+Upper 4x/week; the last 3 weeks ran Upper/Legs+Core 2-3x/week with Push and Pull as afterthoughts. Decide whether the plan is Upper/Lower now, or restore PPL — but make it a choice.
 
 ## Cross-Domain Insights
 
-1. **The running pause directly bought your leg PRs.** With running's leg-fatigue interference gone since May 22, Hack Squat consistency improved and Calf Press hit its first-ever e1RM over 300. This is the interference effect, confirmed in your own data — lower-body recovery is no longer split between two sports.
-2. **Rising HRV is partly de-load, not pure fitness.** HRV +14% and RHR -2 bpm coincide exactly with dropping all aerobic load. Some of that gain is genuine adaptation; some is simply less systemic fatigue. Read the green readiness as "well-recovered," not "more aerobically fit" — those are different things.
-3. **Your serve weakness now has a physical base to convert.** Serve is your lowest skill (5 vs forehand 8 — a 3-point gap), and this block built exactly the muscles a serve needs: Incline Press SPM +15 lbs, Tricep Dips +25 lbs, Lateral Raise +5 lbs. The strength to hit a bigger serve is there; it's now a technique problem, not a power one.
-4. **Tennis recovery cost + strength scheduling are linked.** Because a match costs ~48h of recovery (the Jun 9-10 dip), your 4x/week strength rotation should treat match days like a training stressor — put the lighter session, not the 65-min Upper day, in the 24h after a match.
-5. **Weight, PRs, and HRV are telling one consistent story.** All three are up together. When body mass, performance, *and* recovery rise simultaneously, you're in a genuine building phase — not overreaching. This is the green light to keep eating and keep adding the +5 lb weekly bumps.
+1. **Tennis is crowding out your 4th strength day, and Pull is what's getting cut.** The split dropped from 4 sessions/week (with a Pull day) to 2-3 as tennis match play ramped (5 matches, including 3-in-3). Back work is the casualty. This isn't a strength-programming bug in isolation — it's a scheduling collision between two sports. Fix it by protecting one Pull day as non-negotiable, ideally not adjacent to a match.
+2. **The cardio gap and the tennis-level question are the same problem.** Running's been paused since May 22, and 3.0 tennis doesn't raise your HR. The Jun 21 match proves 4.0 play *does* (max 161, Zone 3+). So "play up more" simultaneously solves the skill-progression goal and the missing-aerobic-stimulus problem. One lever, two wins.
+3. **Rising HRV now partly reflects under-training, not just recovery.** HRV is at an 8-week high, but you've dropped Pull volume *and* have no structured cardio. Some of that green is genuine adaptation; some is simply two under-stimulated systems. Don't read record HRV as "the program is complete" — read it as "you have recovery headroom to add the Pull day and a hard cardio session back in."
+4. **Your serve weakness now has both the strength and the sparring to fix it.** Serve is still your lowest skill (5 vs forehand 8), and this block added the exact drivers — Incline Press SPM +31% e1RM, plus overhead pressing. Meanwhile the 4.0 match exposed where points are won and lost at the next level. The physical base is built; convert it with serve-specific drilling.
+5. **You closed last sync's loop — proof the system works when you act on it.** Hack Squat stall → I said try 82.5 → you hit it Jul 3. Apply the same to the current top flag: the Pull recommendation should show up as a logged Pull session before the next sync, or we know the tennis-vs-strength collision is winning.
 
 ## Action Items (Next 7 Days)
 
-- **Decide the cardio question by Sun Jun 21.** Either (a) accept the strength-block trade and run no cardio, or (b) add one Zone 2 session (bike/jog/jump rope, 20-30 min) on a non-match, non-leg day. Pick one explicitly.
-- **Tue/Thu tennis: make one of them a serve-focused drill session.** Highest-leverage skill gain. Track serve makes/attempts so the 5/10 rating can move.
-- **Next leg day: attempt Hack Squat 82.5×6** to break the 3-session stall and reclaim the March PR.
-- **Program a short RDL reset:** drop to 65×8 for 2 sessions with clean hip hinge, then rebuild — the 80→70 slide is a form/fatigue issue, not strength loss.
-- **Don't schedule the 60-min Upper day within 24h of a match.** Put Legs+Core or a trimmed Push there instead.
-- **Keep eating.** Weight + PRs + HRV all rising = productive. Re-evaluate only if weight crosses ~165 without new PRs.
+- **Log one dedicated Pull day this week** (Lat Pulldown, Rows, Cable Pullover, Rear Delt). Non-negotiable — this is the top priority. Schedule it 48h from any match.
+- **Book at least one 3.5/4.0 opponent** for your next match slot — it's your skill *and* cardio stimulus in one.
+- **Don't schedule 3 consecutive match days again.** Put a recovery or light-strength day between matches.
+- **Log 3-4 morning weigh-ins** to un-stale the weight data and confirm body comp is still tracking with PRs.
+- **Push Lat Pulldown past the 170 plateau** — either a back-off/volume week at 155-160 for reps, or a grip/angle change; the grinder reps say straight linear loading has stalled.
+- **Pick a serve drill** for your next practice session and track makes/attempts so the 5/10 rating can finally move.
 
 ## Data Health Check
 
 | Source | Status | Latest Entry | Days Stale |
 |---|---|---|---|
-| Strength (`strong_workouts_raw.csv`) | ✅ Current | 2026-06-14 | 3 |
-| Recovery / Sleep / Steps (`Recovery_Log.md`) | ✅ Current | 2026-06-16 | 1 |
-| Weight (`weight.csv`) | ✅ Current | 2026-06-16 | 1 |
-| Tennis (`Session Log.md`) | ✅ Current | 2026-06-09 | 8 |
+| Strength (`strong_workouts_raw.csv`) | ✅ Current | 2026-07-04 | 0 |
+| Recovery / Sleep / Steps (`Recovery_Log.md`) | ✅ Current | 2026-07-04 | 0 |
+| Tennis (`Session Log.md`) | ✅ Current | 2026-06-23 | 11 |
+| Weight (`weight.csv`) | ⚠️ Stale | 2026-06-16 | 18 |
 | Running (`Run Log.md`) | ⏸️ Paused | 2026-05-11 | n/a (paused May 22) |
